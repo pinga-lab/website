@@ -1,0 +1,81 @@
+body {
+    font-size: 12pt;
+}
+h1 {
+    margin-bottom: 21px;
+}
+h3 {
+    font-size: 16pt;
+    margin-bottom: 15px;
+}
+
+/* The icon list in the about page */
+.icon-link-list li {
+    display: inline;
+}
+.icon-link-list li > a {
+    color: #333;
+}
+.icon-link-list li > a:hover {
+    color: #1A6ECC;
+}
+.icon-link-list {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.fa-ul {
+    margin-top: 10px;
+}
+.fa-ul li {
+    margin-bottom: 5px;
+}
+
+footer {
+    width: 100%;
+    margin-top: 30px;
+    border-top: 1px solid #CCC;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #6F6F6F;
+ }
+
+ .list-group-item > i {
+     margin-right: 5px;
+ }
+
+img.paper-thumbnail {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+p.paper-date-author {
+    margin-bottom: 20px;
+    font-size: 14pt;
+    font-style: italic;
+}
+
+.article-box {
+    background-color: #fcfcfc;
+}
+
+.article-box  img {
+    width: 100%;
+}
+
+.article-box i {
+    margin-right: 3px;
+}
+
+.article-box p {
+    color: #6F6F6F;
+}
+
+.article-box a {
+    color: #333;
+}
+
+img {
+    width: 100%;
+}

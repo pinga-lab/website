@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}
+     {{ page.title}} - {{ SITENAME }}
+{% endblock %}
+
+{% block content %}
+    {{ page.content|replace("<html>","")|replace("<body>","")|replace("</html>","")|replace("</body>","") }}
+{% endblock %}
