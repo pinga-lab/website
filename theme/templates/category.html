@@ -7,20 +7,24 @@
 {% block content %}
 <h1>{{ category|capitalize }}</h1>
 
-
 {% if category == "people" %}
+
+{% macro render_person(person) -%}
+    <div class="people-box">
+        <img class="img-circle"
+            src="{{SITEURL}}/images/pic/{{person.picture}}"></img>
+        <a href="{{SITEURL}}/{{person.url}}"><h3>
+        {{person.title}}
+        </h3></a>
+        <p>{{person.position|capitalize}}</p>
+    </div>
+{%- endmacro %}
+
 {% for row in articles|batch(3) %}
     <div class="row">
-    {% for article in row if "former-member" not in article.tags%}
-        <div class="col-md-4">
-            <div class="people-box">
-                <img class="img-circle"
-                    src="{{SITEURL}}/images/pic/{{article.picture}}"></img>
-                <a href="{{SITEURL}}/{{article.url}}"><h3>
-                {{article.title}}
-                </h3></a>
-                <p>{{article.position}}</p>
-            </div>
+    {% for person in row if "former-member" not in person.tags %}
+        <div class="col-sm-4 col-md-4">
+            {{ render_person(person) }}
         </div>
     {% endfor %}
     </div>
@@ -28,22 +32,17 @@
 <h2>Former members</h2>
 {% for row in articles|batch(3) %}
     <div class="row">
-    {% for article in row if "former-member" in article.tags%}
-        <div class="col-md-4">
-            <div class="people-box">
-                <img class="img-circle"
-                    src="{{SITEURL}}/images/pic/{{article.picture}}"></img>
-                <a href="{{SITEURL}}/{{article.url}}"><h3>
-                {{article.title}}
-                </h3></a>
-                <p>{{article.position}}</p>
-            </div>
+    {% for person in row if "former-member" in person.tags %}
+        <div class="col-sm-4 col-md-4">
+            {{ render_person(person) }}
         </div>
     {% endfor %}
     </div>
 {% endfor %}
 </ul>
+
 {% else %}
+
 {% for row in articles|batch(2) %}
     <div class="row">
     {% for article in row %}

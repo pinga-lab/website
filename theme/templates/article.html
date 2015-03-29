@@ -31,7 +31,7 @@
             </div>
             <div class="col-xs-7 col-sm-9 col-md-10">
                 <h1>{{ article.title }}</h1>
-                <h2>{{ article.position }}</h2>
+                <h2>{{ article.position|capitalize }}</h2>
             </div>
         </div>
     {% else %}
@@ -114,14 +114,36 @@
         {% if article.event %}
         <li class="list-group-item">
         <i class="fa fa-users fa-fw"></i>
-        Event: {{article.event}}
+        {{article.event}}
         </li>
         {% endif %}
 
         {% if article.institution %}
         <li class="list-group-item">
         <i class="fa fa-university fa-fw"></i>
-        Institution: {{article.institution}}
+        {{article.institution}}
+        </li>
+        {% endif %}
+
+        {% if article.location %}
+        <li class="list-group-item">
+        <i class="fa fa-map-marker fa-fw"></i>
+        {{article.location}}
+        </li>
+        {% endif %}
+
+        {% if article.advisor %}
+        <li class="list-group-item">
+        <i class="fa fa-graduation-cap fa-fw"></i>
+        Advisor:
+        {{article.advisor}}
+        </li>
+        {% endif %}
+
+        {% if article.period %}
+        <li class="list-group-item">
+        <i class="fa fa-calendar fa-fw"></i>
+        {{article.period}}
         </li>
         {% endif %}
 
@@ -181,27 +203,31 @@
         {% if article.researchgate %}
         <li class="list-group-item">
         <i class="ai ai-researchgate-square fa-fw"></i>
-        <a href="{{article.researchgate}}">Research Gate</a>
+        Research Gate:
+        <a href="{{article.researchgate}}">{{article.title}}</a>
         </li>
         {% endif %}
 
         {% if article.scholar %}
         <li class="list-group-item">
         <i class="ai ai-google-scholar fa-fw"></i>
-        <a href="{{article.scholar}}">Google Scholar</a>
+        Google Scholar:
+        <a href="{{article.scholar}}">{{article.title}}</a>
         </li>
         {% endif %}
 
-        {% if article.website %}
+        {% if article.impactstory %}
         <li class="list-group-item">
-        <i class="fa fa-home fa-fw"></i>
-        <a href="{{article.website}}">{{article.website}}</a>
+        <i class="ai ai-impactstory fa-fw"></i>
+        ImpactStory:
+        <a href="https://impactstory.org/{{article.impactstory}}">{{article.impactstory}}</a>
         </li>
         {% endif %}
 
         {% if article.github %}
         <li class="list-group-item">
         <i class="fa fa-github-square fa-fw"></i>
+        Github:
         <a href="http://github.com/{{article.github}}">{{article.github}}</a>
         </li>
         {% endif %}
@@ -210,6 +236,13 @@
         <li class="list-group-item">
         <i class="fa fa-envelope fa-fw"></i>
         <a href="mailto:{{article.email}}">{{article.email}}</a>
+        </li>
+        {% endif %}
+
+        {% if article.website %}
+        <li class="list-group-item">
+        <i class="fa fa-home fa-fw"></i>
+        <a href="{{article.website}}">{{article.website}}</a>
         </li>
         {% endif %}
 

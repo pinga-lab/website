@@ -68,9 +68,9 @@ DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = [
     ('About', '/index.html'),
     ('People', '/people'),
-    ('Research', '/research.html'),
+    #('Research', '/research.html'),
     ('Papers', '/papers'),
-    ('Talks', '/talks'),
+    #('Talks', '/talks'),
     ('<i class="fa fa-github fa-lg" title="Github repositories"></i>',
         'https://github.com/pinga-lab'),
     ('<i class="fa fa-rss fa-lg" title="RSS feed for papers and talks"></i>',

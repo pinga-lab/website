@@ -9,8 +9,9 @@ scholar: http://scholar.google.com.br/citations?user=TQbQ4TcAAAAJ
 researcherid: E-1871-2013
 researchgate: https://www.researchgate.net/researcher/2021325258_Vanderlei_C_Oliveira_Jr/
 orcid: 0000-0002-6338-4086
-institution: Observatório Nacional, Brazil
-position: Researcher
+institution: Observatório Nacional
+location: Rio de Janeiro, Brazil
+position: researcher
 
 ## About
 
