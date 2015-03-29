@@ -9,3 +9,6 @@ script:
 - make publish
 after_success:
 - bash .update-website.sh
+env:
+  global:
+    secure: jzcxV3nJ4VuPZr1tzhrV8NXeo3CZfUJlmU96xhsIXeZ89Ncu0J+yPqfBy6xmk5EDGzCEGYkJkLULm3gAHIodqK8BGGZpvjBVXWoNu+a8eqqIXYI0BKXVEydkusW4oofH041QdGSbmju6nL8UFnhtLwZhfbWJ2YcKI5IONl0yv6w=
