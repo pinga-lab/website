@@ -40,9 +40,30 @@ footer {
     color: #6F6F6F;
  }
 
- .list-group-item > i {
+.list-group-item > i {
      margin-right: 5px;
- }
+}
+
+.people-box {
+    text-align: center;
+}
+
+.people-box img.img-circle {
+    width: 100px;
+}
+
+.people-box p {
+    font-size: 14pt;
+}
+
+.people-box h2 {
+    margin-top: 20px;
+}
+
+img.picture {
+    width: 100%;
+    padding-top: 10px;
+}
 
 img.paper-thumbnail {
     width: 100%;
