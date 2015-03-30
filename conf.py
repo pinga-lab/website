@@ -58,7 +58,7 @@ DEFAULT_PAGINATION = 0
 DISPLAY_CATEGORIES_ON_MENU = False
 
 # Feeds
-FEED_ALL_RSS = 'rss.xml'
+FEED_ALL_RSS = False
 FEED_ALL_ATOM = False
 
 THEME = 'theme'
@@ -73,8 +73,6 @@ MENUITEMS = [
     #('Talks', '/talks'),
     ('<i class="fa fa-github fa-lg" title="Github repositories"></i>',
         'https://github.com/pinga-lab'),
-    ('<i class="fa fa-rss fa-lg" title="RSS feed for papers and talks"></i>',
-        '/rss.xml'),
 ]
 
 PLUGIN_PATHS = ['pelican-plugins']
