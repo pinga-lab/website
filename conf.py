@@ -2,10 +2,11 @@ from __future__ import unicode_literals
 import os
 
 AUTHOR = u'Leonardo Uieda'
-SITETITLE = u"<strong>PINGA</strong>lab"
+SITETITLE = u'<strong>PINGA</strong>lab'
 SITENAME = u"PINGA lab"
 SITEKEYWORDS = u'geophysics, earth, earthscience, science, foss, scientific software'
 SITEURL = ''
+SITELOGO = 'images/pinga-logo.png'
 
 # Language and time
 DEFAULT_LANG = u'en'
@@ -43,13 +44,11 @@ STATIC_PATHS = [
     'extra/CNAME',
     'extra/.nojekyll',
     'extra/favicon.ico',
-    'extra/favicon.png',
 ]
 EXTRA_PATH_METADATA = {
     'extra/CNAME': {'path': 'CNAME'},
     'extra/.nojekyll': {'path': '.nojekyll'},
     'extra/favicon.ico': {'path': 'favicon.ico'},
-    'extra/favicon.png': {'path': 'favicon.png'},
 }
 
 ARTICLES_FRONT_PAGE = None
