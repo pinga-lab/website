@@ -1,5 +1,5 @@
 title: Valéria C. F. Barbosa
-date: 29-03-2015
+date: 01-01-2010
 slug: barbosa
 lattes: http://lattes.cnpq.br/0391036221142471
 picture: barbosa.jpg

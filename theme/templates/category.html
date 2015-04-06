@@ -20,7 +20,7 @@
     </div>
 {%- endmacro %}
 
-{% for row in articles|batch(3) %}
+{% for row in articles|reverse|batch(3) %}
     <div class="row">
     {% for person in row if "former-member" not in person.tags %}
         <div class="col-sm-4 col-md-4">

@@ -1,4 +1,53 @@
 {% extends "base.html" %}
 
 {% block content %}
+<div class="row">
+    <div class="col-md-3">
+    </div>
+    <div class="col-md-6">
+        <img src="images/pinga-banner.png"
+            title="PINGA lab: Grupo de problemas inversos em geofísica"
+            style="margin-top: 50px; margin-bottom: 40px;"
+        ></img>
+        <div class="alert" style="text-align: center; font-size: 16pt;">
+            A research group for inverse problems
+            in <strong>geophysics</strong>.
+        </div>
+    </div>
+    <div class="col-md-3">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        {% for page in pages %}
+            {% if page.title == "About" %}
+                {{page.content}}
+            {% endif %}
+        {% endfor %}
+    </div>
+    <div class="col-md-6">
+
+        <h2>Latest papers</h2>
+
+        <ul class="fa-ul">
+        {% for category, articles in categories if category == "papers" %}
+            {% for article in articles[0:ARTICLES_FRONT_PAGE] %}
+                <li><i class="fa-li fa fa-file-text-o fa-fw"></i>
+                <a href="{{SITEURL}}/{{article.url}}">
+                    {{article.title}}
+                </a>
+                ({{article.date|strftime('%Y')}})
+                {% if "OA" in article.tags %}
+                    <i class="fa fa-unlock-alt fa-fw" title="Open Access"></i>
+                {% endif %}
+                {% if "review" in article.tags %}
+                    <span class="label label-warning">In review</span>
+                {% endif %}
+                </li>
+            {% endfor %}
+        {% endfor %}
+        </ul>
+    </div>
+</div>
 {% endblock content %}

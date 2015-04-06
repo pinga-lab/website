@@ -51,7 +51,7 @@ EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'},
 }
 
-ARTICLES_FRONT_PAGE = None
+ARTICLES_FRONT_PAGE = 4
 SUMMARY_MAX_LENGTH = 25
 DEFAULT_PAGINATION = 0
 DISPLAY_CATEGORIES_ON_MENU = False
@@ -66,8 +66,8 @@ THEME = 'theme'
 DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = [
     ('About', '/index.html'),
+    ('Research', '/research.html'),
     ('People', '/people'),
-    #('Research', '/research.html'),
     ('Papers', '/papers'),
     #('Talks', '/talks'),
     ('<i class="fa fa-github fa-lg" title="Github repositories"></i>',

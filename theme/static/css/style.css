@@ -24,13 +24,6 @@ h3 {
     padding-top: 10px;
 }
 
-.fa-ul {
-    margin-top: 10px;
-}
-.fa-ul li {
-    margin-bottom: 5px;
-}
-
 .navbar-default {
     background-color: #333;
 }
@@ -119,4 +112,16 @@ p.paper-date-author {
 
 img {
     width: 100%;
+}
+
+.fa-ul {
+    margin-top: 15px;
+}
+
+.fa-ul > li {
+    margin-bottom: 20px;
+}
+
+.fa-ul > li > a {
+    color: #2C3E50;
 }

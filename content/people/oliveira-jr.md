@@ -1,5 +1,5 @@
 title: Vanderlei C. Oliveira Jr.
-date: 29-03-2015
+date: 01-01-2009
 slug: oliveira-jr
 lattes: http://lattes.cnpq.br/4332841435949533
 picture: oliveira-jr.jpg
