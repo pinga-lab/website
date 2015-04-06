@@ -11,7 +11,7 @@ researchgate: https://www.researchgate.net/researcher/2021325258_Vanderlei_C_Oli
 orcid: 0000-0002-6338-4086
 institution: Observatório Nacional
 location: Rio de Janeiro, Brazil
-position: researcher
+position: Researcher
 
 ## About
 

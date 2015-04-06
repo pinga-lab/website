@@ -11,7 +11,7 @@ researchgate: https://www.researchgate.net/profile/Valeria_Barbosa
 orcid: 0000-0002-9767-6044
 institution: Observatório Nacional
 location: Rio de Janeiro, Brazil
-position: researcher
+position: Researcher
 
 ## About
 

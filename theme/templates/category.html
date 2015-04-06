@@ -16,13 +16,13 @@
         <a href="{{SITEURL}}/{{person.url}}"><h3>
         {{person.title}}
         </h3></a>
-        <p>{{person.position|capitalize}}</p>
+        <p>{{person.position}}</p>
     </div>
 {%- endmacro %}
 
-{% for row in articles|reverse|batch(3) %}
+{% for row in articles|rejectattr("former")|reverse|batch(3) %}
     <div class="row">
-    {% for person in row if "former-member" not in person.tags %}
+    {% for person in row %}
         <div class="col-sm-4 col-md-4">
             {{ render_person(person) }}
         </div>
@@ -30,9 +30,9 @@
     </div>
 {% endfor %}
 <h2>Former members</h2>
-{% for row in articles|batch(3) %}
+{% for row in articles|selectattr("former")|reverse|batch(3) %}
     <div class="row">
-    {% for person in row if "former-member" in person.tags %}
+    {% for person in row %}
         <div class="col-sm-4 col-md-4">
             {{ render_person(person) }}
         </div>

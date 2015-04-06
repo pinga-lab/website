@@ -7,6 +7,7 @@ position: PhD student
 advisor: Valéria C. F. Barbosa
 institution: Observatório Nacional
 location: Rio de Janeiro, Brazil
+period: 2013-Present
 
 ## About
 

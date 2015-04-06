@@ -13,7 +13,7 @@ researchgate: https://www.researchgate.net/profile/Leonardo_Uieda
 orcid: 0000-0001-6123-9515
 institution: Universidade do Estado do Rio de Janeiro
 location: Rio de Janeiro, Brasil
-position: professor
+position: Professor
 
 ## About
 
