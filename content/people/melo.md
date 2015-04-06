@@ -7,6 +7,8 @@ position: Master's student
 advisor: Valéria C. F. Barbosa
 period: 2010-2012
 tags: former-member
+institution: Observatório Nacional
+location: Rio de Janeiro, Brazil
 
 ## About
 

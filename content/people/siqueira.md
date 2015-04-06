@@ -5,6 +5,8 @@ lattes: http://lattes.cnpq.br/0467623470950142
 picture: siqueira.jpg
 position: PhD student
 advisor: Valéria C. F. Barbosa
+institution: Observatório Nacional
+location: Rio de Janeiro, Brazil
 
 ## About
 
