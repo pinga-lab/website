@@ -1,7 +1,8 @@
 title: André Luis Albuquerque dos Reis
 date: 01-03-2014
 slug: andre
-picture: misc.png
+picture: andre.jpg
+github: andrelreis
 position: MSc Student
 advisor: Vanderlei C. Oliveira Jr.
 period: 2014-Present
