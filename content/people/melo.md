@@ -3,7 +3,7 @@ date: 29-03-2012
 slug: melo
 lattes: http://lattes.cnpq.br/6001771792254742
 picture: melo.jpg
-position: Master's student
+position: MSc student
 advisor: Valéria C. F. Barbosa
 period: 2010-2012
 institution: Observatório Nacional
