@@ -11,8 +11,13 @@
 
 {% macro render_person(person) -%}
     <div class="people-box">
-        <img class="img-circle"
-            src="{{SITEURL}}/images/pic/{{person.picture}}"></img>
+        {% if person.picture %}
+            <img class="img-circle"
+                src="{{SITEURL}}/images/pic/{{person.picture}}"></img>
+        {% else %}
+            <img class="img-circle picture"
+            src="{{SITEURL}}/images/pic/misc.png"></img>
+        {% endif %}
         <a href="{{SITEURL}}/{{person.url}}"><h3>
         {{person.title}}
         </h3></a>
