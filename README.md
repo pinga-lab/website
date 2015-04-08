@@ -148,24 +148,27 @@ Os campos necessários são:
 * `date` (data de publicação do artigo)
 * `slug` (deve ser igual ao nome do arquivo `.md`)
 * `journal`
-* `citation` (citação completa do artigo, de preferência usando o formato da AGU)
+* `citation` (citação completa do artigo, de preferência usando o formato da AGU. **Deve ser colocada em 1 linha só**)
 
 Campos que são altamente recomendados:
 
 * `doi` (o DOI do artigo publicado)
 
 Para incluir um PDF do artigo, coloque-o na pasta `content/pdf`. O PDF deve ter
-o mesmo nome que o arquivo `.md`. Inclua o nome do arquivo no cabeçalho.
-
-Para artigos com material suplementar no [figshare](http://figshare.com/)
-ou [Zenodo](http://zenodo.org/), coloque o DOI no campo `supplement`.
+o mesmo nome que o arquivo `.md`. Inclua o nome do arquivo no cabeçalho, ex
+`pdf: paper-planting-anomalous-densities-2012.pdf`.
 
 Para indicar que um artigo é de acesso livre (open access), inclua o campo
 `tags: OA`.
 **Não inclua um PDF para artigos de acesso livre (open access).**
+O PDF já é gratuito na página da revista.
 
 Se o artigo está em revisão (ainda não foi publicado), indique isso colocando o
-campo `tags: review`.
+campo `tags: review`. Esse argumento pode ser combinado com o de acesso livre,
+ex `tags: review, OA`.
+
+Para artigos com material suplementar no [figshare](http://figshare.com/)
+ou [Zenodo](http://zenodo.org/), coloque o DOI no campo `supplement`.
 
 Depois do cabeçalho, inclua o abstract do artigo e, se possível, o código
 BibTex da citação.
