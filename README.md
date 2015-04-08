@@ -180,6 +180,9 @@ Depois de fazer suas mudanças, faça um commit:
     git add ARQUIVO_MUDADO1 ARQUIVO_MUDADO2
     git commit
 
+**NÃO DE COMMIT NOS ARQUIVOS HTML!** Mude os arquivos `.md` que o HTML é gerado
+a partir deles. **Não inclua a pasta `output` nos commits**.
+
 Mande suas modificações locais para o GitHub:
 
     git push
