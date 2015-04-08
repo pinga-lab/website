@@ -2,6 +2,8 @@
 
 [![Build Status](https://img.shields.io/travis/pinga-lab/website/master.svg?style=flat-square)](https://travis-ci.org/pinga-lab/website)
 [![Powered by Pelican](https://img.shields.io/badge/powered_by-pelican-blue.svg?style=flat-square)](http://getpelican.com/)
+[![Powered by Bootstrap](https://img.shields.io/badge/powered_by-bootstrap-blue.svg?style=flat-square)](http://getbootstrap.com/)
+[![Theme by Bootswatch](https://img.shields.io/badge/theme_by-bootswatch-blue.svg?style=flat-square)](http://bootswatch.com/)
 
 Este repositório contem o código fonte para compilar o site.
 O site é gerado pelo sistema [Pelican](http://docs.getpelican.com/).
