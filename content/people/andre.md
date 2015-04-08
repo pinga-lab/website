@@ -13,11 +13,11 @@ location: Rio de Janeiro, Brazil
 
 ## About
 
-MsC Student in Geophysics at Observatório Nacional, Brazil
+MSc Student in Geophysics at Observatório Nacional, Brazil
 
 ## Education
 
-Undergraduated on Physics at Rio de Janeiro State University (UERJ). Nowadays I'm a MsC Student at Observatório Nacional, and I'm intersted in modelling and inversion of Potential Fields.
+Graduated on Physics at Rio de Janeiro State University (UERJ). Nowadays I'm a MSc Student at Observatório Nacional, and I'm intersted in modelling and inversion of Potential Fields.
 
 ## Thesis
 
