@@ -35,7 +35,7 @@
     </div>
 {% endfor %}
 <h2>Former members</h2>
-{% for row in articles|selectattr("former")|reverse|batch(3) %}
+{% for row in articles|selectattr("former")|batch(3) %}
     <div class="row">
     {% for person in row %}
         <div class="col-sm-4 col-md-4">
