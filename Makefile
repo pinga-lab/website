@@ -2,6 +2,7 @@ PY=python
 PELICAN=pelican
 PELICANOPTS=
 CONDAENV=pinga-site
+PYTHON=3.4
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
@@ -43,7 +44,7 @@ publish:
 setup: install_requires
 
 mkenv:
-	conda create -n $(CONDAENV) --yes pip python=2.7
+	conda create -n $(CONDAENV) --yes pip python=$(PYTHON)
 
 install_requires: mkenv
 	bash -c "source activate $(CONDAENV) && pip install -r requirements.txt"
