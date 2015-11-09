@@ -1,5 +1,7 @@
 from __future__ import unicode_literals
 import os
+import subprocess
+import datetime
 
 AUTHOR = u'Leonardo Uieda'
 SITETITLE = u'<strong>PINGA</strong>lab'
@@ -7,27 +9,45 @@ SITENAME = u"PINGA lab"
 SITEKEYWORDS = u'geophysics, earth, earthscience, science, foss, scientific software'
 SITEURL = ''
 SITELOGO = 'images/pinga-logo.png'
+REPOURL = 'https://github.com/pinga-lab/website'
 
 # Language and time
 DEFAULT_LANG = u'en'
 TIMEZONE = u'America/Sao_Paulo'
+BUILD_TIME = datetime.date.today().strftime(format='%d-%b-%Y')
+
+# Get the current git commit hash
+COMMIT = ''
+process = subprocess.Popen('git rev-parse HEAD'.split(), cwd='.',
+                           stdout=subprocess.PIPE)
+git_hash = process.communicate()[0].strip().decode('utf-8')
+if git_hash:
+    COMMIT = ' (<a href="{url}/commit/{commit}">{commit_link}</a>)'.format(
+            url=REPOURL, commit=git_hash, commit_link=git_hash[:7])
 
 # This goes at the footer of the site
-COPYRIGHT_NOTICE = """
-This work is licensed under a
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/deed.en_US"
->Creative Commons Attribution 4.0 International License</a>.
+FOOTER_LEFT = """
+This work is licensed
+<a rel="license"
+ href="http://creativecommons.org/licenses/by/4.0/deed.en_US">CC-BY</a>.
+<br/>
+Powered by <a href="http://getpelican.com/">Pelican</a>,
+<a href="http://python.org">Python</a>,
+and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</br>
+Icons by <a href="http://fontawesome.io/">Font Awesome</a>
+and <a href="http://jpswalsh.github.io/academicons/">Academicons</a>.
 """
-EXTRA_FOOTER = """
+FOOTER_RIGHT = """
 Built by <a href="https://travis-ci.org/">Travis CI</a>
 and
 hosted on <a href="https://pages.github.com/">Github Pages</a>.
 </br>
-Icons by <a href="http://fontawesome.io/">Font Awesome</a>
-and <a href="http://jpswalsh.github.io/academicons/">Academicons</a>.
+Latest build on {date}{commit}.
 </br>
-Source code at <a href="https://github.com/pinga-lab/website">github.com/pinga-lab/website</a>.
-"""
+Source code at
+<a href="{repo}">{repo_name}</a>.
+""".format(date=BUILD_TIME, commit=COMMIT, repo=REPOURL, repo_name=REPOURL[8:])
 
 # Where to put generated files
 ARTICLE_URL = '{category}/{slug}.html'

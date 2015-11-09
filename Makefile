@@ -1,7 +1,7 @@
 PY=python
 PELICAN=pelican
 PELICANOPTS=
-
+CONDAENV=pinga-site
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
@@ -39,5 +39,16 @@ serve:
 
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
+
+setup: install_requires
+
+mkenv:
+	conda create -n $(CONDAENV) --yes pip python=2.7
+
+install_requires: mkenv
+	bash -c "source activate $(CONDAENV) && pip install -r requirements.txt"
+
+delete_env:
+	bash -c "source deactivate; conda env remove --name $(CONDAENV)"
 
 .PHONY: html help clean regenerate publish serve
