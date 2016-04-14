@@ -37,7 +37,7 @@ h3 {
 .menu {
     border: none;
     margin-bottom: 0px;
-    background-color: #2780e3;
+    background-color: #333;
     color: #ffffff;
     position: relative;
     min-height: 50px;
@@ -54,6 +54,12 @@ h3 {
 }
 .menu-brand > a:hover {
     text-decoration: none;
+}
+.menu-brand > a > img {
+    width: 28px;
+    height: 28px;
+    display: inline;
+    margin: 0px 10px;
 }
 .menu-list {
     padding-top: 0px;
@@ -80,10 +86,10 @@ h3 {
 footer {
     width: 100%;
     margin-top: 100px;
-    background-color: #2780e3;
+    background-color: #333;
     padding-top: 40px;
     padding-bottom: 60px;
-    color: #afdddd;
+    color: #dddddd;
  }
 
 footer a {

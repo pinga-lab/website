@@ -2,6 +2,8 @@ name: "PINGA lab"
 
 title: "<strong>PINGA</strong>lab"
 
+menu_logo: "/images/pinga-logo.png"
+
 author: Leonardo Uieda
 
 keep_files: [".nojekyll"]
