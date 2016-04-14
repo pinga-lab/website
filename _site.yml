@@ -4,6 +4,10 @@ title: "<strong>PINGA</strong>lab"
 
 menu_logo: "/images/pinga-logo.png"
 
+description: "A research group for inverse problems in geophysics"
+
+banner: "/images/pinga-banner.png"
+
 author: Leonardo Uieda
 
 keep_files: [".nojekyll"]

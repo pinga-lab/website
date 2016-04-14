@@ -3,7 +3,6 @@ title: Home
 layout: home
 content:
     - papers
-    - people
 ---
 
 # About
