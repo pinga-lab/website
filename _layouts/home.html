@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% from "utils.html" import card %}
+
+{% macro recent_cards(category, number=2, date=true) %}
+    <h2 class="category-header">
+        <a href="{{ category.url }}">{{ category.title }}  »</a>
+    </h2>
+    <hr>
+    <div class="row">
+        {% for article in category.content[0:number] %}
+            <div class="col-md-{{12//number}} col-sm-{{12//number}}
+                        col-xs-{{12//number}}">
+                {{ card(article, date=date) }}
+            </div>
+        {% endfor %}
+    </div>
+
+{% endmacro %}
+
+
+{% block body %}
+
+{{ this.body }}
+
+<div class="container">
+
+    <h1 class="text-center">Highlights</h1>
+    {% set columns = 2 %}
+    {% for row in this.content|batch(columns) %}
+        <div class="row">
+            {% for category in row %}
+                <div class="col-md-{{12//columns}}">
+                    {{ recent_cards(category, number=2, date=false) }}
+                </div>
+            {% endfor %}
+        </div>
+    {% endfor %}
+
+    <div class="text-center" style="margin-top: 60px;">
+        <hr>
+        <h2>Do you like programming, geoscience, and general
+            geekiness?</h2>
+        <h3>
+        Join us in the Software Underground
+        <a href="https://slack.com/">Slack</a> group at
+        <a href="http://swung.rocks/">swung.rocks</a>.
+        </h3>
+        <img src="/images/swung.png" style="width: 100px" >
+        <hr>
+    </div>
+</div>
+
+{% endblock %}

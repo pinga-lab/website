@@ -1,0 +1,29 @@
+name: "PINGA lab"
+
+title: "<strong>PINGA</strong>lab"
+
+author: Leonardo Uieda
+
+keep_files: [".nojekyll"]
+
+ignore_patterns: ["README.md"]
+
+language: en
+
+keywords: 'science, geoscience, geophysics, software, open-source'
+
+menulinks: [
+    ['/research', 'Research'],
+    ['/papers', 'Papers'],
+    ['/people', 'People'],
+    ['https://github.com/pinga-lab',
+     '<i class="fa fa-github fa-lg" title="Github"></i>'],
+    ]
+
+reflinks:
+    content_license:
+        url: http://creativecommons.org/licenses/by/4.0/
+        title: CC-BY License
+    site_repo:
+        url: https://github.com/pinga-lab/website
+        title: pinga-lab/website
