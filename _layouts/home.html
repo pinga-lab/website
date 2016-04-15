@@ -1,25 +1,5 @@
 {% extends "base.html" %}
 
-{% from "utils.html" import card %}
-
-{% macro recent_cards(category, number=2, date=true) %}
-    <h2 class="category-header">
-        <a href="{{ category.url }}">{{ category.title }}  »</a>
-    </h2>
-    <hr>
-    <div class="row">
-        {% for article in category.content[0:number] %}
-            <div class="col-md-{{12//number}} col-sm-{{12//number}}
-                        col-xs-{{12//number}}">
-                {{ card(article, date=date) }}
-            </div>
-        {% endfor %}
-    </div>
-
-{% endmacro %}
-
-
-
 {% block body %}
 
 <div class="container">
@@ -44,9 +24,9 @@
     </div>
 
     <div class="col-md-5">
-        <h1>Latest papers</h1>
+        <h2>Latest papers</h2>
 
-        <ul class="fa-ul">
+        <ul class="fa-ul latest-papers">
         {% for article in this.content[0].content[0:5] %}
             <li><i class="fa-li fa fa-file-text-o fa-fw"></i>
                 <a href="{{ article.url }}">{{ article.title }}</a>

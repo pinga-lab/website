@@ -8,17 +8,8 @@
 
 <div class="container">
 
-    {% block breadcrumbs %}
-        <ol class="breadcrumb">
-            <li><a href="/">Home</a></li>
-            {% for bc in this.breadcrumbs[:-1] %}
-                <li><a href="{{ bc.url }}">{{ bc.title }}</a></li>
-            {% endfor %}
-            <li class="active">{{this.breadcrumbs[-1].title}}</li>
-        </ol>
-    {% endblock %}
-
     <h1>{{ this.title }}</h1>
+    <hr>
 
     {% block content %}
 

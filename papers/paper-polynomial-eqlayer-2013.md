@@ -1,13 +1,26 @@
+---
 title: Polynomial equivalent layer
 author: Oliveira Jr, V. C., V. C. F. Barbosa, and L. Uieda
-date: 01-01-2013
-slug: paper-polynomial-eqlayer-2013
+date: 2013-01-01
 pdf: paper-polynomial-eqlayer-2013.pdf
 doi: 10.1190/geo2012-0196.1
 journal: Geophysics
 citation: Oliveira Jr, V. C., V. C. F. Barbosa, and L. Uieda (2013), Polynomial equivalent layer, Geophysics, 78(1), G1–G13, doi:10.1190/geo2012-0196.1
+layout: publication
+---
 
-## Abstract
+# Open-source implementation
+
+The Polynomial Equivalent Layer (PEL) is implemented in the open-source Python
+library [Fatiando a Terra](http://www.fatiando.org).
+There are two classes for running the PEL in module `fatiando.gravmag.eqlayer`:
+`PELGravity` for fitting gravitational field components and
+`PELTotalField` for fitting the total field magnetic anomaly.
+Both classes were introduced in
+[version 0.2](http://www.fatiando.org/changelog.html#version-0-2)
+of the library.
+
+# Abstract
 
 We have developed a new cost-effective method for processing
 large-potential-field data sets via the equivalent-layer technique. In this
@@ -21,7 +34,7 @@ estimate the polynomial coefficients of all equivalent-source windows by using
 a linear regularized inversion. Second, we transform the estimated polynomial
 coefficients of all windows into the physical-property distribution within the
 whole equivalent layer. Finally, we premultiply this distribution by the matrix
-of Green’s functions associated with the desired transformation to obtain the
+of Green's functions associated with the desired transformation to obtain the
 transformed data. The regularized inversion deals with a linear system of
 equations with dimensions based on the total number of polynomial coefficients
 within all equivalent-source windows. This contrasts with the classical
@@ -32,14 +45,14 @@ the proposed polynomial representation of the physical-property distribution
 within an equivalent layer drastically reduces the number of parameters to be
 estimated. By comparing the total number of floating-point operations required
 to estimate an equivalent layer via our method with the classical approach,
-both formulated with Cholesky’s decomposition, we can verify that the
+both formulated with Cholesky's decomposition, we can verify that the
 computation time required for building the linear system and for solving the
 linear inverse problem can be reduced by as many as three and four orders of
 magnitude, respectively. Applications to synthetic and real data show that our
 method performs the standard linear transformations of potential-field data
 accurately.
 
-## Bibtex
+# Bibtex
 
     @article{oliveira2013,
         title = {Polynomial equivalent layer},

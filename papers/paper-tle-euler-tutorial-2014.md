@@ -1,13 +1,15 @@
-title: Geophysical tutorial: Euler deconvolution of potential-field data
-date: 01-04-2014
-slug: paper-tle-euler-tutorial-2014
+---
+title: "Geophysical tutorial: Euler deconvolution of potential-field data"
+date: 2014-04-01
 author: Uieda, L., V. C. Oliveira Jr, and V. C. F. Barbosa
 repository: pinga-lab/paper-tle-euler-tutorial
 doi: 10.1190/tle33040448.1
 journal: The Leading Edge
-tags: OA
+oa: true
 supplement: 10.6084/m9.figshare.923450
-citation: Uieda, L., V. C. Oliveira Jr, and V. C. F. Barbosa (2014), Geophysical tutorial: Euler deconvolution of potential-field data, The Leading Edge, 33(4), 448-450, doi:10.1190/tle33040448.1
+citation: "Uieda, L., V. C. Oliveira Jr, and V. C. F. Barbosa (2014), Geophysical tutorial: Euler deconvolution of potential-field data, The Leading Edge, 33(4), 448-450, doi:10.1190/tle33040448.1"
+layout: publication
+---
 
 <div class="alert alert-success">
 This article is also available at the
@@ -16,7 +18,29 @@ This article is also available at the
 where it can edited and improved.
 </div>
 
-## Abstract
+# About
+
+This article is part of the
+[Geophysical Tutorials](http://wiki.seg.org/wiki/Geophysical_tutorials)
+section in [The Leading Edge](http://library.seg.org/journal/leedff),
+started by Matt Hall of [Agile Geoscience](http://agilegeoscience.com/).
+All tutorials are Open-Access and include open-source code examples.
+Read the
+[February 2016 tutorial](http://dx.doi.org/10.1190/tle35020190.1) by Matt
+for an introduction to the tutorial series
+and what you need to know to get started running the code in them.
+
+# Open-source implementation
+
+This article uses the Euler deconvolution implemented in
+[Fatiando a Terra](http://www.fatiando.org),
+an open-source Python library.
+See the repository
+[pinga-lab/paper-tle-euler-tutorial](https://github.com/pinga-lab/paper-tle-euler-tutorial)
+for the source code that accompanies the article
+and extra material.
+
+# Abstract
 
 In this tutorial we'll talk about a widely used method of interpretation for
 potential-field data called Euler deconvolution. Our goal is to demonstrate its
@@ -32,7 +56,7 @@ your software of choice. For this tutorial we'll use the implementation in the
 open-source Python package Fatiando a Terra
 ([fatiando.org](http://fatiando.org)).
 
-## Bibtex
+# Bibtex
 
     @article{uieda2014,
         title = {Geophysical tutorial: {Euler} deconvolution of potential-field data},
