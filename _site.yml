@@ -12,13 +12,14 @@ author: Leonardo Uieda
 
 keep_files: [".nojekyll"]
 
-ignore_patterns: ["README.md"]
+ignore_patterns: ["README.md", "news/test*.md"]
 
 language: en
 
 keywords: 'science, geoscience, geophysics, software, open-source'
 
 menulinks: [
+    ['/news', 'News'],
     ['/research', 'Research'],
     ['/papers', 'Papers'],
     ['/people', 'People'],

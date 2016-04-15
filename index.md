@@ -3,6 +3,7 @@ title: Home
 layout: home
 content:
     - papers
+    - news
 ---
 
 # About
