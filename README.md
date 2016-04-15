@@ -5,8 +5,8 @@
 
 ## Dependencies
 
-You'll need to install Urubu and all it's dependencies to build the site.
-See file `environment.yml` for the complete dependency list. The build works on
+You'll need to install Urubu and all it's dependencies to build the site. See
+file `requirements.txt` for the complete dependency list. The build works on
 Python 2.7 or Python 3.5.
 
 You can create a conda environment with all required dependencies by running

@@ -4,9 +4,10 @@ sudo: false
 
 env:
   global: # For deploying the site to Github Pages
-    - secure: EG9V+ITvORiIk68ZziZPqPibUxyf8pIMJD8vbWl7adJ/SuwZ/L0kEAIz30YTgtihrbanrk+0tDfm0s7CRJofnjeOjNT9144bYQENob9rMkZbF9n/jd6O5gIJ9cWBzUh7oNRB9noee3dBNeikD6qWkx73PTWdM1c5WX7pOuHeCfs=
+    - secure: jzcxV3nJ4VuPZr1tzhrV8NXeo3CZfUJlmU96xhsIXeZ89Ncu0J+yPqfBy6xmk5EDGzCEGYkJkLULm3gAHIodqK8BGGZpvjBVXWoNu+a8eqqIXYI0BKXVEydkusW4oofH041QdGSbmju6nL8UFnhtLwZhfbWJ2YcKI5IONl0yv6w=
   matrix:
     - PYTHON=3.5
+    - PYTHON=2.7
 
 before_install:
   # Get Miniconda from Continuum
@@ -18,8 +19,10 @@ before_install:
   - conda update --yes conda
 
 install:
-  - conda env create
-  - source activate urubu
+  - conda create -n testenv --yes pip python=$PYTHON
+  - conda update conda --yes
+  - source activate testenv
+  - pip install -r requirements.txt
 
 script:
   - make
