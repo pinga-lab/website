@@ -15,6 +15,11 @@ img {
     width: 100%;
 }
 
+img.picture {
+    width: 100%;
+    padding-top: 10px;
+}
+
 .fa-ul {
     margin-top: 10px;
 }
@@ -68,7 +73,7 @@ p.pub-date-author {
 /****************************************************************************/
 .menu {
     border: none;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
     background-color: #333;
     color: #ffffff;
     position: relative;
