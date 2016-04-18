@@ -3,6 +3,23 @@
 [![Build Status](https://img.shields.io/travis/pinga-lab/website/master.svg?style=flat-square)](https://travis-ci.org/pinga-lab/website)
 [![Powered by Urubu](https://img.shields.io/badge/powered_by-urubu-blue.svg?style=flat-square)](http://urubu.jandecaluwe.com/)
 
+## Contributing to this site
+
+1. Create a **fork** of this repository to your user account (click on the
+   "fork" button on the upper right corner of this page).
+2. Clone your fork to your computer: `git clone https://github.com/USERNAME/website`
+3. Create a new branch to work on: `git checkout -b NAME_OF_MY_BRANCH` (use a
+   name that describes what you are doing)
+4. Make your changes to the files (see below)
+5. Compile the website and see if it works (see below)
+6. When satisfied, mark the files that you wish to commit: `git add FILE1 FILE2 ...`
+7. Make your commit: `git commit -m "Message explaning what I've done"`
+8. Push your changes to Github: `git push -u origin NAME_OF_MY_BRANCH`
+9. Go to https://github.com/pinga-lab/website and click on "New pull request"
+10. Select your branch in the "compare" field and submit the pull request
+11. If nothing breaks, someone will review and merge your pull request. When
+    that's done, the website will be updated automatically.
+
 ## Dependencies
 
 You'll need to install Urubu and all it's dependencies to build the site. See
@@ -15,24 +32,13 @@ and run the build use `source activate pinga-site`.
 
 ## Compiling the site
 
-Use the `Makefile`:
-
-    make
-    make serve
-
-The command `make serve` will start a simple server at the `_build` dir
-where the built HTML files are.
-Point your browser to [http://127.0.0.1:8000](http://127.0.0.1:8000)
-to view the site.
-Use `Ctrl+C` to kill the server.
-
-## The theme
-
-The website theme is made using [bootstrap](http://getbootstrap.com/)
-and tweaked from the Cosmo [Bootswatch](http://bootswatch.com/) theme.
-Icons are provided by [FontAwesome](http://fontawesome.io/) and
-[Academicons](http://jpswalsh.github.io/academicons/).
-The Jinja2 templates and CSS are located in the `_layouts` and `css` folders.
+1. Open a terminal (`cmd.exe` on Windows) and go to the root of your clone of this
+repository.
+2. Run `urubu build` to generate the HTML of the website.
+3. Run `urubu serve` to start a simple server at the `_build` folder where the
+   built HTML files are.  Point your browser to
+   [http://127.0.0.1:8000](http://127.0.0.1:8000) to view the site.
+   Use `Ctrl+C` to kill the server.
 
 ## Adding a publication
 
