@@ -26,11 +26,11 @@
     <div class="col-md-5">
         <h2>News</h2>
 
-        {% if not this.content[1].content %}
+        {% if not site.reflinks["/news"].content %}
             No recent news.
         {% else %}
             <ul class="fa-ul">
-            {% for article in this.content[1].content[0:5] %}
+            {% for article in site.reflinks["/news"].content[0:5] %}
                 <li><i class="fa-li fa fa-comment-o fa-fw"></i>
                     {{ article.date }}:
                     <a href="{{ article.url }}">{{ article.title }}</a>
@@ -42,7 +42,7 @@
         <h2>Latest papers</h2>
 
         <ul class="fa-ul latest-papers">
-        {% for article in this.content[0].content[0:5] %}
+        {% for article in site.reflinks["/papers"].content[0:5] %}
             <li><i class="fa-li fa fa-file-text-o fa-fw"></i>
                 <a href="{{ article.url }}">{{ article.title }}</a>
                 ({{ article.date.year }})

@@ -1,9 +1,7 @@
 ---
 title: Home
 layout: home
-content:
-    - papers
-    - news
+order: title
 ---
 
 # About
