@@ -1,6 +1,6 @@
+---
 title: Dionísio Uendro Carlos
-date: 29-03-2013
-slug: carlos
+date: 2010-03-01
 lattes: http://lattes.cnpq.br/2302002033171923
 picture: carlos.jpg
 position: PhD student
@@ -9,8 +9,10 @@ period: 2010-2013
 institution: Observatório Nacional
 location: Rio de Janeiro, Brazil
 former: true
+layout: person
+---
 
-## About
+# About
 
 Possui graduação de Bacharelado em Geofísica e Mestrado em Geofísica Nuclear
 pela Universidade de São Paulo (IAG/USP) respectivamente em 2002 e 2006.
@@ -24,7 +26,7 @@ terrestres da América do Sul. Atualmente trabalha como geofísico de exploraç�
 de ferrosos na VALE com geofísica aerotransportada de 3D- FTG (Full Tensor
 Gradiometry), magnetometria e perfilagem geofisica.
 
-## Thesis
+# Thesis
 
 Aplicação de Processamento e Inversão Geofísica 3D de Dados de Aerogradiometria
 da Gravidade na Estimação da Estrutura do Minério de Ferro no Siclinal

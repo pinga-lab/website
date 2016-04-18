@@ -36,16 +36,14 @@ The Jinja2 templates and CSS are located in the `_layouts` and `css` folders.
 
 ## Adding a publication
 
-The paper entries are `.md` files in the `papers`.
+The paper entries are `.md` files in the `papers` folder.
 The site theme takes a lot of extra metadata in the post to make the "Info"
 section of each entry.
 
 To add a new entry, create the `.md` file in the corresponding folder.
 Please, follow the naming conventions used for the other files.
 
-## Metadata for entries
-
-### Papers
+### Metadata for entries
 
 Required:
 
@@ -70,6 +68,41 @@ Optional:
 * An entry with `oa: true` will be marked as open-acess.
 * `inreview: true` will mark the entry as under peer-review (unpublished).
 * `pdf` should be the name of PDF file in the `pdf` folder
+
+## Adding a new member
+
+Group member pages are the `.md` files in the `people` folder.
+To add a new member, create the `.md` file in the corresponding folder with the
+**last name** of the person (in lowercase).
+
+### Metadata for entries
+
+Required:
+
+    title: Fulano de Tal
+    date: yyyy-mm-dd
+    position: PhD Student
+    institution: Observatório Nacional
+    location: Rio de Janeiro, Brasil
+    layout: person
+
+* Use the date that you started on the group.
+* `position` should be one of: `PhD Student`, `MSc Student`, `Undergraduate
+  Student`
+
+Optional:
+
+    lattes: http://lattes.cnpq.br/8939551682050504
+    website: http://www.leouieda.com
+    picture: uieda.jpg
+    github: leouieda
+    email: bla@on.br
+    scholar: http://scholar.google.com.br/citations?user=qfmPrUEAAAAJ
+    researcherid: G-3258-2012
+    researchgate: https://www.researchgate.net/profile/Leonardo_Uieda
+    orcid: 0000-0001-6123-9515
+
+* `picture` should be the name of a square image in folder `images/pic`.
 
 
 ## Automatic deploy with TravisCI

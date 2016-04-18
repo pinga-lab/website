@@ -1,16 +1,18 @@
+---
 title: Daiana de Paula Sales
-date: 01-03-2014
-slug: daiana
+date: 2014-03-01
 lattes: http://lattes.cnpq.br/7941053288321760
 picture: daiana.jpg
-position: MSc student
+position: MSc Student
 advisor: Vanderlei C. Oliveira Jr.
 period: 2012-2014
 institution: Observatório Nacional
 location: Rio de Janeiro, Brazil
 former: true
+layout: person
+---
 
-## About
+# About
 
 Possui graduação em Licenciatura pela Universidade do Estado do Rio de Janeiro
 (2011) e mestrado em Geofísica pelo Observatório Nacional (2014). Atualmente é
@@ -19,6 +21,6 @@ experiência na área de Geociências, com ênfase em Geofísica Aplicada, atuan
 principalmente nos seguintes temas: geofísica, inversão e desenvolvimento de
 software.
 
-## Thesis
+# Thesis
 
 Estimativa do vertor de magnetização de corpos aproximadamente dipolares.

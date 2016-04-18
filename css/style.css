@@ -164,3 +164,23 @@ footer a:hover {
 .article-box a {
     color: #333;
 }
+
+
+/* ENTRY IN PEOPLE LIST */
+/****************************************************************************/
+.people-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.people-box img.img-circle {
+    width: 130px;
+}
+
+.people-box p {
+    font-size: 14pt;
+}
+
+.people-box h2 {
+    margin-top: 20px;
+}

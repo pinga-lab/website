@@ -1,6 +1,6 @@
+---
 title: André Luis Albuquerque dos Reis
-date: 01-03-2014
-slug: andre
+date: 2014-03-01
 lattes: http://lattes.cnpq.br/1075610796165589
 picture: andre.jpg
 email: reisandreluis@gmail.com
@@ -10,15 +10,19 @@ advisor: Vanderlei C. Oliveira Jr.
 period: 2014-Present
 institution: Observatório Nacional
 location: Rio de Janeiro, Brazil
+layout: person
+---
 
-## About
+# About
 
 MSc Student in Geophysics at Observatório Nacional, Brazil
 
-## Education
+# Education
 
-Graduated on Physics at Rio de Janeiro State University (UERJ). Nowadays I'm a MSc Student at Observatório Nacional, and I'm intersted in modelling and inversion of Potential Fields.
+Graduated on Physics at Rio de Janeiro State University (UERJ). Nowadays I'm a
+MSc Student at Observatório Nacional, and I'm interested in modelling and
+inversion of Potential Fields.
 
-## Thesis
+# Thesis
 
-Estimating the magnetization distribuition within rock samples
+Estimating the magnetization distribution within rock samples

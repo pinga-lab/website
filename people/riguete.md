@@ -1,6 +1,6 @@
+---
 title: Vinicius Vianna Riguête
-date: 01-10-2015
-slug: riguete
+date: 2015-07-01
 lattes: http://lattes.cnpq.br/5860438547039334
 picture: riguete.jpg
 position: Undergraduate student
@@ -8,8 +8,10 @@ advisor: Leonardo Uieda
 period: 2015-Present
 institution: Universidade do Estado do Rio de Janeiro
 location: Rio de Janeiro, Brazil
+layout: person
+---
 
-## About
+# About
 
 Tem experiência na área de Geociências, com ênfase em Geologia. Está terminando
 a graduação em Geologia pela Universidade do Estado do Rio de Janeiro, cursando

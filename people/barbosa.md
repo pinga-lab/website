@@ -1,6 +1,6 @@
+---
 title: Valéria C. F. Barbosa
-date: 01-01-2010
-slug: barbosa
+date: 2016-01-01
 lattes: http://lattes.cnpq.br/0391036221142471
 picture: barbosa.jpg
 github: valcris
@@ -12,8 +12,10 @@ orcid: 0000-0002-9767-6044
 institution: Observatório Nacional
 location: Rio de Janeiro, Brazil
 position: Researcher
+layout: person
+---
 
-## About
+# About
 
 Possui graduação em Geologia pela Universidade Federal Rural do Rio de Janeiro
 (1986), mestrado (1991) e doutorado (1998) em Geofísica pela Universidade

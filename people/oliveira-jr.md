@@ -1,6 +1,6 @@
+---
 title: Vanderlei C. Oliveira Jr.
-date: 01-01-2009
-slug: oliveira-jr
+date: 2016-01-02
 lattes: http://lattes.cnpq.br/4332841435949533
 picture: oliveira-jr.jpg
 email: vanderlei@on.br
@@ -12,17 +12,19 @@ orcid: 0000-0002-6338-4086
 institution: Observatório Nacional
 location: Rio de Janeiro, Brazil
 position: Researcher
+layout: person
+---
 
-## About
+# About
 
 Researcher at the department of Geophysics of Observatório Nacional, Brazil
 
-## Research
+# Research
 
 I am mainly interested in Potential Fields, Inverse Problems and Numerical
 Methods.
 
-## Education
+# Education
 
 After completing my undergraduate degree in Geophysics at the Instituto de
 Astronomia, Geofísica e Ciências Atmosféricas da Universidade de São Paulo
