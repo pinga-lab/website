@@ -12,11 +12,11 @@ echo -e "Preparing to push the generated HTML to $REPO"
 if [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TRAVIS_BRANCH" == "master" ]; then
     if [ "$PYTHON" == "3.5" ];
     then
-        echo -e "Save the HTML files\n"
+        echo -e "Save the HTML files"
         cp -R _build $HOME/keep
         # Go to home and setup git
         cd $HOME
-        echo -e "Configure git\n"
+        echo -e "Configure git"
         git config --global user.email "leouieda@gmail.com"
         git config --global user.name "Leonardo Uieda"
         git config --global github.user "leouieda"
@@ -36,7 +36,7 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TRAVIS_BRANCH" == "master" ]; th
         git commit -m "Pushed by TravisCI build $TRAVIS_BUILD_NUMBER"
         echo -e "Push to $REPO"
         git push -fq origin $BRANCH > /dev/null
-        echo -e "Uploaded generated files\n"
+        echo -e "Uploaded generated files"
     else
         echo -e "Only deploy from Python 3.5"
     fi
