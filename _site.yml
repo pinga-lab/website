@@ -12,7 +12,8 @@ author: Leonardo Uieda
 
 keep_files: [".nojekyll"]
 
-ignore_patterns: ["README.md", "news/test*.md", "environment.yml", "requirements.txt"]
+ignore_patterns: ["README.md", "news/test*.md", "environment.yml",
+                  "requirements.txt", "ci-tools"]
 
 language: en
 
