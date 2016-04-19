@@ -6,7 +6,7 @@
 REPO=pinga-lab/pinga-lab.github.io
 REPO_URL=https://${GH_TOKEN}@github.com/${REPO}.git
 BRANCH=master
-CLONE_ARGS=--quiet --branch=$BRANCH --single-branch
+CLONE_ARGS="--quiet --branch=$BRANCH --single-branch"
 
 echo -e "Preparing to push the generated HTML to $REPO"
 if [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TRAVIS_BRANCH" == "master" ]; then
