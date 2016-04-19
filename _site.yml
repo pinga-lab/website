@@ -12,7 +12,7 @@ author: Leonardo Uieda
 
 keep_files: [".nojekyll"]
 
-ignore_patterns: ["README.md", "news/test*.md"]
+ignore_patterns: ["README.md", "news/test*.md", "environment.yml", "requirements.txt"]
 
 language: en
 
