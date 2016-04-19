@@ -15,12 +15,12 @@ before_install:
   - chmod +x miniconda.sh
   - ./miniconda.sh -b
   - export PATH=/home/travis/miniconda3/bin:$PATH
+  - rm miniconda.sh
   # Update conda itself
   - conda update --yes conda
 
 install:
   - conda create -n testenv --yes pip python=$PYTHON
-  - conda update conda --yes
   - source activate testenv
   - pip install -r requirements.txt
 
