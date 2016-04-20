@@ -1,5 +1,5 @@
 ---
-title: Daiana de Paula Sales
+title: Daiana P. Sales
 date: 2014-03-01
 lattes: http://lattes.cnpq.br/7941053288321760
 picture: daiana.jpg

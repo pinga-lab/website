@@ -1,5 +1,5 @@
 ---
-title: Marlon Cabrera Hidalgo Gato
+title: Marlon C. Hidalgo-Gato
 date: 2014-02-01
 position: MSc Student
 picture: marlon.jpg
