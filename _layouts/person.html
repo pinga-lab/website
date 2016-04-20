@@ -118,7 +118,7 @@
 
         {% set current = mine|rejectattr("former", "defined")|list %}
         {% if current %}
-            {{ list_students(current, "Currently advising") }}
+            {{ list_students(current, "Current students") }}
         {% endif %}
 
         {% set past = mine|selectattr("former", "defined")|list %}
