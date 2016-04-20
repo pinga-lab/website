@@ -3,17 +3,17 @@
 
 {% macro render_person(person, position=True, institution=False) -%}
     <div class="people-box">
-        {% if person.picture %}
+        {% if person.picture is defined %}
             <img class="img-circle" src="/images/pic/{{person.picture}}"></img>
         {% else %}
             <img class="img-circle picture" src="/images/pic/misc.png"></img>
         {% endif %}
         <a href="{{person.url}}"><h3>{{person.title}}</h3></a>
         {% if position %}
-            <p>{{person.position}}</p>
+            <p>{{ person.position }}</p>
         {% endif %}
         {% if institution %}
-            <p>{{person.institution}}</p>
+            <p>{{ person.institution }}</p>
         {% endif %}
     </div>
 {%- endmacro %}
@@ -27,7 +27,7 @@
 
     {% set profs = this.content|selectattr("position", "equalto", "Professor")|list + this.content|selectattr("position", "equalto", "Researcher")|list %}
 
-    {% for row in profs|rejectattr("former")|sort(attribute='date')|batch(3) %}
+    {% for row in profs|rejectattr("former", "defined")|sort(attribute='date')|batch(3) %}
         <div class="row">
         {% for person in row %}
             <div class="col-sm-4 col-md-4">
@@ -42,7 +42,7 @@
 
     {% set students = this.content|rejectattr("position", "equalto", "Professor")|rejectattr("position", "equalto", "Researcher") %}
 
-    {% for row in students|rejectattr("former")|batch(3) %}
+    {% for row in students|rejectattr("former", "defined")|batch(3) %}
         <div class="row">
         {% for person in row %}
             <div class="col-sm-4 col-md-4">

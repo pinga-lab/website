@@ -15,6 +15,8 @@ keep_files: [".nojekyll"]
 ignore_patterns: ["README.md", "news/test*.md", "environment.yml",
                   "requirements.txt", "ci-tools", "miniconda.sh"]
 
+strict_undefined: true
+
 language: en
 
 keywords: 'science, geoscience, geophysics, software, open-source'
