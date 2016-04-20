@@ -110,14 +110,18 @@ Optional:
     researcherid: G-3258-2012
     researchgate: https://www.researchgate.net/profile/Leonardo_Uieda
     orcid: 0000-0001-6123-9515
+    advisor: barbosa
 
-* `picture` should be the name of a square image in folder `images/pic`.
+* `advisor` should be the id of your advisor (the name of his/her file in the
+  `people` folder).
+* `picture` should be the name of a square image in folder `images/pic`. If
+  omitted, will use a default image.
 
 
 ## Automatic deploy with TravisCI
 
 The site is automatically built and deployed to
-[leouieda/leouieda.github.com](https://github.com/leouieda/leouieda.github.com)
+[pinga-lab/pinga-lab.github.io](https://github.com/pinga-lab/pinga-lab.github.io)
 every time a commit is pushed to the *master* branch.
 See files `.travis.yml` and `ci-tools/deply-gh-pages.sh`.
 
@@ -125,8 +129,6 @@ Inspired by
 [Sleepy Coders](http://sleepycoders.blogspot.com.au/2013/03/sharing-travis-ci-generated-files.html)
 and
 [Mathieu Leplatre](http://blog.mathieu-leplatre.info/publish-your-pelican-blog-on-github-pages-via-travis-ci.html).
-
-[![TravisCI status](http://img.shields.io/travis/leouieda/website.svg?style=flat)](https://travis-ci.org/leouieda/website)
 
 ## License
 

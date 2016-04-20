@@ -4,7 +4,7 @@ date: 2014-03-01
 lattes: http://lattes.cnpq.br/7941053288321760
 picture: daiana.jpg
 position: MSc Student
-advisor: Vanderlei C. Oliveira Jr.
+advisor: oliveira-jr
 period: 2012-2014
 institution: Observatório Nacional
 location: Rio de Janeiro, Brazil

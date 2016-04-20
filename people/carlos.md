@@ -4,7 +4,7 @@ date: 2010-03-01
 lattes: http://lattes.cnpq.br/2302002033171923
 picture: carlos.jpg
 position: PhD student
-advisor: Valéria C. F. Barbosa
+advisor: barbosa
 period: 2010-2013
 institution: Observatório Nacional
 location: Rio de Janeiro, Brazil

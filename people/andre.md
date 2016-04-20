@@ -6,7 +6,7 @@ picture: andre.jpg
 email: reisandreluis@gmail.com
 github: andrelreis
 position: MSc Student
-advisor: Vanderlei C. Oliveira Jr.
+advisor: oliveira-jr
 period: 2014-Present
 institution: Observatório Nacional
 location: Rio de Janeiro, Brazil

@@ -4,7 +4,7 @@ date: 2012-03-29
 lattes: http://lattes.cnpq.br/0467623470950142
 picture: siqueira.jpg
 position: PhD Student
-advisor: Valéria C. F. Barbosa
+advisor: barbosa
 institution: Observatório Nacional
 location: Rio de Janeiro, Brazil
 period: 2013-Present

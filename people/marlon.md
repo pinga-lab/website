@@ -3,7 +3,7 @@ title: Marlon C. Hidalgo-Gato
 date: 2014-02-01
 position: MSc Student
 picture: marlon.jpg
-advisor: Valéria C. F. Barbosa
+advisor: barbosa
 institution: Observatório Nacional
 location: Rio de Janeiro, Brazil
 period: 2014-Present

@@ -4,7 +4,7 @@ date: 2012-03-29
 lattes: http://lattes.cnpq.br/6001771792254742
 picture: melo.jpg
 position: MSc Student
-advisor: Valéria C. F. Barbosa
+advisor: barbosa
 period: 2010-2012
 institution: Observatório Nacional
 location: Rio de Janeiro, Brazil

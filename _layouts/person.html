@@ -34,10 +34,10 @@
     </li>
 
     {% if this.advisor is defined %}
-        {% set advisor = site.reflinks["/people"].content|selectattr("title", "equalto", this.advisor)|first %}
+        {% set advisor = site.reflinks["/people/" ~ this.advisor] %}
         <li class="list-group-item">
             <i class="fa fa-graduation-cap fa-fw"></i> Advisor:
-            <a href="{{ advisor.url }}">{{ this.advisor }}</a>
+            <a href="{{ advisor.url }}">{{ advisor.title }}</a>
         </li>
     {% endif %}
 
@@ -132,7 +132,7 @@
            they are empty #}
 
         {% set students = site.reflinks["/people"].content|selectattr("advisor", "defined")|reverse|list %}
-        {% set mine = students|selectattr("advisor", "equalto", this.title)|list %}
+        {% set mine = students|selectattr("advisor", "equalto", this.components[-1])|list %}
 
         {% set current = mine|rejectattr("former", "defined")|list %}
         {% if current %}
