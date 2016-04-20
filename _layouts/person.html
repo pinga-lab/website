@@ -118,7 +118,7 @@
     {% if pubs %}
         <h2>Latest papers</h2>
         <ul class="fa-ul">
-            {% for paper in pubs[:3] %}
+            {% for paper in pubs[:5] %}
                 <li><i class="fa-li fa fa-file-text-o fa-fw"></i>
                     <a href="{{ paper.url }}">{{ paper.title }}</a>
                     ({{ paper.date.year }})
