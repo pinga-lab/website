@@ -54,14 +54,17 @@ Please, follow the naming conventions used for the other files.
 Required:
 
     title: Geophysical tutorial: Euler deconvolution of potential-field data
-    author: Uieda, L., V. C. Oliveira Jr, and V. C. F. Barbosa
+    author: uieda, oliveira-jr, barbosa
     date: yyyy-mm-dd
     journal: The Leading Edge
     doi: 10.1190/tle33040448.1
     citation: Uieda, L., V. C. Oliveira Jr, and V. C. F. Barbosa (2014), Geophysical tutorial: Euler deconvolution of potential-field data, The Leading Edge, 33(4), 448-450, doi:10.1190/tle33040448.1
     layout: publication
 
-Note that `citation` has to be in a single line.
+* `author` should be a list of author ids. The id is the name of the authors
+  file in the `people` folder. Authors that are not group members should be
+  included in the `authors` field of `_site.yml`.
+* `citation` has to be in a single line.
 
 Optional:
 

@@ -1,6 +1,6 @@
 {% extends "page.html" %}
 
-{% from "utils.html" import fa, ai %}
+{% from "utils.html" import fa, ai, author_list %}
 
 {% block content %}
 
@@ -11,19 +11,21 @@
     {% for article in row %}
         <div class="col-md-6">
             <div class="well article-box">
-                <a href="{{article.url}}"><h3>
-                {% if article.oa is defined and article.oa %}
-                    {{ai("open-access", title="Open-access paper")}}
-                {% endif %}
-                {{ article.title }}
-                </h3></a>
+                <a href="{{article.url}}">
+                    <h3>
+                        {% if article.oa is defined and article.oa %}
+                            {{ai("open-access", title="Open-access paper")}}
+                        {% endif %}
+                        {{ article.title }}
+                    </h3>
+                </a>
                 <p>
-                ({{article.date.year}})
-                {{ article.author }}.
-                {{ article.journal }}.
-                {% if article.inreview is defined and article.inreview %}
-                    <span class="label label-warning">Under review</span>
-                {% endif %}
+                    ({{article.date.year}})
+                    {{ author_list(article.author, site, link=False) }}.
+                    <em>{{ article.journal }}</em>.
+                    {% if article.inreview is defined and article.inreview %}
+                        <span class="label label-warning">Under review</span>
+                    {% endif %}
                 </p>
             </div>
         </div>

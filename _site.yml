@@ -15,11 +15,15 @@ keep_files: [".nojekyll"]
 ignore_patterns: ["README.md", "news/test*.md", "environment.yml",
                   "requirements.txt", "ci-tools", "miniconda.sh"]
 
-strict_undefined: true
+strict_undefined: false
 
 language: en
 
 keywords: 'science, geoscience, geophysics, software, open-source'
+
+authors:
+    carla: Carla Braitenberg
+    jbsilva: João B. C. Silva
 
 menulinks: [
     ['/news', 'News'],

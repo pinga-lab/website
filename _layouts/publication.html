@@ -1,19 +1,24 @@
 {% extends "page.html" %}
-{% from "utils.html" import fa, ai %}
+{% from "utils.html" import fa, ai, author_list%}
+
 
 {% block content_title %}
+
     <h1>{{ this.title }}</h1>
     {% if this.author is defined %}
         <p class="pub-date-author">
-            by {{ this.author }} ({{ this.date.year }})
+            {% if this.date is defined %}
+                ({{ this.date.year }})
+            {% endif %}
+            {{ author_list(this.author, site, link=True) }}
         </p>
     {% endif %}
     <hr>
+
 {% endblock %}
 
 
 {% block content %}
-
 
 {% if this.inreview is defined and this.inreview %}
     <div class="alert alert-warning">
@@ -23,7 +28,6 @@
         </strong>
     </div>
 {% endif %}
-
 
 <div class="row">
     <div class="col-md-4">
