@@ -6,7 +6,6 @@ github: victortxa
 institution: Universidade do Estado do Rio de Janeiro
 location: Rio de Janeiro, Brasil
 position: Qualitec Scholarship technician
-advisor: Leonardo Uieda
 former: true
 period: 2014-2016
 layout: person

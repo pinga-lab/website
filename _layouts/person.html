@@ -12,7 +12,7 @@
         </div>
         <div class="col-xs-8 col-sm-9 col-md-10">
             <h1>{{ this.title }}</h1>
-            <h2>{{ this.position }}</h2>
+            <h2><em>{{ this.position }}</em></h2>
         </div>
     </div>
     <hr>
@@ -109,6 +109,24 @@
 
     {{ super() }}
 
+    {% set pubs = [] %}
+    {% for paper in site.reflinks["/papers"].content %}
+        {% if this.components[-1] in paper.author.split(", ") %}
+            {% if pubs.append(paper) %}{% endif %}
+        {% endif %}
+    {% endfor %}
+    {% if pubs %}
+        <h2>Latest papers</h2>
+        <ul class="fa-ul">
+            {% for paper in pubs[:3] %}
+                <li><i class="fa-li fa fa-file-text-o fa-fw"></i>
+                    <a href="{{ paper.url }}">{{ paper.title }}</a>
+                    ({{ paper.date.year }})
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
     {% if this.position in ["Researcher", "Professor"] %}
         {# Convert generators to lists so that they can used again and test if
            they are empty #}
@@ -132,12 +150,11 @@
 
 {% macro list_students(students, title) %}
     <h2>{{ title }}</h2>
-    <ul>
-    {% for student in students %}
-    <li>
-        <a href="{{ student.url }}">{{ student.title }} -
-            {{ student.position }} ({{ student.period}})</a>
-    </li>
-    {% endfor %}
+    <ul class="fa-ul">
+        {% for student in students %}
+        <li><i class="fa-li fa fa-user fa-fw"></i>
+            <a href="{{ student.url }}">{{ student.title }}</a>
+        </li>
+        {% endfor %}
     </ul>
 {% endmacro %}

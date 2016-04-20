@@ -13,7 +13,7 @@
         {% if name in site.authors %}
             {{ site.authors[name] }}{% if not loop.last %}, {% endif%}
         {% else %}
-            {% set author = site.reflinks["/people/" + name] %}
+            {% set author = site.reflinks["/people/" ~ name] %}
             {% if link %}
                 <a href="{{ author.url }}">{{ author.title }}</a>{% if not loop.last %}, {% endif%}
             {% else %}
