@@ -13,7 +13,8 @@ author: Leonardo Uieda
 keep_files: [".nojekyll"]
 
 ignore_patterns: ["README.md", "news/test*.md", "environment.yml",
-                  "requirements.txt", "ci-tools", "miniconda.sh"]
+                  "requirements.txt", "ci-tools", "miniconda.sh",
+                  "CONTRIBUTING.md"]
 
 strict_undefined: true
 
