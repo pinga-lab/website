@@ -5,20 +5,7 @@
 
 ## Contributing to this site
 
-1. Create a **fork** of this repository to your user account (click on the
-   "fork" button on the upper right corner of this page).
-2. Clone your fork to your computer: `git clone https://github.com/USERNAME/website`
-3. Create a new branch to work on: `git checkout -b NAME_OF_MY_BRANCH` (use a
-   name that describes what you are doing)
-4. Make your changes to the files (see below)
-5. Compile the website and see if it works (see below)
-6. When satisfied, mark the files that you wish to commit: `git add FILE1 FILE2 ...`
-7. Make your commit: `git commit -m "Message explaning what I've done"`
-8. Push your changes to Github: `git push -u origin NAME_OF_MY_BRANCH`
-9. Go to https://github.com/pinga-lab/website and click on "New pull request"
-10. Select your branch in the "compare" field and submit the pull request
-11. If nothing breaks, someone will review and merge your pull request. When
-    that's done, the website will be updated automatically.
+See [CONTRIBUTING.md](https://github.com/pinga-lab/website/blob/master/CONTRIBUTING.md).
 
 ## Dependencies
 
