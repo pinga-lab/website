@@ -3,7 +3,7 @@ title: Vanderlei C. Oliveira Jr.
 date: 2016-01-02
 lattes: http://lattes.cnpq.br/4332841435949533
 picture: oliveira-jr.jpg
-email: vanderlei@on.br
+email: vandscoelho@gmail.com
 github: birocoles
 scholar: http://scholar.google.com.br/citations?user=TQbQ4TcAAAAJ
 researcherid: E-1871-2013
@@ -26,9 +26,9 @@ Methods.
 
 # Education
 
-After completing my undergraduate degree in Geophysics at the Instituto de
+After obtaining my undergraduate degree in Geophysics at the Instituto de
 Astronomia, Geofísica e Ciências Atmosféricas da Universidade de São Paulo
-(IAG-USP), I did a master's degree in Geophysics at Observatório Nacional
+(IAG-USP), I received a master's degree in Geophysics at Observatório Nacional
 ([thesis – in
 portuguese](http://www.on.br/conteudo/dppg_e_iniciacao/dppg/ferramenta_teses/teses/GEOFISICA/%5B262_36-45_C%5Dvanderlei_dissertacao.pdf)),
 where I subsequently obtained a PhD's degree.
