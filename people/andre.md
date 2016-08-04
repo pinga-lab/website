@@ -1,5 +1,5 @@
 ---
-title: André Luis Albuquerque dos Reis
+title: André L. A. Reis
 date: 2014-03-01
 lattes: http://lattes.cnpq.br/1075610796165589
 researchgate: https://www.researchgate.net/profile/Andre_Luis_Reis
