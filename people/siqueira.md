@@ -8,6 +8,7 @@ advisor: barbosa
 institution: Observatório Nacional
 location: Rio de Janeiro, Brazil
 period: 2013-Present
+former: true
 layout: person
 ---
 
