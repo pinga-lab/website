@@ -93,7 +93,15 @@
     {% if this.email is defined %}
         <li class="list-group-item">
             <i class="fa fa-envelope fa-fw"></i>
-            e-mail: <a href="mailto:{{this.email}}">{{this.email}}</a>
+            e-mail{% if this.email2 is defined %} (primary){% endif %}:
+            <a href="mailto:{{this.email}}">{{this.email}}</a>
+        </li>
+    {% endif %}
+
+    {% if this.email2 is defined %}
+        <li class="list-group-item">
+            <i class="fa fa-envelope fa-fw"></i>
+            e-mail (secondary): <a href="mailto:{{this.email2}}">{{this.email2}}</a>
         </li>
     {% endif %}
 
