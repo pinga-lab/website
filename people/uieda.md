@@ -9,6 +9,7 @@ website: http://www.leouieda.com
 picture: uieda.jpg
 github: leouieda
 email: leouieda@gmail.com
+email2: uieda@hawaii.edu
 scholar: http://scholar.google.com.br/citations?user=qfmPrUEAAAAJ
 researcherid: G-3258-2012
 researchgate: https://www.researchgate.net/profile/Leonardo_Uieda
