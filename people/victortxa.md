@@ -6,8 +6,7 @@ github: victortxa
 institution: Universidade do Estado do Rio de Janeiro
 location: Rio de Janeiro, Brasil
 position: Qualitec Scholarship technician
-former: true
-period: 2014-2016
+period: 2014-Present
 layout: person
 ---
 

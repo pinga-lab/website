@@ -25,10 +25,3 @@ radioativos para calibração de gamaespectrometros aerotransportados e
 terrestres da América do Sul. Atualmente trabalha como geofísico de exploração
 de ferrosos na VALE com geofísica aerotransportada de 3D- FTG (Full Tensor
 Gradiometry), magnetometria e perfilagem geofisica.
-
-# Thesis
-
-Aplicação de Processamento e Inversão Geofísica 3D de Dados de Aerogradiometria
-da Gravidade na Estimação da Estrutura do Minério de Ferro no Siclinal
-Gandarela - Quadrilátero Ferrífero - Minas Gerais.
-

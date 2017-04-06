@@ -21,6 +21,9 @@ PhD Student in Geophysics at Observatório Nacional, Brazil
 
 # Education
 
-I'm graduated on Physics at Rio de Janeiro State University (UERJ) and I did a master's degree at National Observatory (ON) ([thesis](http://www.on.br/conteudo/dppg_e_iniciacao/dppg/ferramenta_teses/teses/GEOFISICA/[355_22-39_C]on_2016_m_andreluisreis.pdf)). Nowadays, I'm a PhD student at ON and I'm interested in modelling and inversion of Potential Fields and Paleomagnetism.
+I'm graduated on Physics at Rio de Janeiro State University (UERJ) and I did a
+master's degree at National Observatory (ON).
+Nowadays, I'm a PhD student at ON and I'm interested in modelling and inversion
+of Potential Fields and Paleomagnetism.
 
 

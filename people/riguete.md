@@ -19,6 +19,6 @@ o 8 período. Até agora trabalhou em duas iniciações científicas diferentes,
 porém ambas com algum foco em geofísica. Atualmente trabalha na sua monografia
 sobre inversão e modelagem gravimétrica.
 
-# Thesis
+# Thesis topic
 
 A gravimetric study of the Eo-cretaceous intrusions of Namibia.

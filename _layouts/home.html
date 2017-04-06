@@ -19,18 +19,15 @@
 
 <div class="row">
 
-    <div class="col-md-7">
+    <div class="col-md-6">
         {{ this.body }}
-    </div>
-
-    <div class="col-md-5">
         <h2>News</h2>
 
         {% if not site.reflinks["/news"].content %}
             No recent news.
         {% else %}
             <ul class="fa-ul">
-            {% for article in site.reflinks["/news"].content[0:5] %}
+            {% for article in site.reflinks["/news"].content[0:3] %}
                 <li><i class="fa-li fa fa-comment-o fa-fw"></i>
                     {{ article.date }}:
                     <a href="{{ article.url }}">{{ article.title }}</a>
@@ -38,6 +35,9 @@
             {% endfor %}
             </ul>
         {% endif %}
+    </div>
+
+    <div class="col-md-6">
 
         <h2>Latest papers</h2>
 
@@ -46,6 +46,17 @@
             <li><i class="fa-li fa fa-file-text-o fa-fw"></i>
                 <a href="{{ article.url }}">{{ article.title }}</a>
                 ({{ article.date.year }})
+            </li>
+        {% endfor %}
+        </ul>
+
+        <h2>Latest theses</h2>
+
+        <ul class="fa-ul latest-papers">
+        {% for thesis in site.reflinks["/thesis"].content[0:5] %}
+            <li><i class="fa-li fa fa-book fa-fw"></i>
+                <a href="{{ thesis.url }}">{{ thesis.title }}</a>
+                ({{ thesis.date.year }})
             </li>
         {% endfor %}
         </ul>

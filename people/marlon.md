@@ -1,7 +1,7 @@
 ---
 title: Marlon C. Hidalgo-Gato
 date: 2014-02-01
-position: MSc Student
+position: PhD Student
 picture: marlon.jpg
 advisor: barbosa
 institution: Observatório Nacional
@@ -15,7 +15,3 @@ layout: person
 
 Possui graduação em Geofisica pela Universidade de São Paulo(2010). Tem
 experiência na área de Geociências, com ênfase em Geofísica.
-
-# Thesis
-
-Realce de anomalias gravimétricas e magnéticas.

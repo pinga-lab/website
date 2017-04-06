@@ -20,7 +20,3 @@ técnico de geociências da Companhia de Pesquisa de Recursos Minerais. Tem
 experiência na área de Geociências, com ênfase em Geofísica Aplicada, atuando
 principalmente nos seguintes temas: geofísica, inversão e desenvolvimento de
 software.
-
-# Thesis
-
-Estimativa do vertor de magnetização de corpos aproximadamente dipolares.

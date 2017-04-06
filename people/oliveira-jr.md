@@ -29,10 +29,10 @@ Methods.
 
 After obtaining my undergraduate degree in Geophysics at the Instituto de
 Astronomia, Geofísica e Ciências Atmosféricas da Universidade de São Paulo
-(IAG-USP), I received a master's degree in Geophysics at Observatório Nacional
-([thesis – in
-portuguese](http://www.on.br/ferramenta_teses/teses/GEOFISICA/[263_43-47_C]vanderlei_dissertacao.pdf)),
-where I subsequently obtained a PhD's degree ([thesis – in
-portuguese](http://www.on.br/ferramenta_teses/teses/GEOFISICA/[303_37-14_C]tese_versao_pos_defesa.pdf)).
+(IAG-USP), I received a
+[master's degree in Geophysics at Observatório
+Nacional][/thesis/oliveira-jr-msc]
+where I subsequently obtained a
+[PhD degree][/thesis/oliveira-jr-phd].
 Nowadays I am a researcher at the department of Geophysics of Observatório
 Nacional.

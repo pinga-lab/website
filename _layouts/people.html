@@ -42,7 +42,7 @@
 
     {% set students = this.content|rejectattr("position", "equalto", "Professor")|rejectattr("position", "equalto", "Researcher") %}
 
-    {% for row in students|rejectattr("former", "defined")|batch(3) %}
+    {% for row in students|rejectattr("former", "defined")|sort(attribute='date')|batch(3) %}
         <div class="row">
         {% for person in row %}
             <div class="col-sm-4 col-md-4">
@@ -55,7 +55,7 @@
     <hr>
     <h2>Former members</h2>
 
-    {% for row in this.content|selectattr("former", "defined")|reverse|batch(3) %}
+    {% for row in this.content|selectattr("former", "defined")|sort(attribute='date', reverse=true)|batch(3) %}
         <div class="row">
         {% for person in row %}
             <div class="col-sm-4 col-md-4">

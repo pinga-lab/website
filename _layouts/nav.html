@@ -7,11 +7,13 @@
             {{ site.title }}
         </a>
     </div>
-    <div class="col-md-8 menu-list">
+    <div class="col-md-6 menu-list">
         <ul>
             {% for url, title in site.menulinks %}
                 <li><a href="{{ url }}">{{ title }}</a></li>
             {% endfor %}
         </ul>
+    </div>
+    <div class="col-md-3">
     </div>
 </div>
