@@ -16,6 +16,9 @@
                         {% if article.oa is defined and article.oa %}
                             {{ai("open-access", title="Open-access paper")}}
                         {% endif %}
+                        {% if article.repository is defined %}
+                            {{fa("github", title="Source-code available")}}
+                        {% endif %}
                         {{ article.title }}
                     </h3>
                 </a>
