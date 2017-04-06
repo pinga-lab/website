@@ -10,6 +10,15 @@ level: MSc
 layout: publication
 ---
 
+# About
+
+Paper produced from this research:
+
+* [/papers/paper-monogenic-2015]
+
+Additional information (in portuguese) can be found at the
+[Sucupira platform](https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=2486360).
+
 # Abstract
 
 We have presented the principles of potential-field data decomposition in the
