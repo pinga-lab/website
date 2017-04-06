@@ -10,6 +10,15 @@ level: MSc
 layout: publication
 ---
 
+# About
+
+Paper produced from this research:
+
+* [/papers/paper-mag-dir-2015]
+
+Additional information (in portuguese) can be found at the
+[Sucupira platform](https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=1334863).
+
 # Abstract
 
 We present a new computationally effective method to estimate the magnetization
