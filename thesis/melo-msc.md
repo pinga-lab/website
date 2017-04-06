@@ -7,6 +7,7 @@ advisor: barbosa
 institution: Observatório Nacional
 pdf: melo-msc.pdf
 level: MSc
+sucupira: 121476
 layout: publication
 ---
 
@@ -16,8 +17,6 @@ Paper produced from this research:
 
 * [/papers/paper-euler-plateau-2013]
 
-Additional information (in portuguese) can be found at the
-[Sucupira platform](https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=121476).
 
 # Abstract
 
@@ -45,5 +44,5 @@ the corresponding plateau. The sample mean of these estimates are the best
 depth location estimates in our method. When applied to synthetic data, our
 method yielded good performances even when the study area does not cover
 entirely the anomalies. A test on real data over intrusions in the Goiás
-Alkaline Province, Brazil, retrieved sphere-like sources suggesting three-
-dimensional bodies.
+Alkaline Province, Brazil, retrieved sphere-like sources suggesting
+three-dimensional bodies.

@@ -90,6 +90,13 @@
                         <a href="http://dx.doi.org/{{this.supplement}}">{{this.supplement}}</a>
                     </li>
                 {% endif %}
+                {% if this.sucupira is defined %}
+                    <li class="list-group-item">
+                        {{ fa("info-circle", "fa-fw", "Additional information") }}
+                        More info:
+                        <a href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho={{this.sucupira}}">Sucupira platform</a>
+                    </li>
+                {% endif %}
                 {% if this.pdf is defined %}
                     <li class="list-group-item">
                         {{ fa("file-pdf-o", "fa-fw", "Paper PDF") }}

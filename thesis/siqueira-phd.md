@@ -5,15 +5,11 @@ period: 2013-2016
 author: siqueira
 advisor: barbosa
 institution: Observatório Nacional
-<!--pdf: siqueira-phd.pdf-->
+pdf: siqueira-phd.pdf
 level: PhD
+sucupira: 4216876
 layout: publication
 ---
-
-# About
-
-Additional information (in portuguese) can be found at the
-[Sucupira platform](https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=4216876).
 
 
 # Abstract

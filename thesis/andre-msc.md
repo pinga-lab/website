@@ -7,6 +7,7 @@ advisor: oliveira-jr
 institution: Observatório Nacional
 pdf: andre-msc.pdf
 level: MSc
+sucupira: 3508664
 layout: publication
 ---
 
@@ -16,8 +17,6 @@ Paper produced from this research:
 
 * [/papers/paper-magnetization-rock-sample-2016]
 
-Additional information (in portuguese) can be found at the
-[Sucupira platform](https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=3508664).
 
 # Abstract
 

@@ -7,6 +7,7 @@ advisor: oliveira-jr
 institution: Observatório Nacional
 pdf: daiana-msc.pdf
 level: MSc
+sucupira: 1334863
 layout: publication
 ---
 
@@ -16,8 +17,6 @@ Paper produced from this research:
 
 * [/papers/paper-mag-dir-2015]
 
-Additional information (in portuguese) can be found at the
-[Sucupira platform](https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=1334863).
 
 # Abstract
 

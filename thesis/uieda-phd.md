@@ -8,6 +8,7 @@ repository: leouieda/phd-thesis
 institution: Observatório Nacional
 pdf: uieda-phd.pdf
 level: PhD
+sucupira: 3627205
 layout: publication
 ---
 

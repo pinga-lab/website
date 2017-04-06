@@ -134,12 +134,20 @@ Required:
     institution: Observatório Nacional
     level: PhD
     pdf: uieda-phd.pdf
+    sucupira: 154585
     layout: publication
 
 * `author` should be your author ids. The id is the name of the authors
   file in the `people` folder.
 * `advisor` should be the author id of the thesis advisor.
 * `level` should be one of: `PhD`, `MSc`, or `Undergraduate`.
+* `sucupira` is the ID of your thesis on the [Sucupira
+  platform](https://sucupira.capes.gov.br). You can get the ID by search for
+  your thesis [here](https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/listaTrabalhoConclusao.jsf),
+  then get the ID number from the end of the link to your thesis. For example,
+  the ID for the link
+  `https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=3627205`
+  is `3627205`.
 
 Optional:
 

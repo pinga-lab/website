@@ -7,6 +7,7 @@ advisor: barbosa
 institution: Observatório Nacional
 pdf: marlon-msc.pdf
 level: MSc
+sucupira: 2486360
 layout: publication
 ---
 
@@ -15,9 +16,6 @@ layout: publication
 Paper produced from this research:
 
 * [/papers/paper-monogenic-2015]
-
-Additional information (in portuguese) can be found at the
-[Sucupira platform](https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=2486360).
 
 # Abstract
 
