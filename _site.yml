@@ -33,6 +33,7 @@ menulinks: [
     ['/news', 'News'],
     ['/research', 'Research'],
     ['/papers', 'Papers'],
+    ['/thesis', 'Theses'],
     ['/people', 'People'],
     ['https://github.com/pinga-lab',
      '<i class="fa fa-github fa-lg" title="Github"></i>'],

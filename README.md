@@ -3,9 +3,11 @@
 [![Build Status](https://img.shields.io/travis/pinga-lab/website/master.svg?style=flat-square)](https://travis-ci.org/pinga-lab/website)
 [![Powered by Urubu](https://img.shields.io/badge/powered_by-urubu-blue.svg?style=flat-square)](http://urubu.jandecaluwe.com/)
 
+
 ## Contributing to this site
 
 See [CONTRIBUTING.md](https://github.com/pinga-lab/website/blob/master/CONTRIBUTING.md).
+
 
 ## Dependencies
 
@@ -17,6 +19,7 @@ You can create a conda environment with all required dependencies by running
 `conda env create` in the root of the repository. To activate the environment
 and run the build use `source activate pinga-site`.
 
+
 ## Compiling the site
 
 1. Open a terminal (`cmd.exe` on Windows) and go to the root of your clone of this
@@ -27,6 +30,7 @@ repository.
    [http://127.0.0.1:8000](http://127.0.0.1:8000) to view the site.
    Use `Ctrl+C` to kill the server.
 
+
 ## Adding a publication
 
 The paper entries are `.md` files in the `papers` folder.
@@ -36,7 +40,7 @@ section of each entry.
 To add a new entry, create the `.md` file in the corresponding folder.
 Please, follow the naming conventions used for the other files.
 
-### Metadata for entries
+### Metadata for papers
 
 Required:
 
@@ -65,13 +69,14 @@ Optional:
 * `inreview: true` will mark the entry as under peer-review (unpublished).
 * `pdf` should be the name of PDF file in the `pdf` folder
 
+
 ## Adding a new member
 
 Group member pages are the `.md` files in the `people` folder.
 To add a new member, create the `.md` file in the corresponding folder with the
 **last name** of the person (in lowercase).
 
-### Metadata for entries
+### Metadata for members
 
 Required:
 
@@ -80,11 +85,14 @@ Required:
     position: PhD Student
     institution: Observatório Nacional
     location: Rio de Janeiro, Brasil
+    period: 2015-2018
     layout: person
 
 * Use the date that you started on the group.
 * `position` should be one of: `PhD Student`, `MSc Student`, `Undergraduate
   Student`
+* `period` should be the year when you first started and the year when you left
+  the group (use `Present` if you're still a member).
 
 Optional:
 
@@ -104,6 +112,39 @@ Optional:
   `people` folder).
 * `picture` should be the name of a square image in folder `images/pic`. If
   omitted, will use a default image.
+
+
+## Adding a new thesis
+
+We also have a page with all theses defended by group members.
+To add a new one, create a new `.md` file in the `thesis` folder. The file name
+should be your page name plus the degree all in lowercase, e.g. `uieda-msc.md`.
+You should also place a PDF version of the thesis with the same name in the
+`pdf` folder.
+
+### Metadata for theses
+
+Required:
+
+    title: Forward modeling and inversion of gravitational fields in spherical coordinates
+    author: uieda
+    advisor: barbosa
+    date: yyyy-mm-dd
+    period: 2011-2016
+    institution: Observatório Nacional
+    level: PhD
+    pdf: uieda-phd.pdf
+    layout: publication
+
+* `author` should be your author ids. The id is the name of the authors
+  file in the `people` folder.
+* `advisor` should be the author id of the thesis advisor.
+* `level` should be one of: `PhD`, `MSc`, or `Undergraduate`.
+
+Optional:
+
+    repository: leouieda/phd-thesis
+    doi: 10.6084/m9.figshare.923450
 
 
 ## Automatic deploy with TravisCI

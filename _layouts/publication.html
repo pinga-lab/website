@@ -4,7 +4,12 @@
 
 {% block content_title %}
 
-    <h1>{{ this.title }}</h1>
+    <h1>
+        {% if this.level is defined %}
+            <em>{{ this.level }} thesis</em>:
+        {% endif %}
+        {{ this.title }}
+    </h1>
     {% if this.author is defined %}
         <p class="pub-date-author">
             {% if this.date is defined %}
@@ -46,6 +51,28 @@
                     <li class="list-group-item">
                         {{ fa("book", "fa-fw", "Journal name") }}
                         Journal: {{this.journal}}
+                    </li>
+                {% endif %}
+                {% if this.period is defined %}
+                    <li class="list-group-item">
+                        <i class="fa fa-calendar fa-fw"></i> {{this.period}}
+                    </li>
+                {% endif %}
+                {% if this.institution is defined %}
+                    <li class="list-group-item">
+                        <i class="fa fa-university fa-fw"></i> {{this.institution}}
+                    </li>
+                {% endif %}
+                {% if this.location is defined %}
+                    <li class="list-group-item">
+                        <i class="fa fa-map-marker fa-fw"></i> {{this.location}}
+                    </li>
+                {% endif %}
+                {% if this.advisor is defined %}
+                    {% set advisor = site.reflinks["/people/" ~ this.advisor] %}
+                    <li class="list-group-item">
+                        <i class="fa fa-graduation-cap fa-fw"></i> Advisor:
+                        <a href="{{ advisor.url }}">{{ advisor.title }}</a>
                     </li>
                 {% endif %}
                 {% if this.repository is defined %}

@@ -21,7 +21,7 @@
                 </a>
                 <p>
                     ({{article.date.year}})
-                    {{ author_list(article.author, site, link=False) }}.
+                    {{ author_list(article.author, site, link=True) }}.
                     <em>{{ article.journal }}</em>.
                     {% if article.inreview is defined and article.inreview %}
                         <span class="label label-warning">Under review</span>

@@ -12,7 +12,12 @@
         </div>
         <div class="col-xs-8 col-sm-9 col-md-10">
             <h1>{{ this.title }}</h1>
-            <h2><em>{{ this.position }}</em></h2>
+            <h2>
+                <em>{{ this.position }}</em>
+                {% if this.former is defined and this.former %}
+                    | <em>Former member</em>
+                {% endif %}
+            </h2>
         </div>
     </div>
     <hr>
@@ -25,13 +30,17 @@
         </li>
     {% endif %}
 
-    <li class="list-group-item">
-        <i class="fa fa-university fa-fw"></i> {{this.institution}}
-    </li>
+    {% if this.institution is defined %}
+        <li class="list-group-item">
+            <i class="fa fa-university fa-fw"></i> {{this.institution}}
+        </li>
+    {% endif %}
 
-    <li class="list-group-item">
-        <i class="fa fa-map-marker fa-fw"></i> {{this.location}}
-    </li>
+    {% if this.location is defined %}
+        <li class="list-group-item">
+            <i class="fa fa-map-marker fa-fw"></i> {{this.location}}
+        </li>
+    {% endif %}
 
     {% if this.advisor is defined %}
         {% set advisor = site.reflinks["/people/" ~ this.advisor] %}
@@ -135,6 +144,24 @@
         </ul>
     {% endif %}
 
+    {% set theses = [] %}
+    {% for thesis in site.reflinks["/thesis"].content %}
+        {% if this.components[-1] in thesis.advisor.split(", ") %}
+            {% if theses.append(thesis) %}{% endif %}
+        {% endif %}
+    {% endfor %}
+    {% if theses %}
+        <h2>Latest theses advised</h2>
+        <ul class="fa-ul">
+            {% for thesis in theses[:5] %}
+                <li><i class="fa-li fa fa-book fa-fw"></i>
+                    <a href="{{ thesis.url }}">{{ thesis.title }}</a>
+                    ({{ thesis.date.year }})
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
     {% if this.position in ["Researcher", "Professor"] %}
         {# Convert generators to lists so that they can used again and test if
            they are empty #}
@@ -151,6 +178,24 @@
         {% if past %}
             {{ list_students(past, "Former students") }}
         {% endif %}
+    {% endif %}
+
+    {% set theses = [] %}
+    {% for thesis in site.reflinks["/thesis"].content %}
+        {% if this.components[-1] in thesis.author.split(", ") %}
+            {% if theses.append(thesis) %}{% endif %}
+        {% endif %}
+    {% endfor %}
+    {% if theses %}
+        <h2>Theses authored</h2>
+        <ul class="fa-ul">
+            {% for thesis in theses %}
+                <li><i class="fa-li fa fa-book fa-fw"></i>
+                    <a href="{{ thesis.url }}">{{ thesis.title }}</a>
+                    ({{ thesis.date.year }})
+                </li>
+            {% endfor %}
+        </ul>
     {% endif %}
 
 {% endblock %}

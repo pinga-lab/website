@@ -19,8 +19,3 @@ mestrado em Geofísica pelo Observatório Nacional (2012). Tem experiência na
 área de Física e Geofísica com ênfase em Geomagnetismo, atuando principalmente
 no seguintes temas: observatórios magnéticos, processamento de dados
 geomagnéticos e estudo de tempestades magnéticas.
-
-# Thesis
-
-Método de filtragem do ruído de dados de gradiometria gravimétrica fundamentado
-na teoria do potencial.
