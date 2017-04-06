@@ -93,6 +93,7 @@ Optional:
     picture: uieda.jpg
     github: leouieda
     email: bla@on.br
+    email2: meh@gmail.com
     scholar: http://scholar.google.com.br/citations?user=qfmPrUEAAAAJ
     researcherid: G-3258-2012
     researchgate: https://www.researchgate.net/profile/Leonardo_Uieda
