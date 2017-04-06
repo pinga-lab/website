@@ -7,7 +7,7 @@ journal: Geochemistry, Geophysics, Geosystems
 repository: pinga-lab/magnetization-rock-sample
 pdf: paper-magnetization-rock-sample-2016.pdf
 doi: 10.1002/2016GC006329
-citation: "Reis, A. L. A., Oliveira, V. C., Yokoyama, E., Bruno, A. C. and Pereira, J. M. B. (2016), Estimating the magnetization distribution within rectangular rock samples. Geochem. Geophys. Geosyst.. Accepted Author Manuscript. doi:10.1002/2016GC006329"
+citation: "Reis, A. L. A., Oliveira Jr., V. C., Yokoyama, E., Bruno, A. C. and Pereira, J. M. B. (2016), Estimating the magnetization distribution within rectangular rock samples. Geochem. Geophys. Geosyst.. Accepted Author Manuscript. doi:10.1002/2016GC006329"
 ---
 
 # Abstract
@@ -17,7 +17,7 @@ Over the last decades, scanning magnetic microscopy techniques have been increas
 # Bibtex
 
     @article {reis_et_al(2016),
-              author = {Reis, A. L. A. and Oliveira, V. C. and Yokoyama, E. and Bruno, A. C. and Pereira, J. M. B.},
+              author = {Reis, A. L. A. and Oliveira Jr., V. C. and Yokoyama, E. and Bruno, A. C. and Pereira, J. M. B.},
               title = {Estimating the magnetization distribution within rectangular rock samples},
               journal = {Geochemistry, Geophysics, Geosystems},
               issn = {1525-2027},
