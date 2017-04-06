@@ -4,6 +4,7 @@ date: 2016-01-02
 lattes: http://lattes.cnpq.br/4332841435949533
 picture: oliveira-jr.jpg
 email: vandscoelho@gmail.com
+email2: vanderlei@on.br
 github: birocoles
 scholar: http://scholar.google.com.br/citations?user=TQbQ4TcAAAAJ
 researcherid: E-1871-2013
