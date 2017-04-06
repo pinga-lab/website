@@ -10,6 +10,11 @@ level: MSc
 layout: publication
 ---
 
+# About
+
+Additional information (in portuguese) can be found at the
+[Sucupira platform](https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=121476).
+
 # Abstract
 
 We present a new method that drastically reduces the number of the source
