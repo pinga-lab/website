@@ -22,8 +22,8 @@ polygon. The horizontal coordinates of the polygon vertices approximately
 represent the edges of horizontal depth slices of the 3D geologic source. The
 polygon vertices of each prism are described by polar coordinates with an
 unknown origin within the prism. Our method estimates the radii associated with
-the vertices of each polygon for a fixed number of equally spaced angles from 0
-o to 360 o and the horizontal Cartesian coordinates of the unknown origin.  By
+the vertices of each polygon for a fixed number of equally spaced angles from
+0<sup>o</sup> to 360<sup>o</sup> and the horizontal Cartesian coordinates of the unknown origin.  By
 estimating these parameters from gravity data, we retrieve a set of vertically
 stacked prisms with polygonal horizontal sections that represents a set of
 juxtaposed horizontal depth slices of the estimated source and approximates the
