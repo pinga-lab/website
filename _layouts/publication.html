@@ -113,16 +113,68 @@
                 {% endif %}
             {% endblock %}
         </ul>
+
         {% if this.doi is defined %}
             <h2>Article Level Metrics</h2>
             <div data-badge-details="right" data-badge-type="medium-donut"
                  data-doi="{{this.doi}}" class="altmetric-embed"></div>
         {% endif %}
+
         {% if this.citation is defined %}
             <h2>Citation</h2>
             <p>{{this.citation}}</p>
         {% endif %}
+
+
+        {% if this.related_papers is defined or this.related_thesis is defined %}
+            <h2>Related research</h2>
+            {% if this.related_papers is defined %}
+
+                {% set papers = [] %}
+                {% for paper in site.reflinks["/papers"].content %}
+                    {% if paper.components[-1] in this.related_papers.split(',') %}
+                        {% if papers.append(paper) %}{% endif %}
+                    {% endif %}
+                {% endfor %}
+
+                <h3>Papers</h3>
+
+                <ul class="fa-ul">
+                {% for article in papers %}
+                    <li>
+                        <i class="fa-li fa fa-file-text-o fa-fw"></i>
+                        <a href="{{ article.url }}">{{ article.title }}</a>
+                    </li>
+                {% endfor %}
+                </ul>
+
+            {% endif %}
+
+            {% if this.related_thesis is defined %}
+
+                {% set theses = [] %}
+                {% for thesis in site.reflinks["/thesis"].content %}
+                    {% if thesis.components[-1] in this.related_thesis.split(',') %}
+                        {% if theses.append(thesis) %}{% endif %}
+                    {% endif %}
+                {% endfor %}
+
+                <h3>Theses</h3>
+
+                <ul class="fa-ul">
+                {% for article in theses %}
+                    <li>
+                        <i class="fa-li fa fa-book fa-fw"></i>
+                        <a href="{{ article.url }}">{{ article.title }}</a>
+                    </li>
+                {% endfor %}
+                </ul>
+
+            {% endif %}
+        {% endif %}
+
     </div>
+
 
     <div class="col-md-8">
         {% block right %}

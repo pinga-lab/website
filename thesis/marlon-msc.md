@@ -8,14 +8,9 @@ institution: Observatório Nacional
 pdf: marlon-msc.pdf
 level: MSc
 sucupira: 2486360
+related_papers: paper-monogenic-2015
 layout: publication
 ---
-
-# About
-
-Paper produced from this research:
-
-* [/papers/paper-monogenic-2015]
 
 # Abstract
 

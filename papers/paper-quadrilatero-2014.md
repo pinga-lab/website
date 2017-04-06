@@ -6,6 +6,8 @@ pdf: paper-quadrilatero-2014.pdf
 journal: Ore Geology Reviews
 doi: 10.1016/j.oregeorev.2014.02.011
 citation: Carlos, D. U., L. Uieda, and V. C. F. Barbosa (2014), Imaging iron ore from the Quadrilátero Ferrífero (Brazil) using geophysical inversion and drill hole data, Ore Geology Reviews, 61, 268-285, doi:10.1016/j.oregeorev.2014.02.011
+related_thesis: carlos-phd
+related_papers: paper-planting-anomalous-densities-2012,paper-quadrilatero2-2016
 layout: publication
 ---
 

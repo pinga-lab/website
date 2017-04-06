@@ -8,15 +8,9 @@ institution: Observatório Nacional
 pdf: daiana-msc.pdf
 level: MSc
 sucupira: 1334863
+related_papers: paper-mag-dir-2015
 layout: publication
 ---
-
-# About
-
-Paper produced from this research:
-
-* [/papers/paper-mag-dir-2015]
-
 
 # Abstract
 

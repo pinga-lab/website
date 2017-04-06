@@ -8,15 +8,9 @@ institution: Observatório Nacional
 pdf: oliveira-jr-phd.pdf
 level: PhD
 sucupira: 314927
+related_papers: paper-polynomial-eqlayer-2013,paper-radial3d-gradients-2013
 layout: publication
 ---
-
-# About
-
-Papers produced from this research:
-
-* [/papers/paper-polynomial-eqlayer-2013]
-* [/papers/paper-radial3d-gradients-2013]
 
 
 # Abstract

@@ -8,15 +8,9 @@ institution: Observatório Nacional
 pdf: andre-msc.pdf
 level: MSc
 sucupira: 3508664
+related_papers: paper-magnetization-rock-sample-2016
 layout: publication
 ---
-
-# About
-
-Paper produced from this research:
-
-* [/papers/paper-magnetization-rock-sample-2016]
-
 
 # Abstract
 

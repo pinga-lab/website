@@ -7,6 +7,7 @@ advisor: barbosa
 institution: Observatório Nacional
 pdf: oliveira-jr-msc.pdf
 level: MSc
+related_papers: paper-radial3d-2011
 layout: publication
 ---
 
