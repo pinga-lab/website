@@ -10,6 +10,16 @@ level: PhD
 layout: publication
 ---
 
+# About
+
+Papers produced from this research:
+
+* [/papers/paper-quadrilatero-2014]
+* [/papers/paper-quadrilatero2-2016]
+
+Additional information (in portuguese) can be found at the
+[Sucupira platform](https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=154585).
+
 # Abstract
 
 The Quadrilátero Ferrífero in southeastern Brazil hosts one of the largest
@@ -36,5 +46,5 @@ variable dip directions. In the southernmost, central and northernmost portions
 of the study area, the estimated iron body dips, respectively, inwards,
 vertically and outwards with respect to the syncline axis. Because one of the
 inversion methods estimates a 3D compact iron ore body with density contrast of
-0.75 g/cm 3 , then it allows estimating the volume of this body in 965 million
-m 3 . By considering that this estimated
+0.75 g/cm<sup>3</sup> , then it allows estimating the volume of this body in 965 million
+m<sup>3</sup>. By considering that this estimated

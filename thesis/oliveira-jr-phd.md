@@ -12,7 +12,7 @@ layout: publication
 
 # About
 
-This thesis is a collection of the papers:
+Papers produced from this research:
 
 * [/papers/paper-polynomial-eqlayer-2013]
 * [/papers/paper-radial3d-gradients-2013]
