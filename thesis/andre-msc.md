@@ -10,28 +10,39 @@ level: MSc
 layout: publication
 ---
 
+# About
+
+Paper produced from this research:
+
+* [/papers/paper-magnetization-rock-sample-2016]
+
+Additional information (in portuguese) can be found at the
+[Sucupira platform](https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=3508664).
+
 # Abstract
 
-Nas últimas décadas, o uso de ténicas de microscopia magnética por varredura
-tem crescido em áreas como o paleomagnetismo e o magnetismo de rocha.
-Diferentemente dos magnetômetros usuais, microscópios magnéticos produzem mapas
-de alta resolução da componente vertical do campo de indução magnética sobre a
-superfície de uma amostra. Estes dados de alta resolução podem ser utilizados
-para estimar a distribuição de magnetização interna de uma amostra de rocha
-através de inversão. Estudos anteriores estimaram a distribuição de
-magnetização invertendo dados magnéticos medidos somente em um plano acima da
-amostra. Neste trabalho apresentamos um novo método no domínio do tempo para
-inverter dados de indução magnética medidos sobre quatro planos ao redor da
-amostra. Presumimos que a distribuição de magnetização interna da amostra varia
-ao longo de um eixo. O método aproxima a amostra por um modelo interpretativo
-composto por um arranjo unidimensional de prismas retangulares com magnetização
-uniforme. As componentes Cartesianas do vetor magnetização de cada um destes
-prismas são os parâmetros que serão estimados resolvendo um problema inverso
-linear. Testes com dados sintéticos mostram a performance do método em
-recuperar complexas distribuições de magnetização mesmo na presença de
-heterogeneidades. Aplicamos também o método para inverter dados magnéticos
-adquiridos experimentalmente produzidos por uma amostra fabricada em
-laboratório. Os resultados mostram que, mesmo na aparente presença de ruído na
-posição do sensor do equipamento, o método foi capaz de recuperar uma
-distribuição de magnetização consistente com a magnetização anisterética
-remanente induzida na amostra.
+Over the last decades, scanning magnetic microscopy techniques have
+been increasingly used in paleomagnetism and rock magnetism. Different
+from standard paleomagnetic magnetometers, scanning magnetic microscopes
+produce high-resolution maps of the vertical component of the magnetic
+induction field on a plane located over the sample. These high-resolution
+magnetic maps can be used for estimating the magnetization distribution
+within a rock sample by inversion. Previous studies have estimated the
+magnetization distribution within rock samples by inverting the magnetic
+data measured on a plane above the sample. Here we present a new spacial
+domain method for inverting the magnetic induction measured on four planes
+around the sample in order to retrieve its internal magnetization
+distribution. We have presumed that internal magnetization distribution
+of the sample varies along one of its axes. Our method approximates the
+sample geometry by an interpretation model composed of a one-dimensional
+array of juxtaposed rectangular prisms with uniform magnetization. The
+Cartesian components of the magnetization vector within each rectangular
+prism are the parameters to be estimated by solving linear inverse problem.
+Tests with synthetic data show the performance of our method in retrieving
+complex magnetization distribution even in the presence of magnetization
+heterogeneities. We have also applied our method to invert experimentally
+measured magnetic data produced by a highly-magnetized synthetic sample that
+was manufacturated in laboratory. The results show that, even in the
+presence of apparent position noise, our method was able to retrieve
+magnetization distribuition consistent with the anhysteretic remanence
+magnetization induced in the sample.
