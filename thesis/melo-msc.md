@@ -7,6 +7,8 @@ advisor: barbosa
 institution: Observatório Nacional
 pdf: melo-msc.pdf
 level: MSc
+sucupira: 121476
+related_papers: paper-euler-plateau-2013
 layout: publication
 ---
 
@@ -15,8 +17,8 @@ layout: publication
 We present a new method that drastically reduces the number of the source
 location estimates in 3D Euler deconvolution to one only. Our method is
 grounded on the analytical estimators of the base level and of the horizontal
-and vertical source positions in 3D Euler deconvolution as a function of the x
-- and y -coordinates of the observations. By assuming any tentative structural
+and vertical source positions in 3D Euler deconvolution as a function of the x-
+and y-coordinates of the observations. By assuming any tentative structural
 index (defining the geometry of the sources), our method automatically locates
 on the maps of the horizontal coordinate estimates plateaus, indicating
 consistent estimates that are very close to the true corresponding coordinates.
@@ -36,5 +38,5 @@ the corresponding plateau. The sample mean of these estimates are the best
 depth location estimates in our method. When applied to synthetic data, our
 method yielded good performances even when the study area does not cover
 entirely the anomalies. A test on real data over intrusions in the Goiás
-Alkaline Province, Brazil, retrieved sphere-like sources suggesting three-
-dimensional bodies.
+Alkaline Province, Brazil, retrieved sphere-like sources suggesting
+three-dimensional bodies.

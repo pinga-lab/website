@@ -6,9 +6,18 @@ pdf: paper-quadrilatero2-2016.pdf
 journal: Journal of Applied Geophysics
 doi: 10.1016/j.jappgeo.2016.04.011
 citation: "Carlos, D. U., L. Uieda, and V. C. F. Barbosa (2016), How two gravity-gradient inversion methods can be used to reveal different geologic features of ore deposit — A case study from the Quadrilátero Ferrífero (Brazil), Journal of Applied Geophysics, doi:10.1016/j.jappgeo.2016.04.011."
+related_thesis: carlos-phd
+related_papers: paper-planting-anomalous-densities-2012,paper-quadrilatero-2014
 layout: publication
 ---
 
+# Open-source implementation
+
+This paper uses the planting inversion proposed in
+[/papers/paper-planting-anomalous-densities-2012].
+We used the implementation in the open-source
+[Fatiando a Terra](http://www.fatiando.org) Python library
+(the `fatiando.gravmag.harvester` module).
 
 # Abstract
 

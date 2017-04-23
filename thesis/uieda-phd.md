@@ -8,16 +8,10 @@ repository: leouieda/phd-thesis
 institution: Observatório Nacional
 pdf: uieda-phd.pdf
 level: PhD
+sucupira: 3627205
+related_papers: paper-tesseroids-2016,paper-moho-inversion-tesseroids-2016
 layout: publication
 ---
-
-# About
-
-This thesis is a collection of the papers:
-
-* [/papers/paper-tesseroids-2016]
-* [Modeling the Earth with Fatiando a Terra](http://www.leouieda.com/talks/scipy2013.html)
-* [/papers/paper-moho-inversion-tesseroids-2016]
 
 # Defense slides
 

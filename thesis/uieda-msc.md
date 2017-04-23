@@ -8,13 +8,9 @@ repository: pinga-lab/paper-planting-densities
 institution: Observatório Nacional
 pdf: uieda-msc.pdf
 level: MSc
+related_papers: paper-planting-anomalous-densities-2012
 layout: publication
 ---
-
-# About
-
-This thesis is the first draft of the paper
-[/papers/paper-planting-anomalous-densities-2012].
 
 # Defense slides
 
