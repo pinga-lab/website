@@ -4,6 +4,7 @@ date: 2017-05-01
 author: marlon, barbosa
 repository: pinga-lab/paper-monogenic-signal
 journal: Geophysics
+pdf: monogenic-signal-python.pdf
 doi: 10.1190/GEO2016-0099.1
 citation: "Hidalgo-Gato, M., and V. Barbosa (2017), The monogenic signal of potential-field data: A Python implementation, Geophysics, F9–F14, doi:10.1190/geo2016-0099.1."
 related_papers: paper-monogenic-2015
