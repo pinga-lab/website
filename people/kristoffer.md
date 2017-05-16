@@ -22,11 +22,11 @@ PhD Student in Geophysics at Observatório Nacional, Brazil
 
 # Education
 
-I graduated in Physics at Rio de Janeiro Federal University (UFRJ) and concluded
-the master's degree at Fluminense Federal University (UFF) in Marine Geology and
-Geophysics defending the thesis entitled "Estudo de Iluminação Sísmica pelo
-Método de Modelagem por Rotação de Fase Mais Interpolação". I am currently a PhD
-student at Observatório Nacional (ON) researching on modelling and inversion of
-Potential Fields and Geodesy.
+I have a bachelor degree in Physics at Rio de Janeiro Federal University (UFRJ)
+and concluded the master's degree at Fluminense Federal University (UFF) in
+Marine Geology and Geophysics defending the thesis entitled "Estudo de
+Iluminação Sísmica pelo Método de Modelagem por Rotação de Fase Mais
+Interpolação". I am currently a PhD student at National Observatory (ON)
+researching on modelling and inversion of Potential Fields and Geodesy.
 
 
