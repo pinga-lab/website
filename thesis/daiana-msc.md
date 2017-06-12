@@ -4,6 +4,7 @@ date: 2014-08-28
 period: 2012-2014
 author: daiana
 advisor: oliveira-jr
+coadvisor: barbosa
 institution: Observatório Nacional
 pdf: daiana-msc.pdf
 level: MSc
