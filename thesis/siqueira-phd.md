@@ -4,11 +4,13 @@ date: 2016-10-21
 period: 2013-2016
 author: siqueira
 advisor: barbosa
+coadvisor: oliveira-jr
 institution: Observatório Nacional
 pdf: siqueira-phd.pdf
 level: PhD
 sucupira: 4216876
 layout: publication
+related_papers: paper-fast-iterative-eqlayer-grav-2017
 ---
 
 
