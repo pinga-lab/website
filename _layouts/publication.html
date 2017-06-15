@@ -1,5 +1,5 @@
 {% extends "page.html" %}
-{% from "utils.html" import fa, ai, author_list%}
+{% from "utils.html" import fa, ai, author_list %}
 
 
 {% block content_title %}
@@ -69,10 +69,15 @@
                     </li>
                 {% endif %}
                 {% if this.advisor is defined %}
-                    {% set advisor = site.reflinks["/people/" ~ this.advisor] %}
                     <li class="list-group-item">
                         <i class="fa fa-graduation-cap fa-fw"></i> Advisor:
-                        <a href="{{ advisor.url }}">{{ advisor.title }}</a>
+                        {{ author_list(this.advisor, site, link=True) }}
+                    </li>
+                {% endif %}
+                {% if this.coadvisor is defined %}
+                    <li class="list-group-item">
+                        <i class="fa fa-graduation-cap fa-fw"></i> Co-advisor:
+                        {{ author_list(this.coadvisor, site, link=True) }}
                     </li>
                 {% endif %}
                 {% if this.repository is defined %}
