@@ -5,7 +5,7 @@ layout: publication
 date: 2017-04-21
 journal: Geoscientific Model Development (GMD)
 repository: pinga-lab/magnetic-ellipsoid
-pdf: paper-ellipsoids-2017.pdf
+pdf: magnetic-ellipsoid.pdf
 doi: 10.5194/gmd-2017-44
 related_thesis: tomazella-msc
 citation: "Tomazella, D. T. and Oliveira Jr., V. C.: Ellipsoids (v1.0): 3D Magnetic modelling of ellipsoidal bodies, Geosci. Model Dev. Discuss., https://doi.org/10.5194/gmd-2017-44, in review, 2017."
@@ -16,17 +16,21 @@ oa: true
 # About
 
 Ellipsoids are the only bodies for which the self-demagnetization can be
-treated analytically. this property is particularly useful for modelling
-compact orebodies having high susceptibility. Here, we present a review
-of the magnetic modelling of ellipsoids, propose an alternative way of
-determining the isotropic susceptibility above which the self-demagnetization
-must be taken into consideration, as well as provide a set of routines to model
-the magnetic field produced by ellipsoids.
-All the code developed for generating the results presented in the paper,
-as well as the code developed for generating additional numerical simulations,
-can be found at the online repository https://github.com/pinga-lab/magnetic-ellipsoid.
-The paper is under review for the journal Geoscientific Model Development (GMD) and
-can be freely accessed at http://www.geosci-model-dev-discuss.net/gmd-2017-44/#discussion.
+treated analytically. This property is particularly useful for modelling
+compact ore bodies having high susceptibility. Here, we present a review of the
+magnetic modelling of ellipsoids, propose an alternative way of determining the
+isotropic susceptibility above which the self-demagnetization must be taken
+into consideration, as well as provide a set of routines to model the magnetic
+field produced by ellipsoids.
+
+All the code developed for generating the results presented in the paper, as
+well as the code developed for generating additional numerical simulations, can
+be found at the online
+[Github repository](https://github.com/pinga-lab/magnetic-ellipsoid).
+
+The paper is under review for the journal Geoscientific Model Development (GMD)
+and can be freely accessed at
+[the journal website](http://www.geosci-model-dev-discuss.net/gmd-2017-44/#discussion).
 
 
 # Abstract
