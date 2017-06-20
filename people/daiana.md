@@ -5,6 +5,7 @@ lattes: http://lattes.cnpq.br/7941053288321760
 picture: daiana.jpg
 position: MSc Student
 advisor: oliveira-jr
+coadvisor: barbosa
 period: 2012-2014
 institution: Observatório Nacional
 location: Rio de Janeiro, Brazil
