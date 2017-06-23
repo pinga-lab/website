@@ -7,6 +7,7 @@ journal: Geophysics
 doi: 10.1190/geo2012-0515.1
 supplement: 10.6084/m9.figshare.649433
 pdf: paper-euler-plateau-2013.pdf
+related_thesis: melo-msc
 citation: Melo, F. F., V. C. F. Barbosa, L. Uieda, V. C. Oliveira Jr, and J. B. C. Silva (2013), Estimating the nature and the horizontal and vertical positions of 3D magnetic sources using Euler deconvolution, Geophysics, 78(6), J87-J98, doi:10.1190/geo2012-0515.1
 ---
 

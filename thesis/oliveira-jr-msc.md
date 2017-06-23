@@ -7,6 +7,7 @@ advisor: barbosa
 institution: Observatório Nacional
 pdf: oliveira-jr-msc.pdf
 level: MSc
+related_papers: paper-radial3d-2011
 layout: publication
 ---
 
@@ -22,28 +23,28 @@ polygon. The horizontal coordinates of the polygon vertices approximately
 represent the edges of horizontal depth slices of the 3D geologic source. The
 polygon vertices of each prism are described by polar coordinates with an
 unknown origin within the prism. Our method estimates the radii associated with
-the vertices of each polygon for a fixed number of equally spaced angles from 0
-o to 360 o and the horizontal Cartesian coordinates of the unknown origin.  By
-estimating these parameters from gravity data, we retrieve a set of vertically
-stacked prisms with polygonal horizontal sections that represents a set of
-juxtaposed horizontal depth slices of the estimated source and approximates the
-3D source's geometry. To obtain stable estimates we impose constraints on the
-source shape. The judicious use of first-order Tikhonov regularization on
-either all or a few parameters allows estimating both vertical and inclined
-sources whose shapes can be isometric or anisometric. The estimated solution,
-despite being stable and fitting the data, will depend on the maximum depth
-assumed for the set of juxtaposed 3D prisms. To reduce the class of possible
-solutions compatible with the gravity anomaly and the constraints, we use the
-criterion based on data-misfit measure and the estimated total-anomalous mass
-computed along successive inversions that use different tentative maximum
-depths for the set of assumed juxtaposed 3D prisms. In this criterion we
-plotted the curve of estimated total-anomalous mass w versus data-misfit
-measures for the range of different tentative maximum depths considered. The
-tentative value for the maximum depth producing the smallest value of
-data-misfit measure in the curve w x s is the best estimate of the true (or
-minimum) depth to the bottom of the source, depending on whether the true
-source produces a gravity anomaly that is able (or unable) to resolve it. This
-criterion was deduced theoretically from Gauss’ theorem. Our tests with
+the vertices of each polygon for a fixed number of equally spaced angles from
+0<sup>o</sup> to 360<sup>o</sup> and the horizontal Cartesian coordinates of
+the unknown origin.  By estimating these parameters from gravity data, we
+retrieve a set of vertically stacked prisms with polygonal horizontal sections
+that represents a set of juxtaposed horizontal depth slices of the estimated
+source and approximates the 3D source's geometry. To obtain stable estimates we
+impose constraints on the source shape. The judicious use of first-order
+Tikhonov regularization on either all or a few parameters allows estimating
+both vertical and inclined sources whose shapes can be isometric or
+anisometric. The estimated solution, despite being stable and fitting the data,
+will depend on the maximum depth assumed for the set of juxtaposed 3D prisms.
+To reduce the class of possible solutions compatible with the gravity anomaly
+and the constraints, we use the criterion based on data-misfit measure and the
+estimated total-anomalous mass computed along successive inversions that use
+different tentative maximum depths for the set of assumed juxtaposed 3D prisms.
+In this criterion we plotted the curve of estimated total-anomalous mass w
+versus data-misfit measures for the range of different tentative maximum depths
+considered. The tentative value for the maximum depth producing the smallest
+value of data-misfit measure in the curve w x s is the best estimate of the
+true (or minimum) depth to the bottom of the source, depending on whether the
+true source produces a gravity anomaly that is able (or unable) to resolve it.
+This criterion was deduced theoretically from Gauss’ theorem. Our tests with
 synthetic data shows that the correct depth-to-bottom estimate of the source is
 obtained if the smallest value of s on the curve w x s is well-defined;
 otherwise this criterion provides the lower bound estimate of the bottom's

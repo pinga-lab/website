@@ -64,10 +64,15 @@ Optional:
     pdf: paper-tle.pdf
     oa: true
     inreview: true
+    related_papers: paper-polynomial-eqlayer-2013,paper-radial3d-gradients-2013
+    related_thesis: oliveira-jr-phd
 
 * An entry with `oa: true` will be marked as open-acess.
 * `inreview: true` will mark the entry as under peer-review (unpublished).
 * `pdf` should be the name of PDF file in the `pdf` folder
+* `related_papers` should be a comma-separated list (**no spaces**) of paper
+  IDs that are related to this research.
+* `related_thesis` the same as `related_papers` but for thesis.
 
 
 ## Adding a new member
@@ -134,18 +139,29 @@ Required:
     institution: Observatório Nacional
     level: PhD
     pdf: uieda-phd.pdf
+    sucupira: 154585
     layout: publication
 
 * `author` should be your author ids. The id is the name of the authors
   file in the `people` folder.
 * `advisor` should be the author id of the thesis advisor.
 * `level` should be one of: `PhD`, `MSc`, or `Undergraduate`.
+* `sucupira` is the ID of your thesis on the [Sucupira
+  platform](https://sucupira.capes.gov.br). You can get the ID by search for
+  your thesis [here](https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/listaTrabalhoConclusao.jsf),
+  then get the ID number from the end of the link to your thesis. For example,
+  the ID for the link
+  `https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=3627205`
+  is `3627205`.
 
 Optional:
 
     repository: leouieda/phd-thesis
     doi: 10.6084/m9.figshare.923450
+    related_papers: paper-polynomial-eqlayer-2013,paper-radial3d-gradients-2013
+    related_thesis: oliveira-jr-phd
 
+* `related_papers` and `related_thesis` are the same as for a paper.
 
 ## Automatic deploy with TravisCI
 

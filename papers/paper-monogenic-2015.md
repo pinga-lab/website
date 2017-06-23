@@ -6,6 +6,8 @@ pdf: paper-monogenic-2015.pdf
 journal: Geophysics
 doi: 10.1190/GEO2015-0025.1
 citation: "Hidalgo-Gato, M., and V. Barbosa (2015), Edge detection of potential-field sources using scale-space monogenic signal: Fundamental principles, GEOPHYSICS, 80(5), J27-J36, doi:10.1190/geo2015-0025.1."
+related_thesis: marlon-msc
+related_papers: monogenic-signal-python
 layout: publication
 ---
 

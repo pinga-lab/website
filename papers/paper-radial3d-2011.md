@@ -6,6 +6,8 @@ pdf: paper-radial3d-2011.pdf
 journal: Geophysical Journal International
 doi: 10.1111/j.1365-246X.2011.05172.x
 citation: "Oliveira Jr, V. C., V. C. F. Barbosa, and J. B. C. Silva (2011), Source geometry estimation using the mass excess criterion to constrain 3-D radial inversion of gravity data, Geophysical Journal International, 187(2), 754-772, doi:10.1111/j.1365-246X.2011.05172.x.  "
+related_thesis: oliveira-jr-msc
+related_papers: paper-radial3d-gradients-2013
 layout: publication
 ---
 

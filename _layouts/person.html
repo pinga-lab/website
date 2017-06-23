@@ -1,5 +1,5 @@
 {% extends "publication.html" %}
-{% from "utils.html" import fa, ai %}
+{% from "utils.html" import fa, ai, author_list %}
 
 {% block content_title %}
     <div class="row">
@@ -43,10 +43,16 @@
     {% endif %}
 
     {% if this.advisor is defined %}
-        {% set advisor = site.reflinks["/people/" ~ this.advisor] %}
         <li class="list-group-item">
             <i class="fa fa-graduation-cap fa-fw"></i> Advisor:
-            <a href="{{ advisor.url }}">{{ advisor.title }}</a>
+            {{ author_list(this.advisor, site, link=True) }}
+        </li>
+    {% endif %}
+
+    {% if this.coadvisor is defined %}
+        <li class="list-group-item">
+            <i class="fa fa-graduation-cap fa-fw"></i> Co-advisor:
+            {{ author_list(this.coadvisor, site, link=True) }}
         </li>
     {% endif %}
 
@@ -167,7 +173,9 @@
            they are empty #}
 
         {% set students = site.reflinks["/people"].content|selectattr("advisor", "defined")|reverse|list %}
-        {% set mine = students|selectattr("advisor", "equalto", this.components[-1])|list %}
+        {% set mine_ad = students|selectattr("advisor", "equalto", this.components[-1])|list %}
+        {% set mine_co = students|selectattr("coadvisor", "defined")|selectattr("coadvisor", "equalto", this.components[-1])|list %}
+        {% set mine = mine_ad + mine_co %}
 
         {% set current = mine|rejectattr("former", "defined")|list %}
         {% if current %}

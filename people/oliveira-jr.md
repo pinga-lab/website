@@ -30,7 +30,7 @@ Methods.
 After obtaining my undergraduate degree in Geophysics at the Instituto de
 Astronomia, Geofísica e Ciências Atmosféricas da Universidade de São Paulo
 (IAG-USP), I received a
-[master's degree in Geophysics at Observatório
+[master degree in Geophysics at Observatório
 Nacional][/thesis/oliveira-jr-msc]
 where I subsequently obtained a
 [PhD degree][/thesis/oliveira-jr-phd].

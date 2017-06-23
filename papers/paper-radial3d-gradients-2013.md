@@ -6,6 +6,8 @@ pdf: paper-radial3d-gradients-2013.pdf
 journal: Geophysical Journal International
 doi: 10.1093/gji/ggt307
 citation: "Oliveira Jr, V. C., and V. C. F. Barbosa (2013), 3-D radial gravity gradient inversion, Geophysical Journal International, 195(2), 883-902, doi:10.1093/gji/ggt307.  "
+related_thesis: oliveira-jr-phd
+related_papers: paper-radial3d-2011
 layout: publication
 ---
 
