@@ -2,8 +2,6 @@
 title: Kristoffer A. Teixeira Hallam
 date: 2017-04-19
 lattes: http://lattes.cnpq.br/1185423367238423
-researchgate: ----
-orcid: ----
 picture: kristoffer.jpg
 email: kristoffer.hallam@gmail.com
 email2: kristoffer@on.br
