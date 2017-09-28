@@ -6,7 +6,7 @@ researchgate: https://www.researchgate.net/profile/Diego_Tomazella
 picture: diego.jpg
 email: diego.takahashi@gmail.com
 github: DiegoTaka
-position: Phd Student
+position: PhD Student
 advisor: oliveira-jr
 period: 2017-Present
 institution: Observatório Nacional
@@ -16,10 +16,10 @@ layout: person
 
 # About
 
-Phd Student in Geophysics at Observatório Nacional, Brazil
+PhD Student in Geophysics at Observatório Nacional, Brazil
 
 # Education
 
-I have a bachelor degree in Geophysics at São Paulo University (USP) and a Master's degree in Geophysics at Observatório Nacional.
-I'm currently taking a Geophysics Phd's degree at National Observatory (ON) in the Potential Fields area. I have interest in modelling and inversion in Geophysics problems.
+I have a Bachelor degree in Geophysics at São Paulo University (USP) and a Master's degree in Geophysics at Observatório Nacional.
+I'm currently taking a Geophysics PhD's degree at National Observatory (ON) in the Potential Fields area. I have interest in modelling and inversion in Geophysics problems.
 
