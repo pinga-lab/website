@@ -1,14 +1,14 @@
 ---
 title: "Ellipsoids (v1.0): 3D Magnetic modelling of ellipsoidal bodies"
-author: tomazella, oliveira-jr
+author: takahashi, oliveira-jr
 layout: publication
 date: 2017-04-21
 journal: Geoscientific Model Development (GMD)
 repository: pinga-lab/magnetic-ellipsoid
 pdf: magnetic-ellipsoid.pdf
 doi: 10.5194/gmd-2017-44
-related_thesis: tomazella-msc
-citation: "Tomazella, D. T. and Oliveira Jr., V. C.: Ellipsoids (v1.0): 3D Magnetic modelling of ellipsoidal bodies, Geosci. Model Dev. Discuss., https://doi.org/10.5194/gmd-2017-44, in review, 2017."
+related_thesis: takahashi-msc
+citation: "Takahashi, D. and Oliveira Jr., V. C.: Ellipsoids (v1.0): 3D Magnetic modelling of ellipsoidal bodies, Geosci. Model Dev. Discuss., https://doi.org/10.5194/gmd-2017-44, in review, 2017."
 inreview: true
 oa: true
 ---
