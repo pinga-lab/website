@@ -178,7 +178,8 @@ footer a:hover {
 }
 
 .people-box p {
-    font-size: 14pt;
+    font-size: 12pt;
+    color: #999999;
 }
 
 .people-box h2 {
