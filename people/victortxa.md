@@ -5,8 +5,9 @@ lattes: http://lattes.cnpq.br/1873679068917169
 github: victortxa
 institution: Universidade do Estado do Rio de Janeiro
 location: Rio de Janeiro, Brasil
-position: Qualitec Scholarship technician
-period: 2014-Present
+position: Technician
+period: 2014-2018
+former: true
 layout: person
 ---
 

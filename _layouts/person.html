@@ -168,15 +168,11 @@
         </ul>
     {% endif %}
 
-    {% if this.position in ["Researcher", "Professor"] %}
-        {# Convert generators to lists so that they can used again and test if
-           they are empty #}
-
-        {% set students = site.reflinks["/people"].content|selectattr("advisor", "defined")|reverse|list %}
-        {% set mine_ad = students|selectattr("advisor", "equalto", this.components[-1])|list %}
-        {% set mine_co = students|selectattr("coadvisor", "defined")|selectattr("coadvisor", "equalto", this.components[-1])|list %}
-        {% set mine = mine_ad + mine_co %}
-
+    {% set students = site.reflinks["/people"].content|selectattr("advisor", "defined")|reverse|list %}
+    {% set mine_ad = students|selectattr("advisor", "equalto", this.components[-1])|list %}
+    {% set mine_co = students|selectattr("coadvisor", "defined")|selectattr("coadvisor", "equalto", this.components[-1])|list %}
+    {% set mine = mine_ad + mine_co %}
+    {% if mine %}
         {% set current = mine|rejectattr("former", "defined")|list %}
         {% if current %}
             {{ list_students(current, "Current students") }}

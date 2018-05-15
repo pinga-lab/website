@@ -1,21 +1,17 @@
 {% extends "page.html" %}
 
 
-{% macro render_person(person, position=True, institution=False) -%}
+{% macro render_person(person) -%}
+<a href="{{person.url}}">
     <div class="people-box">
         {% if person.picture is defined %}
             <img class="img-circle" src="/images/pic/{{person.picture}}"></img>
         {% else %}
-            <img class="img-circle picture" src="/images/pic/misc.png"></img>
+            <img class="img-circle" src="/images/pic/misc.png"></img>
         {% endif %}
-        <a href="{{person.url}}"><h3>{{person.title}}</h3></a>
-        {% if position %}
-            <p>{{ person.position }}</p>
-        {% endif %}
-        {% if institution %}
-            <p>{{ person.institution }}</p>
-        {% endif %}
-    </div>
+        <h3>{{person.title}}</h3>
+        <p> {{ person.position }} <br> {{ person.institution }} </p>
+    </div></a>
 {%- endmacro %}
 
 
@@ -23,26 +19,9 @@
 
     {{ super() }}
 
-    <h2>Professors</h2>
+    <h2>Current members</h2>
 
-    {% set profs = this.content|selectattr("position", "equalto", "Professor")|list + this.content|selectattr("position", "equalto", "Researcher")|list %}
-
-    {% for row in profs|rejectattr("former", "defined")|sort(attribute='date')|batch(3) %}
-        <div class="row">
-        {% for person in row %}
-            <div class="col-sm-4 col-md-4">
-                {{ render_person(person, position=False, institution=True) }}
-            </div>
-        {% endfor %}
-        </div>
-    {% endfor %}
-
-    <hr>
-    <h2>Students</h2>
-
-    {% set students = this.content|rejectattr("position", "equalto", "Professor")|rejectattr("position", "equalto", "Researcher") %}
-
-    {% for row in students|rejectattr("former", "defined")|sort(attribute='date')|batch(3) %}
+    {% for row in this.content|rejectattr("former", "defined")|sort(attribute='date')|batch(3) %}
         <div class="row">
         {% for person in row %}
             <div class="col-sm-4 col-md-4">

@@ -5,9 +5,10 @@ lattes: http://lattes.cnpq.br/5860438547039334
 picture: riguete.jpg
 position: Undergraduate student
 advisor: uieda
-period: 2015-Present
+period: 2015-2017
 institution: Universidade do Estado do Rio de Janeiro
 location: Rio de Janeiro, Brazil
+former: true
 layout: person
 ---
 

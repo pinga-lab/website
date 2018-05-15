@@ -7,9 +7,10 @@ picture: gatts.jpg
 <!--github: -->
 position: Undergraduate student
 advisor: uieda
-period: 2016-Present
+period: 2016-2017
 institution: Universidade do Estado do Rio de Janeiro
 location: Rio de Janeiro, Brazil
+former: true
 layout: person
 ---
 
