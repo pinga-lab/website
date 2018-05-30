@@ -145,6 +145,9 @@
                 <li><i class="fa-li fa fa-file-text-o fa-fw"></i>
                     <a href="{{ paper.url }}">{{ paper.title }}</a>
                     ({{ paper.date.year }})
+                    {% if paper.inreview is defined and paper.inreview %}
+                        <span class="label label-warning">under review</span>
+                    {% endif %}
                 </li>
             {% endfor %}
         </ul>

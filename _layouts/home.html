@@ -46,6 +46,9 @@
             <li><i class="fa-li fa fa-file-text-o fa-fw"></i>
                 <a href="{{ article.url }}">{{ article.title }}</a>
                 ({{ article.date.year }})
+                {% if article.inreview is defined and article.inreview %}
+                    <span class="label label-warning">under review</span>
+                {% endif %}
             </li>
         {% endfor %}
         </ul>
