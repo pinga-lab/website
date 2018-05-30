@@ -27,10 +27,8 @@
 
 {% if this.inreview is defined and this.inreview %}
     <div class="alert alert-warning">
-        <strong>
-        This article is unpublished and is currently undergoing
-        peer-review.
-        </strong>
+        This article is currently <strong>undergoing peer-review</strong>
+        at <em>{{ this.journal }}</em>.
     </div>
 {% endif %}
 
