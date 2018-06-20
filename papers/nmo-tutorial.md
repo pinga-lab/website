@@ -15,7 +15,7 @@ layout: publication
 # About
 
 *This is a part of The Leading Edge [tutorials
-series](https://dx.doi.org/10.1190/tle35020190.1).
+series](https://doi.org/10.1190/tle35020190.1).
 All tutorials are open-access and include open-source code examples.*
 
 The manuscript was written in [Authorea](https://www.authorea.com).

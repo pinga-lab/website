@@ -51,7 +51,7 @@ This article is protected by copyright. All rights reserved.
               title = {Estimating the magnetization distribution within rectangular rock samples},
               journal = {Geochemistry, Geophysics, Geosystems},
               issn = {1525-2027},
-              url = {http://dx.doi.org/10.1002/2016GC006329},
+              url = {https://doi.org/10.1002/2016GC006329},
               doi = {10.1002/2016GC006329},
               pages = {n/a--n/a},
               keywords = {Magnetic anomalies: modeling and interpretation, Instruments and techniques, Magnetostratigraphy, Computational models, algorithms, Inverse theory, magnetic anomalies, rock and mineral magnetism, instruments and techniques, paleomagnetism, magnetic inversion},
