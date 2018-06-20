@@ -90,7 +90,7 @@
                     <li class="list-group-item">
                         {{ fa("paperclip", "fa-fw", "Supplementary material") }}
                         Supplement:
-                        <a href="http://dx.doi.org/{{this.supplement}}">{{this.supplement}}</a>
+                        <a href="https://doi.org/{{this.supplement}}">{{this.supplement}}</a>
                     </li>
                 {% endif %}
                 {% if this.sucupira is defined %}
@@ -110,7 +110,7 @@
                 {% if this.doi is defined %}
                     <li class="list-group-item">
                         {{ fa("external-link", "fa-fw", "DOI link to publisher") }}
-                        doi: <a href="http://dx.doi.org/{{this.doi}}">{{
+                        doi: <a href="https://doi.org/{{this.doi}}">{{
                             this.doi}}</a>
                     </li>
                 {% endif %}
