@@ -6,7 +6,7 @@ date: 2019-04-05
 journal: Sensors
 doi: 10.3390/s19071636
 citation: "Araujo, J., A. L. A. Reis, V. C. Oliveira Jr., A. F. Santos, C. Luz-Lima, E. Yokoyama, L. A. F. Mendoza, J. M. B. Pereira and A. C. Bruno (2019). Characterizing Complex Mineral Structures in Thin Sections of Geological Samples with a Scanning Hall Effect Microscope. Sensors, 19(7), 1636. doi: 10.3390/s19071636"
-related-papers: paper-magnetization-rock-sample-2016
+related_papers: paper-magnetization-rock-sample-2016
 inreview: false
 alm: true
 oa: true
