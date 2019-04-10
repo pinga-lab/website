@@ -9,6 +9,7 @@ email2: leonardovital@on.br
 github: leobvital
 position: PhD Student
 advisor: oliveira-jr
+coadvisor: barbosa
 period: 2016-Present
 institution: Observatório Nacional
 location: Rio de Janeiro, Brasil
