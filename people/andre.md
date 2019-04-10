@@ -9,6 +9,7 @@ email: reisandreluis@gmail.com
 github: andrelreis
 position: PhD Student
 advisor: oliveira-jr
+coadvisor: barbosa
 period: 2014-Present
 institution: Observatório Nacional
 location: Rio de Janeiro, Brazil
@@ -25,5 +26,3 @@ I'm graduated on Physics at Rio de Janeiro State University (UERJ) and I did a
 master's degree at National Observatory (ON).
 Nowadays, I'm a PhD student at ON and I'm interested in modelling and inversion
 of Potential Fields and Paleomagnetism.
-
-
