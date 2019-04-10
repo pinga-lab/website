@@ -107,6 +107,13 @@
                         <a href="/pdf/{{this.pdf}}">{{this.pdf}}</a>
                     </li>
                 {% endif %}
+                {% if this.preprint is defined %}
+                    <li class="list-group-item">
+                        {{ fa("file-pdf-o", "fa-fw", "Preprint PDF") }}
+                        PDF (preprint):
+                        <a href="https://doi.org/{{this.preprint}}">{{ this.preprint}}</a>
+                    </li>
+                {% endif %}
                 {% if this.doi is defined %}
                     <li class="list-group-item">
                         {{ fa("external-link", "fa-fw", "DOI link to publisher") }}
@@ -119,8 +126,13 @@
 
         {% if this.doi is defined %}
             <h2>Article Level Metrics</h2>
-            <div data-badge-details="right" data-badge-type="medium-donut"
-                 data-doi="{{this.doi}}" class="altmetric-embed"></div>
+            <div class="alm">
+                <div data-badge-details="right" data-badge-type="medium-donut" data-doi="{{this.doi}}"  data-condensed="true" class="altmetric-embed"></div>
+            </div>
+            <div class="alm">
+                <span class="__dimensions_badge_embed__" data-doi="{{ this.doi }}" data-legend="always"></span>
+                <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+            </div>
         {% endif %}
 
         {% if this.citation is defined %}
