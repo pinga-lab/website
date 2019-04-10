@@ -8,6 +8,7 @@ email: diego.takahashi@gmail.com
 github: DiegoTaka
 position: PhD Student
 advisor: oliveira-jr
+coadvisor: barbosa
 period: 2017-Present
 institution: Observatório Nacional
 location: Rio de Janeiro, Brazil
@@ -22,4 +23,3 @@ PhD Student in Geophysics at Observatório Nacional, Brazil
 
 I have a Bachelor degree in Geophysics at São Paulo University (USP) and a Master's degree in Geophysics at Observatório Nacional.
 I'm currently taking a Geophysics PhD's degree at National Observatory (ON) in the Potential Fields area. I have interest in modelling and inversion in Geophysics problems.
-
