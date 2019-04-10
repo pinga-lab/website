@@ -51,6 +51,10 @@ p.pub-date-author {
     padding: 0;
 }
 
+.alm {
+    margin-top: 20px;
+}
+
 .altmetric-embed img {
     width: auto; /* Prevent img width=100% in Chrome (makes it stretched) */
 }
