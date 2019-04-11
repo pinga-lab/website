@@ -6,7 +6,7 @@ date: 2017-01-01
 journal: Geophysical Journal International
 repository: pinga-lab/paper-moho-inversion-tesseroids
 supplement: 10.6084/m9.figshare.3987267
-pdf: paper-moho-inversion-tesseroids-2016.pdf
+preprint: 10.31223/osf.io/9ba4m
 doi: 10.1093/gji/ggw390
 citation: "Uieda, L., and V. C. F. Barbosa (2017), Fast nonlinear gravity inversion in spherical coordinates with application to the South American Moho, Geophys. J. Int., 208(1), 162-176, doi:10.1093/gji/ggw390."
 related_thesis: uieda-phd
