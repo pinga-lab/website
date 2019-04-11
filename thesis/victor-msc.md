@@ -4,6 +4,7 @@ date: 2017-03-31
 period: 2014-2017
 author: victor
 advisor: barbosa
+coadvisor: oliveira-jr
 institution: Observatório Nacional
 pdf: victor-msc.pdf
 level: MSc
