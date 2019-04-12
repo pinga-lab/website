@@ -21,11 +21,11 @@ quality of this work, it has been selected for [Geophysics Bright Spots 2018](ht
 # Abstract
 
 In most applications, the Euler deconvolution aims to define the nature (type)
-of the geologic source (i.e., the structural index [SI]) and its depth position.
+of the geologic source (i.e., the structural index \[SI\]) and its depth position.
 However, Euler deconvolution also estimates the horizontal positions of the
 sources and the base level of the magnetic anomaly. To determine the correct SI,
 most authors take advantage of the clustering of depth estimates. We have
-analyzed Euler’s equation to indicate that random variables contaminating the
+analyzed Euler's equation to indicate that random variables contaminating the
 magnetic observations and its gradients affect the base-level estimates if, and
 only if, the SI is not assumed correctly. Grounded on this theoretical analysis
 and assuming a set of tentative SIs, we have developed a new criterion for
@@ -40,7 +40,7 @@ magnetic anomalies are strongly interfering, only the minimum standard deviation
 of the base-level estimates can determine the SI correctly. These tests also
 show that Euler deconvolution does not require that the magnetic data be
 corrected for the regional fields (e.g., International Geomagnetic Reference
-Field [IGRF]). Tests on real data from part of the Goiás Alkaline Province,
+Field \[IGRF\]). Tests on real data from part of the Goiás Alkaline Province,
 Brazil, confirm the potential of the minimum standard deviation of base-level
 estimates in determining the SIs of the sources by applying Euler
 deconvolution either to total-field measurements or to total-field anomaly
