@@ -1,3 +1,4 @@
+---
 title: Santiago Soler
 date: 2017-05-26
 position: PhD Student
@@ -12,3 +13,17 @@ email: santiago.r.soler@gmail.com
 scholar: https://scholar.google.com/citations?user=7OWfWx0AAAAJ&hl=es
 researchgate: https://www.researchgate.net/profile/Santiago_Soler2
 orcid: 0000-0001-9202-5317
+---
+
+# About
+
+I'm a Lic. in Physics graduated at the
+[Universidad Nacional de Rosario](https://www.unr.edu.ar)
+and now PhD Student in Geophysics at the
+[Universidad Nacional de San Juan](https://www.unsj.edu.ar).
+I research on forward and inverse gravity models at the
+[Instituto Geofísico Sismológico Volponi](https://igsv.unsj.edu.ar)
+with the support of a [CONICET](https://www.conicet.gov.ar) scholarship.
+
+I'm also commited to contribute on Free Software projects to
+improve science openness and reproducibility.
