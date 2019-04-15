@@ -5,7 +5,7 @@ lattes: http://lattes.cnpq.br/0391036221142471
 picture: barbosa.jpg
 github: valcris
 email: valcris@on.br
-scholar: http://scholar.google.com.br/citations?user=IujiT0cAAAAJ&hl=en
+scholar: http://scholar.google.com/citations?user=IujiT0cAAAAJ
 researcherid: G-3109-2012
 researchgate: https://www.researchgate.net/profile/Valeria_Barbosa
 orcid: 0000-0002-9767-6044

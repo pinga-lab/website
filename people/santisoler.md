@@ -5,6 +5,7 @@ position: PhD Student
 institution: Instituto Geofísico Sismológico Volponi
 location: San Juan, Argentina
 period: 2017-Present
+advisor: mario
 coadvisor: uieda
 layout: person
 website: https://santisoler.github.io
