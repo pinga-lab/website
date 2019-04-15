@@ -1,9 +1,10 @@
 ---
 title: "Gravitational field calculation in spherical coordinates using variable densities in depth "
 date: 2018-09-21
-author: santiago, agustina, uieda, mario
+author: santisoler, agustina, uieda, mario
 repository: pinga-lab/tesseroid-variable-density
 journal: Geophysical Journal International
+related_papers: paper-tesseroids-2016
 alm: false
 layout: publication
 inreview: true
@@ -12,9 +13,7 @@ inreview: true
 # About
 
 This paper builds upon [/papers/paper-tesseroids-2016] and extends the methodology to
-work for depth-variable densities. 
-Santiago, a PhD student at [Universidad Nacional de San Juan](http://www.unsj.edu.ar/),
-led this project and did most of the work and writing of the paper.
+work for depth-variable densities.
 
 # Abstract
 
