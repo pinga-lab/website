@@ -10,7 +10,7 @@ picture: uieda.jpg
 github: leouieda
 email: leouieda@gmail.com
 email2: uieda@hawaii.edu
-scholar: http://scholar.google.com.br/citations?user=qfmPrUEAAAAJ
+scholar: http://scholar.google.com/citations?user=qfmPrUEAAAAJ
 researcherid: G-3258-2012
 researchgate: https://www.researchgate.net/profile/Leonardo_Uieda
 orcid: 0000-0001-6123-9515

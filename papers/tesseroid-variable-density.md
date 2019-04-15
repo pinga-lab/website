@@ -1,6 +1,6 @@
 ---
 title: "Gravitational field calculation in spherical coordinates using variable densities in depth "
-date: 2018-09-21
+date: 2019-07-01
 author: santisoler, agustina, uieda, mario
 repository: pinga-lab/tesseroid-variable-density
 journal: Geophysical Journal International
