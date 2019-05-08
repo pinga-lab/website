@@ -1,1 +1,3 @@
-urubu==1.2.0
+doctr
+markdown<3
+urubu==1.3.1

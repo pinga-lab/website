@@ -13,7 +13,7 @@ See [CONTRIBUTING.md](https://github.com/pinga-lab/website/blob/master/CONTRIBUT
 
 You'll need to install Urubu and all it's dependencies to build the site. See
 file `requirements.txt` for the complete dependency list. The build works on
-Python 2.7 or Python 3.5.
+Python 2.7 or Python 3.6+.
 
 You can create a conda environment with all required dependencies by running
 `conda env create` in the root of the repository. To activate the environment

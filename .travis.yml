@@ -1,7 +1,8 @@
+# Configuration file for TravisCI
+os: linux
+dist: xenial
 language: python
-
-sudo: false
-
+python: "3.6"
 notifications:
   email: false
 
@@ -11,24 +12,23 @@ branches:
     - master
 
 env:
-  global: # For deploying the site to Github Pages
-    - secure: jzcxV3nJ4VuPZr1tzhrV8NXeo3CZfUJlmU96xhsIXeZ89Ncu0J+yPqfBy6xmk5EDGzCEGYkJkLULm3gAHIodqK8BGGZpvjBVXWoNu+a8eqqIXYI0BKXVEydkusW4oofH041QdGSbmju6nL8UFnhtLwZhfbWJ2YcKI5IONl0yv6w=
+  global:
+    # Doctr deploy key for pinga-lab/pinga-lab.github.io
+    - secure: "Kj83Ut0ivN2FWeA7KHF8p3Wgu0Iy4+om0Xy6Uz3+QGQdVkHLHnRI7e5fluGC33LQ0DArtEeFHM5PwrB9oFT50DR/9ldSIkZPL70nJdnOr8IYK6TlxatiZDoCkeDGQDEoYYSTCZMnMokJJdR9HfrW66oppaT7WfyN18BtvfDzH4k="
 
-before_install:
-  # Get Miniconda from Continuum
-  - wget http://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
-  - chmod +x miniconda.sh
-  - ./miniconda.sh -b
-  - export PATH=/home/travis/miniconda3/bin:$PATH
-  # Update conda itself
-  - conda update --yes conda
-
+# Setup the build environment
 install:
-  - conda env create
-  - source activate pinga-site
+  # Install the requirements
+  - pip install -r requirements.txt
 
 script:
+  # Build the website HTML
   - make
 
-after_success:
-  - bash ci-tools/deploy-gh-pages.sh
+deploy:
+  # Push the built HMTL to Github pages
+  - provider: script
+    script: doctr deploy . --built-docs _build --key-path .github_deploy_key.enc --deploy-repo pinga-lab/pinga-lab.github.io
+    skip_cleanup: true
+    on:
+      branch: master

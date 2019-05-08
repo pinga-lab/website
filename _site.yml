@@ -12,9 +12,15 @@ author: Leonardo Uieda
 
 keep_files: [".nojekyll"]
 
-ignore_patterns: ["README.md", "news/test*.md", "environment.yml",
-                  "requirements.txt", "ci-tools", "miniconda.sh",
-                  "CONTRIBUTING.md"]
+ignore_patterns: [
+    "README.md",
+    "CONTRIBUTING.md",
+    ".github_deploy_key.enc",
+    "environment.yml",
+    "requirements.txt",
+    ".images",
+    "news/test*.md",
+    ]
 
 strict_undefined: true
 
