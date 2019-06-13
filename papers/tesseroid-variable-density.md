@@ -9,7 +9,7 @@ preprint: 10.31223/osf.io/3548g
 doi: 10.1093/gji/ggz277
 citation: "Soler, S. R., Pesce, A., Gimenez, M. E., & Uieda, L., 2019. Gravitational field calculation in spherical coordinates using variable densities in depth, Geophysical Journal International, doi:10.1093/gji/ggz277"
 related_papers: paper-tesseroids-2016
-alm: false
+alm: true
 layout: publication
 ---
 
