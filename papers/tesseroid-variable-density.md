@@ -46,5 +46,11 @@ Lastly, we apply this new methodology to model the Neuquén Basin, a foreland ba
 Argentina with a maximum depth of over 5000 m, using an exponential density function.
 
 ![Neuquén Basin application](/images/tesseroid-variable-density-results.jpg)
-*Application of the methodology to the Neuquén basin in the Andes. The sedimentary
-pack was modeled using an exponential density function.*
+*Application of the methodology to the Neuquén Basin, a foreland basin in the
+southern Andes. (a) Topography of the Neuquén Basin and its location in South
+America. (b) Thickness of the sedimentary basin. Inset shows the exponential density
+profile used in the modeling. (c) Resulting vertical gravitational acceleration at
+10 km height modeled by tesseroids with exponential density variation in depth. (d)
+Difference between gravitational acceleration modeled using the exponential density
+profile and a homogeneous density.*
+
