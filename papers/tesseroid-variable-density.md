@@ -1,19 +1,26 @@
 ---
 title: "Gravitational field calculation in spherical coordinates using variable densities in depth "
-date: 2019-07-01
-author: santisoler, agustina, uieda, mario
+date: 2019-06-11
+author: santisoler, agustina, mario, uieda
 repository: pinga-lab/tesseroid-variable-density
 journal: Geophysical Journal International
+supplement: 10.6084/m9.figshare.8239622
+preprint: 10.31223/osf.io/3548g
+doi: 10.1093/gji/ggz277
+citation: "Soler, S. R., Pesce, A., Gimenez, M. E., & Uieda, L., 2019. Gravitational field calculation in spherical coordinates using variable densities in depth, Geophysical Journal International, doi:10.1093/gji/ggz277"
 related_papers: paper-tesseroids-2016
-alm: false
+alm: true
 layout: publication
-inreview: true
 ---
 
 # About
 
 This paper builds upon [/papers/paper-tesseroids-2016] and extends the methodology to
 work for depth-variable densities.
+
+You can **download** the data and source code used to produce all results and figures
+shown in the paper from
+doi:[10.6084/m9.figshare.8239622](https://doi.org/10.6084/m9.figshare.8239622)
 
 # Abstract
 
@@ -39,5 +46,11 @@ Lastly, we apply this new methodology to model the Neuquén Basin, a foreland ba
 Argentina with a maximum depth of over 5000 m, using an exponential density function.
 
 ![Neuquén Basin application](/images/tesseroid-variable-density-results.jpg)
-*Application of the methodology to the Neuquén basin in the Andes. The sedimentary
-pack was modeled using an exponential density function.*
+*Application of the methodology to the Neuquén Basin, a foreland basin in the
+southern Andes. (a) Topography of the Neuquén Basin and its location in South
+America. (b) Thickness of the sedimentary basin. Inset shows the exponential density
+profile used in the modeling. (c) Resulting vertical gravitational acceleration at
+10 km height modeled by tesseroids with exponential density variation in depth. (d)
+Difference between gravitational acceleration modeled using the exponential density
+profile and a homogeneous density.*
+
