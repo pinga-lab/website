@@ -20,11 +20,10 @@ for code and a [DOI](http://en.wikipedia.org/wiki/Digital_object_identifier)
 (from [figshare](http://figshare.com/) or [Zenodo](https://zenodo.org/))
 for data and other supplementary material.
 
-We are based at the
+We are an international *virtual* lab with members based at the
 [Observatório Nacional](http://www.on.br/) in Rio de Janeiro, Brazil,
 and the
-[University of Hawaii at Manoa](http://www.soest.hawaii.edu/GG/) in Honolulu,
-USA.
+[University of Liverpool](https://www.liverpool.ac.uk/earth-ocean-and-ecological-sciences/), United Kingdom.
 
 # Contact
 
