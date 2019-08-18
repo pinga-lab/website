@@ -1,6 +1,7 @@
 ---
 title: Valéria C. F. Barbosa
-date: 2010-01-01
+date: 2010-01-04
+head: true
 lattes: http://lattes.cnpq.br/0391036221142471
 picture: barbosa.jpg
 github: valcris

@@ -27,10 +27,9 @@ and the
 
 # Contact
 
-Interested in joining our research group?
+**Interested in joining our research group?**
 Do you have questions about our research?
 Want to get in touch to start a collaboration?
 
 Leave a comment on our [public chat room](https://gitter.im/pinga-lab/contact)
-or write to one of the [professors and researchers](/people).
-
+or write to one of the [lab heads](/people).

@@ -1,6 +1,7 @@
 ---
 title: Leonardo Uieda
 date: 2010-01-03
+head: true
 institution: University of Liverpool
 location: Liverpool, United Kingdom
 position: Lecturer
