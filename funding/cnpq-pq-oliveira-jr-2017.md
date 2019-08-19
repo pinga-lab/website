@@ -1,9 +1,8 @@
 ---
 title: "Camada equivalente aplicada ao processamento de dados magnéticos"
-author: oliveira-jr, barbosa
+author: oliveira-jr
 date: 2017-01-01
 period: 2017-current
-award: <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1829371">1829371</a>
 agency: Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)
 institution: Observatório Nacional
 related_thesis: marcela-msc

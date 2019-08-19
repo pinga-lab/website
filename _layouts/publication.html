@@ -1,9 +1,16 @@
 {% extends "page.html" %}
-{% from "utils.html" import fa, ai, author_list %}
+{% from "utils.html" import fa, ai, fali, aili, author_list %}
 
+{% block breadcrumbs %}
+    <ol class="breadcrumb">
+        <li><a href="/">Home</a></li>
+        {%- for bc in this.breadcrumbs[:-1] -%}
+            <li><a href="{{ bc.url }}">{{ bc.title }}</a></li>
+        {%- endfor -%}
+    </ol>
+{% endblock %}
 
 {% block content_title %}
-
     <h1>
         {% if this.level is defined %}
             <em>{{ this.level }} thesis</em>:
@@ -19,7 +26,6 @@
         </p>
     {% endif %}
     <hr>
-
 {% endblock %}
 
 
@@ -37,86 +43,95 @@
 
         <h2>Info</h2>
 
-        <ul class="list-group">
+        <ul class="fa-ul">
             {% block left %}
                 {% if this.oa is defined and this.oa %}
-                    <li class="list-group-item active">
-                        {{ ai("open-access", "fa-fw", "Open-access article") }}
+                    <li class=" active">
+                        {{ aili("open-access", "fa-fw", "Open-access article") }}
                         Open-Access
                     </li>
                 {% endif %}
                 {% if this.journal is defined %}
-                    <li class="list-group-item">
-                        {{ fa("book", "fa-fw", "Journal name") }}
+                    <li>
+                        {{ fali("book", "fa-fw", "Journal name") }}
                         Journal: {{this.journal}}
                     </li>
                 {% endif %}
                 {% if this.period is defined %}
-                    <li class="list-group-item">
-                        <i class="fa fa-calendar fa-fw"></i> {{this.period}}
+                    <li>
+                        {{ fali("calendar", "fa-fw", "Duration") }}
+                        {{this.period}}
                     </li>
                 {% endif %}
                 {% if this.institution is defined %}
-                    <li class="list-group-item">
-                        <i class="fa fa-university fa-fw"></i> {{this.institution}}
+                    <li>
+                        {{ fali("university", "fa-fw", "Institution") }}
+                        {{this.institution}}
+                    </li>
+                {% endif %}
+                {% if this.agency is defined %}
+                    <li>
+                        {{ fali("money", "fa-fw", "Funding agency") }}
+                        {{this.agency}}
                     </li>
                 {% endif %}
                 {% if this.location is defined %}
-                    <li class="list-group-item">
-                        <i class="fa fa-map-marker fa-fw"></i> {{this.location}}
+                    <li>
+                        {{ fali("map-marker", "fa-fw", "Location") }}
+                        {{this.location}}
                     </li>
                 {% endif %}
                 {% if this.advisor is defined %}
-                    <li class="list-group-item">
-                        <i class="fa fa-graduation-cap fa-fw"></i> Advisor:
-                        {{ author_list(this.advisor, site, link=True) }}
+                    <li>
+                        {{ fali("graduation-cap", "fa-fw", "Advisor") }}
+                        Advisor: {{ author_list(this.advisor, site, link=True) }}
                     </li>
                 {% endif %}
                 {% if this.coadvisor is defined %}
-                    <li class="list-group-item">
-                        <i class="fa fa-graduation-cap fa-fw"></i> Co-advisor:
-                        {{ author_list(this.coadvisor, site, link=True) }}
+                    <li>
+                        {{ fali("graduation-cap", "fa-fw", "Co-advisor") }}
+                        Co-advisor: {{ author_list(this.coadvisor, site, link=True) }}
                     </li>
                 {% endif %}
                 {% if this.repository is defined %}
-                    <li class="list-group-item">
-                        {{ fa("github-square", "fa-fw", "Github repository") }}
+                    <li>
+                        {{ fali("github-square", "fa-fw", "Github repository") }}
                         Source code:
                         <a href="https://github.com/{{this.repository}}">{{
                             this.repository}}</a>
                     </li>
                 {% endif %}
                 {% if this.supplement is defined %}
-                    <li class="list-group-item">
-                        {{ fa("paperclip", "fa-fw", "Supplementary material") }}
+                    <li>
+                        {{ fali("paperclip", "fa-fw", "Supplementary material") }}
                         Supplement:
                         <a href="https://doi.org/{{this.supplement}}">{{this.supplement}}</a>
                     </li>
                 {% endif %}
                 {% if this.sucupira is defined %}
-                    <li class="list-group-item">
-                        {{ fa("info-circle", "fa-fw", "Additional information") }}
+                    <li>
+                        {{ fali("info-circle", "fa-fw", "Additional information") }}
                         More info:
                         <a href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho={{this.sucupira}}">Sucupira platform</a>
                     </li>
                 {% endif %}
                 {% if this.pdf is defined %}
-                    <li class="list-group-item">
-                        {{ fa("file-pdf-o", "fa-fw", "Paper PDF") }}
+                    <li>
+                        {{ fali("file-pdf-o", "fa-fw", "Paper PDF") }}
                         PDF:
                         <a href="/pdf/{{this.pdf}}">{{this.pdf}}</a>
                     </li>
                 {% endif %}
                 {% if this.preprint is defined %}
-                    <li class="list-group-item">
-                        {{ fa("file-pdf-o", "fa-fw", "Preprint PDF") }}
+                    <li>
+                        {{ fali("file-pdf-o", "fa-fw", "Preprint PDF") }}
                         PDF (preprint):
                         <a href="https://doi.org/{{this.preprint}}">{{ this.preprint}}</a>
                     </li>
                 {% endif %}
                 {% if this.doi is defined %}
-                    <li class="list-group-item">
-                        {{ fa("external-link", "fa-fw", "DOI link to publisher") }}
+                    <li>
+                        {{ fali("external-link", "fa-fw", "DOI link to publisher") }}
                         doi: <a href="https://doi.org/{{this.doi}}">{{
                             this.doi}}</a>
                     </li>

@@ -17,8 +17,13 @@
                     </h3>
                 </a>
                 <p>
-                    ({{grant.period}})
-                    {{ author_list(grant.author, site, link=True) }}
+                    {{grant.period}}
+                    |
+                    PI: {{ author_list(grant.author.split(', ')[0], site, link=True) }}
+                    |
+                    {{ grant.institution }}
+                    |
+                    {{ grant.agency }}
                 </p>
             </div>
         </div>
