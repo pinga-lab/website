@@ -50,6 +50,7 @@ authors:
 menulinks: [
     ['/news', 'News'],
     ['/research', 'Research'],
+    ['/funding', 'Funding'],
     ['/papers', 'Papers'],
     ['/thesis', 'Theses'],
     ['/people', 'People'],

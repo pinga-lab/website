@@ -4,8 +4,16 @@
     <i class="fa fa-{{ name }} {{ class }}" title="{{ title }}"></i>
 {% endmacro %}
 
+{% macro fali(name, class='', title='') %}
+    <i class="fa-li fa fa-{{ name }} {{ class }}" title="{{ title }}"></i>
+{% endmacro %}
+
 {% macro ai(name, class='', title='') %}
     <i class="ai ai-{{ name }} {{ class }}" title="{{ title }}"></i>
+{% endmacro %}
+
+{% macro aili(name, class='', title='') %}
+    <i class="fa-li ai ai-{{ name }} {{ class }}" title="{{ title }}"></i>
 {% endmacro %}
 
 {% macro author_list(authors, site, link=True) %}

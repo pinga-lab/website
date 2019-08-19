@@ -1,5 +1,5 @@
 {% extends "publication.html" %}
-{% from "utils.html" import fa, ai, author_list %}
+{% from "utils.html" import fa, ai, fali, aili, author_list %}
 
 {% block content_title %}
     <div class="row">
@@ -25,104 +25,93 @@
 
 {% block left %}
     {% if this.period is defined %}
-        <li class="list-group-item">
-            <i class="fa fa-calendar fa-fw"></i> {{this.period}}
+        <li>
+            {{ fali("calendar", "fa-fw", "Duration") }}
+            {{this.period}}
         </li>
     {% endif %}
-
     {% if this.institution is defined %}
-        <li class="list-group-item">
-            <i class="fa fa-university fa-fw"></i> {{this.institution}}
+        <li>
+            {{ fali("university", "fa-fw", "Institution") }}
+            {{this.institution}}
         </li>
     {% endif %}
-
     {% if this.location is defined %}
-        <li class="list-group-item">
-            <i class="fa fa-map-marker fa-fw"></i> {{this.location}}
+        <li>
+            {{ fali("map-marker", "fa-fw", "Location") }}
+            {{this.location}}
         </li>
     {% endif %}
-
     {% if this.advisor is defined %}
-        <li class="list-group-item">
-            <i class="fa fa-graduation-cap fa-fw"></i> Advisor:
-            {{ author_list(this.advisor, site, link=True) }}
+        <li>
+            {{ fali("graduation-cap", "fa-fw", "Advisor") }}
+            Advisor: {{ author_list(this.advisor, site, link=True) }}
         </li>
     {% endif %}
-
     {% if this.coadvisor is defined %}
-        <li class="list-group-item">
-            <i class="fa fa-graduation-cap fa-fw"></i> Co-advisor:
-            {{ author_list(this.coadvisor, site, link=True) }}
+        <li>
+            {{ fali("graduation-cap", "fa-fw", "Co-advisor") }}
+            Co-advisor: {{ author_list(this.coadvisor, site, link=True) }}
         </li>
     {% endif %}
-
-    {% if this.researcherid is defined %}
-        <li class="list-group-item">
-            <i class="fa fa-barcode fa-fw"></i>
-            ResearcherID: <a href="http://www.researcherid.com/rid/{{this.researcherid}}">{{this.researcherid}}</a>
-        </li>
-    {% endif %}
-
     {% if this.orcid is defined %}
-        <li class="list-group-item">
-            <i class="ai ai-orcid fa-fw"></i>
+        <li>
+            {{ aili("orcid", "fa-fw", "ORCID") }}
             ORCID: <a href="http://orcid.org/{{this.orcid}}">{{this.orcid}}</a>
         </li>
     {% endif %}
-
+    {% if this.researcherid is defined %}
+        <li>
+            {{ fali("barcode", "fa-fw", "ResearcherID") }}
+            ResearcherID: <a href="http://www.researcherid.com/rid/{{this.researcherid}}">{{this.researcherid}}</a>
+        </li>
+    {% endif %}
     {% if this.impactstory is defined %}
-        <li class="list-group-item">
-            <i class="ai ai-impactstory fa-fw"></i>
+        <li>
+            {{ aili("impactstory", "fa-fw", "ImpactStory") }}
             <a href="https://impactstory.org/u/{{this.impactstory}}">ImpactStory (online impact)</a>
         </li>
     {% endif %}
-
     {% if this.scholar is defined %}
-        <li class="list-group-item">
-            <i class="ai ai-google-scholar fa-fw"></i>
-            <a href="{{this.scholar}}">Google Scholar citations</a>
+        <li>
+            {{ aili("google-scholar", "fa-fw", "Google Scholar") }}
+            <a href="{{this.scholar}}">Google Scholar</a>
         </li>
     {% endif %}
-
     {% if this.lattes is defined %}
-        <li class="list-group-item">
-            <i class="fa fa-file-text fa-fw"></i>
-            <a href="{{this.lattes}}">Currículo Lattes (Brazilian resume)</a>
+        <li>
+            {{ aili("lattes", "fa-fw", "Currículo Lattes") }}
+            <a href="{{this.lattes}}">Currículo Lattes</a>
         </li>
     {% endif %}
-
     {% if this.researchgate is defined %}
-        <li class="list-group-item">
-            <i class="ai ai-researchgate-square fa-fw"></i>
-            <a href="{{this.researchgate}}">Research Gate profile</a>
+        <li>
+            {{ aili("researchgate", "fa-fw", "ResearchGate") }}
+            <a href="{{this.researchgate}}">ResearchGate</a>
         </li>
     {% endif %}
-
     {% if this.github is defined %}
-        <li class="list-group-item">
-            <i class="fa fa-github-square fa-fw"></i>
+        <li>
+            {{ fali("github-square", "fa-fw", "Github") }}
             Github: <a href="http://github.com/{{this.github}}">{{this.github}}</a>
         </li>
     {% endif %}
-
     {% if this.email is defined %}
-        <li class="list-group-item">
-            <i class="fa fa-envelope fa-fw"></i>
+        <li>
+            {{ fali("envelope", "fa-fw", "email") }}
             e-mail{% if this.email2 is defined %} (primary){% endif %}:
             <a href="mailto:{{this.email}}">{{this.email}}</a>
         </li>
     {% endif %}
-
     {% if this.email2 is defined %}
-        <li class="list-group-item">
-            <i class="fa fa-envelope fa-fw"></i>
+        <li>
+            {{ fali("envelope", "fa-fw", "email") }}
             e-mail (secondary): <a href="mailto:{{this.email2}}">{{this.email2}}</a>
         </li>
     {% endif %}
-
     {% if this.website is defined %}
-        <li class="list-group-item">
-            <i class="fa fa-external-link-square fa-fw"></i>
+        <li>
+            {{ fali("external-link-square", "fa-fw", "Personal website") }}
             <a href="{{this.website}}">{{this.website.split("//")[1]}}</a>
         </li>
     {% endif %}
