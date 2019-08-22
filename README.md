@@ -30,6 +30,12 @@ repository.
    [http://127.0.0.1:8000](http://127.0.0.1:8000) to view the site.
    Use `Ctrl+C` to kill the server.
 
+## Adding an image to the Research Highlights section
+
+The carousel on the front page is generated from information in the `_site.yml` file. To
+add a new item, place the image in `images/carousel` and add an entry in to `carousel:`
+in `_site.yml`. **Important:** Images must be in 16:9 aspect ratio with a width of 600
+px.
 
 ## Adding a publication
 
