@@ -53,6 +53,16 @@ magnitude, respectively. Applications to synthetic and real data show that our
 method performs the standard linear transformations of potential-field data
 accurately.
 
+![Figure 6 from the paper](../images/paper-polynomial-eqlayer-2013.jpg)
+*Tests with synthetic magnetic data. (a and b) Simulated noise-corrupted (black lines)
+total-field anomaly at 150 m characterized by short- (region A), mid- (region C), and
+long- (region B) wavelength spectral contents. The predicted total-field anomalies at
+150 m (not shown) are obtained by the estimated PEL using first-order polynomials and
+large (a) and small (b) equivalent-source windows. Color-scale maps in (a and b) show
+the differences between the simulated and predicted total-field anomalies. The
+equivalent-source windows used in (a and b) are projected onto the data set (outlined
+black rectangles). Histograms of the data misfits are shown as insets in (a and b).*
+
 # Bibtex
 
     @article{oliveira2013,

@@ -22,18 +22,6 @@ The module was introduced in
 [version 0.1](http://www.fatiando.org/changelog.html#version-0-1)
 of the library.
 
-# Visualizing the algorithm
-
-The following is an animation of the growth algorithm
-during the inversion of synthetic data.
-The video is available at [figshare](http://figshare.com/):
-[10.6084/m9.figshare.91469](https://doi.org/10.6084/m9.figshare.91469)
-
-<div class="embed-responsive embed-responsive-16by9">
-<iframe src="http://wl.figshare.com/articles/91469/embed?show_title=0"
-width="568" height="481" frameborder="0"></iframe>
-</div>
-
 # Abstract
 
 We have developed a new gravity gradient inversion method for estimating a 3D
@@ -60,6 +48,25 @@ sources are present. Inverting the data from an airborne gravity gradiometry
 survey flown over the iron ore province of Quadrilátero Ferrífero, southeastern
 Brazil, we estimated a compact iron ore body that is in agreement with geologic
 information and previous interpretations.
+
+![Figure 11 from the paper](../images/paper-planting-anomalous-densities-2012.jpg)
+*Inversion results for data from the Quadrilátero Ferrífero, southeastern Brazil. (a-c)
+Perspective views of the estimated density-contrast distribution, where prisms with zero
+density contrast are not shown or shown in gray and prisms with density contrast 1
+g/cm³, corresponding to the iron ore body of the Cauê itabirite, are shown in solid or
+transparent red. The seeds used in the inversion are shown as black prisms.*
+
+# Visualizing the algorithm
+
+The following is an animation of the growth algorithm
+during the inversion of synthetic data.
+The video is available at [figshare](http://figshare.com/):
+[10.6084/m9.figshare.91469](https://doi.org/10.6084/m9.figshare.91469)
+
+<div class="embed-responsive embed-responsive-16by9">
+<iframe src="http://wl.figshare.com/articles/91469/embed?show_title=0"
+width="568" height="481" frameborder="0"></iframe>
+</div>
 
 # Bibtex
 

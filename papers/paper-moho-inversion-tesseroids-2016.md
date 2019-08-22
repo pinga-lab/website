@@ -34,7 +34,7 @@ You can **download** the model results, source code, and input data from
 doi:[10.6084/m9.figshare.3987267](https://doi.org/10.6084/m9.figshare.3987267)
 
 
-![The estimated Moho depth for South America and differences with seismological estimates](https://raw.githubusercontent.com/pinga-lab/paper-moho-inversion-tesseroids/master/model/south-american-moho.png)
+![The estimated Moho depth for South America and differences with seismological estimates](../images/south-american-moho.jpg)
 
 *Figure caption:
 Dotted lines represent the boundaries between major geologic provinces.

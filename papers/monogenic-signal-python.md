@@ -30,3 +30,11 @@ comparison shows that the latter can produce better results as an edge
 detection filter. The implementation of the monogenic signal can be used to
 enhance other geophysical data, such as seismic, ground-penetrating radar,
 gravity, multiple-component gravity gradiometry, and magnetic gradient data.
+
+![Figure 4 from the paper](../images/monogenic-signal-python.jpg)
+*Enhancements of the total-field magnetic anomaly using the (a) local amplitude, (b)
+the local phase, and (c) the local orientation inthe Poisson's scale-space monogenic
+signal. The horizontal dashed lines are the projection in the horizontal plane of the
+hinge line (black),continental oceanic boundary (white), and the edges of the igneous
+intrusion (red) and the dike (gray). The vertical dashed thin lines are the transfer
+zones between displacements in the basement.*

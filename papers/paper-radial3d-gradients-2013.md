@@ -57,6 +57,11 @@ the Vinton salt dome (Louisiana, USA) with a density contrast of
 attains 460 ± 10 m and its shallowest portion is elongated in the
 northeast–southwest direction.
 
+![Figure 14 from the paper](../images/paper-radial3d-gradients-2013.jpg)
+*Perspective views of the simulated salt-dome cap rock (red wire-frame body) with depth
+to the bottom at 460 m and volume 0.366 km³. Perspective views in blue prisms of the (a)
+initial approximation, (b) and (c) estimated body. The estimated body in (b) and (c) is
+obtained by inverting noise-corrupted synthetic data.*
 
 
 # Bibtex

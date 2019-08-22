@@ -5,6 +5,7 @@ date: 2018-10-09
 layout: publication
 journal: Geophysics
 doi: 10.1190/geo2017-0774.1
+pdf: struct-index-euler.pdf
 citation: "Melo, F. F. and V. C. F. Barbosa (2018) Correct structural index in Euler deconvolution via base-level estimates, GEOPHYSICS, 83(6), J87-J98, doi:10.1190/geo2017-0774.1."
 related_thesis: melo-msc
 related_papers: paper-euler-plateau-2013,paper-tle-euler-tutorial-2014
