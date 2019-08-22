@@ -72,6 +72,16 @@ p.pub-date-author {
     text-align: center;
     font-size: 22pt;
     margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.carousel {
+    margin: 40px 0px;
+}
+
+.carousel-caption {
+    background: #00000099;
+    padding: 20px;
 }
 
 .banner-area {

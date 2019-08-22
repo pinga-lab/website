@@ -65,3 +65,8 @@ reflinks:
     site_repo:
         url: https://github.com/pinga-lab/website
         title: pinga-lab/website
+
+carousel:
+  tesseroid-variable-density.jpg: ["Gravitational field calculation in spherical coordinates using variable densities in depth", /papers/tesseroid-variable-density.html]
+  verde.jpg: ["Verde: Processing and gridding spatial data using Green's functions", /papers/verde.html]
+  monogenic-signal.jpg: ["The monogenic signal of potential-field data: A Python implementation", /papers/monogenic-signal-python.html]
