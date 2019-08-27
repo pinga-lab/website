@@ -84,6 +84,12 @@ p.pub-date-author {
     padding: 20px;
 }
 
+.carousel-control .fa-chevron-left,
+.carousel-control .fa-chevron-right {
+    position: absolute;
+    top: 50%;
+}
+
 .banner-area {
     margin-top: 70px;
 }
