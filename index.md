@@ -6,10 +6,8 @@ order: title
 
 # About
 
-We are an international *virtual* lab with members based primarily at the
-[Observatório Nacional](http://www.on.br/) in Rio de Janeiro, Brazil,
-and the
-[University of Liverpool](https://www.liverpool.ac.uk/earth-ocean-and-ecological-sciences/), United Kingdom.
+We are a research group with members based primarily at the
+[Observatório Nacional](http://www.on.br/) in Rio de Janeiro, Brazil.
 
 Our interests range from
 [3D gravity and magnetic inversion][/papers/paper-magnetization-rock-sample-2016],

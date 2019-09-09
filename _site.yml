@@ -4,7 +4,7 @@ title: "<strong>PINGA</strong>lab"
 
 menu_logo: "/images/pinga-logo.png"
 
-description: "An international research group for inverse problems in Geophysics"
+description: "A research group for inverse problems in Geophysics"
 
 banner: "/images/pinga-banner.svg"
 
@@ -48,12 +48,11 @@ authors:
     rguo: Rongwen Guo
 
 menulinks: [
-    ['/news', 'News'],
-    ['/research', 'Research'],
-    ['/funding', 'Funding'],
-    ['/papers', 'Papers'],
-    ['/thesis', 'Theses'],
+    ['/', 'Home'],
     ['/people', 'People'],
+    ['/papers', 'Papers'],
+    ['/funding', 'Funding'],
+    ['/thesis', 'Theses'],
     ['https://github.com/pinga-lab',
      '<i class="fa fa-github fa-lg" title="Github"></i>'],
     ]
