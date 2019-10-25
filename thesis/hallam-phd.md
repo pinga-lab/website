@@ -2,7 +2,7 @@
 title: "Modelagem regional do campo de gravidade utilizando pontos de massa em coordenadas geodésicas"
 date: 2019-03-13
 period: 2016-2019
-author: marcela
+author: kristoffer
 advisor: oliveira-jr
 institution: Observatório Nacional
 pdf: hallam-phd.pdf
