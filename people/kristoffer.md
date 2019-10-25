@@ -6,9 +6,9 @@ picture: kristoffer.jpg
 email: kristoffer.hallam@gmail.com
 email2: kristoffer@on.br
 github: Kristoffer-Hallam
-position: PhD Student
+position: Postdoctoral researcher
 advisor: oliveira-jr
-period: 2015-Present
+period: 2015-2019
 institution: Observatório Nacional
 location: Rio de Janeiro, Brazil
 layout: person
@@ -25,5 +25,3 @@ and concluded the master's degree at Fluminense Federal University (UFF) in
 Marine Geology and Geophysics. I am currently a PhD student at National
 Observatory (ON) researching on modelling and inversion of Potential
 Fields and Geodesy.
-
-
