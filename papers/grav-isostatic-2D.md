@@ -1,38 +1,39 @@
 ---
-title: "Isostatic constraint for 2D gravity inversion on passive rifted margins"
+title: "Isostatic constraint for 2D non-linear gravity inversion on rifted margins"
 author: marcela, oliveira-jr
-date: 2019-04-10
+date: 2019-10-21
 layout: publication
 journal: Geophysics
+doi: 10.1190/geo2018-0772.1
+citation: "Bastos, B. M. S., and Oliveira Jr, V. C. (2019). Isostatic constraint for 2D non-linear gravity inversion on rifted margins. Geophysics. doi:10.1190/geo2018-0772.1."
 related_thesis: marcela-msc
-inreview: true
+inreview: false
 oa: false
 ---
 
 # Abstract
 
-We propose a nonlinear gravity inversion for simultaneously estimating the
+We propose a non-linear gravity inversion for simultaneously estimating the
 basement and Moho geometries, as well as the depth of the reference Moho
-along a profile crossing a passive rifted margin. We approximate the subsurface
-by an interpretation model composed of four layers. The shallowest represents
-water and has constant density contrast. The second has a number of sub-layers
-with constant density contrasts. The complexity of this layer depends on the
-available a priori information at the study area. The third layer represents
-the crust and has a predefined horizontal density variation along the profile.
-Finally, the deepest layer represents the mantle, with constant density contrast.
-Top and base of third layer represent the basement and Moho, respectively.
-The constant depth defining the base of the interpretation model defines the
-reference Moho. To obtain stable solutions, we impose smoothness on basement
-and Moho, force them to be close to previously estimated depths along the
-profile and also impose local isostatic equilibrium. Differently from previous
-methods, we introduce the information of local isostatic equilibrium by imposing
-smoothness on the lithostatic stress exerted at depth. Our method allows deviations
-from isostatic equilibrium along the profile, so that the interpreter can obtain a
-set of candidate models that fit the observed data and exhibit different degrees
-of isostatic equilibrium. Tests with synthetic data show the good performance of
-our method at regions with pronounced crustal thinning, which is typical of
-passive volcanic margins. Results obtained at the Pelotas basin, an example of
-passive volcanic margin at the southern of Brazil, agree with a previous
-interpretation obtained independently by using seismic data. These results
-show that, combined with a priori information, our method is a promising tool
-for interpreting gravity data on passive rifted margins.
+along a profile crossing a passive rifted margin. To obtain stable solutions,
+we impose smoothness on basement and Moho, force them to be close to previously
+estimated depths along the profile and also impose local isostatic equilibrium.
+Differently from previous methods, we introduce the information of local isostatic
+equilibrium by imposing smoothness on the lithostatic stress exerted at depth.
+Our method delimits regions that deviates and those that can be considered in local
+isostatic equilibrium by varying the weight of the isostatic constraint along the profile.
+Besides, it allows controlling the
+degree of equilibrium along the profile, so that the interpreter can obtain a set of
+candidate models that fit the observed data and exhibit different degrees of
+isostatic equilibrium. Our method also differs from earlier studies because it
+attempts to use isostasy for exploring (and not necessarily reducing) the inherent
+ambiguity of gravity methods.
+Tests with synthetic data illustrate the effect of our isostatic constraint on the
+estimated basement and Moho reliefs, specially at regions with pronounced crustal
+thinning, which are typical of passive volcanic margins. Results obtained by
+inverting satellite data over the
+Pelotas basin, an example of passive volcanic margin at the southern of Brazil,
+agree with previous interpretations obtained independently by combining gravity,
+magnetic and seismic data available to the petroleum industry. These results
+show that, combined with a priori information, simple isostatic assumptions can be
+very useful for interpreting gravity data on passive rifted margins.
