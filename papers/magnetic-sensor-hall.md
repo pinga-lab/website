@@ -1,5 +1,5 @@
 ---
-title: "Characterizing Complex Mineral Structures in Thin Sections of Geological Samples with a Scanning Hall Effect Microscope"
+title: "Characterizing complex mineral structures in thin sections of geological samples with a scanning Hall effect microscope"
 author: jaraujo, andre, oliveira-jr, afsantos, cluz-lima, elder, lafmendoza, joaomanoel, acbruno
 layout: publication
 date: 2019-04-05
