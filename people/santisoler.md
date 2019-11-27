@@ -1,10 +1,10 @@
 ---
 title: Santiago Soler
 date: 2017-05-26
+former: true
 position: PhD Student
 institution: Instituto Geofísico Sismológico Volponi
 location: San Juan, Argentina
-period: 2017-Present
 advisor: mario
 coadvisor: uieda
 layout: person
