@@ -66,6 +66,7 @@ reflinks:
         title: pinga-lab/website
 
 carousel:
+  isostatic-grav-2D.jpg: ["Isostatic constraint for 2D non-linear gravity inversion on rifted margins", /papers/grav-isostatic-2D.html]
+  fast-mag-inv-relief.jpg: ["Fast 3D magnetic inversion of a surface relief in the space domain", /papers/fast-mag-inv-relief.html]
   tesseroid-variable-density.jpg: ["Gravitational field calculation in spherical coordinates using variable densities in depth", /papers/tesseroid-variable-density.html]
-  verde.jpg: ["Verde: Processing and gridding spatial data using Green's functions", /papers/verde.html]
-  monogenic-signal.jpg: ["The monogenic signal of potential-field data: A Python implementation", /papers/monogenic-signal-python.html]
+  magnetic-sensor-hall.jpg: ["Characterizing complex mineral structures in thin sections of geological samples with a scanning Hall effect microscope", /papers/magnetic-sensor-hall.html]
