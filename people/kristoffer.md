@@ -25,3 +25,4 @@ concluded the master's degree at Fluminense Federal University (UFF) in
 Marine Geology and Geophysics and a PhD at National
 Observatory (ON) researching on modelling and inversion of Potential
 Fields and Geodesy. I am currently a Postdoctoral researcher at ON.
+
