@@ -5,7 +5,7 @@ period: 2016-2019
 author: kristoffer
 advisor: oliveira-jr
 institution: Observatório Nacional
-pdf: hallam-phd.pdf
+pdf: kristoffer-phd.pdf
 level: PhD
 sucupira: 7744201
 layout: publication

@@ -16,12 +16,12 @@ layout: person
 
 # About
 
-PhD Student in Geophysics at Observatório Nacional, Brazil
+Postdoctoral researcher in Geophysics at Observatório Nacional, Brazil
 
 # Education
 
-I have a bachelor degree in Physics at Rio de Janeiro Federal University (UFRJ)
-and concluded the master's degree at Fluminense Federal University (UFF) in
-Marine Geology and Geophysics. I am currently a PhD student at National
+I have a bachelor degree in Physics at Rio de Janeiro Federal University (UFRJ),
+concluded the master's degree at Fluminense Federal University (UFF) in
+Marine Geology and Geophysics and a PhD at National
 Observatory (ON) researching on modelling and inversion of Potential
-Fields and Geodesy.
+Fields and Geodesy. I am currently a Postdoctoral researcher at ON.
