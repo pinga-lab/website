@@ -46,6 +46,13 @@ authors:
     mkaban: Mikhail K. Kaban
     lchen: Longwei Chen
     rguo: Rongwen Guo
+    aapcorrea: A. A. P. Correa
+    macpacheco: M. A. C. Pacheco
+    fgosoriog: F. G. Osorio G.
+    britoge: G. E. Brito
+    wwraraujo: W. W. R. Araujo
+    tahir: Tahir
+    tdelrosso: T. Del Rosso
 
 menulinks: [
     ['/', 'Home'],
@@ -66,6 +73,7 @@ reflinks:
         title: pinga-lab/website
 
 carousel:
+  hall-sensor-materials.jpg: ["Scanning magnetic microscope using a gradiometric configuration for characterization of rock samples", /papers/sensor-hall-materials.html]
   isostatic-grav-2D.jpg: ["Isostatic constraint for 2D non-linear gravity inversion on rifted margins", /papers/grav-isostatic-2D.html]
   fast-mag-inv-relief.jpg: ["Fast 3D magnetic inversion of a surface relief in the space domain", /papers/fast-mag-inv-relief.html]
   tesseroid-variable-density.jpg: ["Gravitational field calculation in spherical coordinates using variable densities in depth", /papers/tesseroid-variable-density.html]
