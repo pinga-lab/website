@@ -1,11 +1,11 @@
 ---
 title: "Isostatic constraint for 2D non-linear gravity inversion on rifted margins"
 author: marcela, oliveira-jr
-date: 2019-10-21
+date: 2020-01-01
 layout: publication
 journal: Geophysics
 doi: 10.1190/geo2018-0772.1
-citation: "Bastos, B. M. S., and Oliveira Jr, V. C. (2019). Isostatic constraint for 2D non-linear gravity inversion on rifted margins. Geophysics. doi:10.1190/geo2018-0772.1."
+citation: "Bastos, B. M. S., and Oliveira Jr, V. C. (2020). Isostatic constraint for 2D non-linear gravity inversion on rifted margins. Geophysics, 85(1), G17-G34. doi:10.1190/geo2018-0772.1."
 related_thesis: marcela-msc
 inreview: false
 oa: false
