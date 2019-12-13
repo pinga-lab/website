@@ -73,8 +73,8 @@ reflinks:
         title: pinga-lab/website
 
 carousel:
-  hall-sensor-materials.jpg: ["Scanning magnetic microscope using a gradiometric configuration for characterization of rock samples", /papers/sensor-hall-materials.html]
   isostatic-grav-2D.jpg: ["Isostatic constraint for 2D non-linear gravity inversion on rifted margins", /papers/grav-isostatic-2D.html]
+  hall-sensor-materials.jpg: ["Scanning magnetic microscope using a gradiometric configuration for characterization of rock samples", /papers/sensor-hall-materials.html]
   fast-mag-inv-relief.jpg: ["Fast 3D magnetic inversion of a surface relief in the space domain", /papers/fast-mag-inv-relief.html]
   tesseroid-variable-density.jpg: ["Gravitational field calculation in spherical coordinates using variable densities in depth", /papers/tesseroid-variable-density.html]
   magnetic-sensor-hall.jpg: ["Characterizing complex mineral structures in thin sections of geological samples with a scanning Hall effect microscope", /papers/magnetic-sensor-hall.html]
