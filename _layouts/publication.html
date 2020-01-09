@@ -75,6 +75,18 @@
                         {{this.agency}}
                     </li>
                 {% endif %}
+                {% if this.grantname is defined %}
+                    <li>
+                        {{ fali("pencil", "fa-fw", "Grant name") }}
+                        {{this.grantname}}
+                    </li>
+                {% endif %}
+                {% if this.grantid is defined %}
+                    <li>
+                        {{ fali("barcode", "fa-fw", "Grant ID") }}
+                        {{this.grantid}}
+                    </li>
+                {% endif %}
                 {% if this.location is defined %}
                     <li>
                         {{ fali("map-marker", "fa-fw", "Location") }}
