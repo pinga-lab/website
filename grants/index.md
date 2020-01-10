@@ -1,6 +1,6 @@
 ---
-title: Funding
-layout: funding
+title: Grants & Projects
+layout: grants
 order: date
 reverse: true
 ---
