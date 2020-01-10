@@ -58,7 +58,7 @@ menulinks: [
     ['/', 'Home'],
     ['/people', 'People'],
     ['/papers', 'Papers'],
-    ['/funding', 'Funding'],
+    ['/grants', 'Grants & Projects'],
     ['/thesis', 'Theses'],
     ['https://github.com/pinga-lab',
      '<i class="fa fa-github fa-lg" title="Github"></i>'],
