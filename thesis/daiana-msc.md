@@ -10,6 +10,7 @@ pdf: daiana-msc.pdf
 level: MSc
 sucupira: 1334863
 related_papers: paper-mag-dir-2015
+related_grants: faperj-inst-2014-oliveira-jr,cnpq-universal-2014-oliveira-jr
 layout: publication
 ---
 
@@ -68,4 +69,3 @@ Claros de Goiás. These results show that non-outcropping sources in the region
 of Diorama have practically the same magnetization direction those in the
 alkaline complex of Montes Claros de Goiás, suggesting that these sources
 intruded the crust inside almost the same interval of geologic time.
-

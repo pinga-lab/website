@@ -9,6 +9,7 @@ supplement: 10.5281/zenodo.16191
 oa: true
 author: oliveira-jr, daiana, barbosa, uieda
 related_thesis: daiana-msc
+related_grants: faperj-inst-2014-oliveira-jr,cnpq-universal-2014-oliveira-jr
 citation: Oliveira Jr., V. C., D. P. Sales, V. C. F. Barbosa, and L. Uieda (2015), Estimation of the total magnetization direction of approximately spherical bodies, Nonlin. Processes Geophys., 22(2), 215-232, doi:10.5194/npg-22-215-2015.
 ---
 
