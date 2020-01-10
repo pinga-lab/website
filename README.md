@@ -72,13 +72,20 @@ Optional:
     inreview: true
     related_papers: paper-polynomial-eqlayer-2013,paper-radial3d-gradients-2013
     related_thesis: oliveira-jr-phd
+    related_grants: cnpq-fund-2012-barbosa
 
 * An entry with `oa: true` will be marked as open-acess.
 * `inreview: true` will mark the entry as under peer-review (unpublished).
 * `pdf` should be the name of PDF file in the `pdf` folder
 * `related_papers` should be a comma-separated list (**no spaces**) of paper
-  IDs that are related to this research.
-* `related_thesis` the same as `related_papers` but for thesis.
+  IDs that are related to this research. Each paper ID should be the name of an `.md`
+  file in the `papers` folder
+* `related_thesis` should be a comma-separated list (**no spaces**) of theses
+  IDs that are related to this research. Each thesis ID should be the name of an `.md`
+  file in the `thesis` folder
+* `related_grants` should be a comma-separated list (**no spaces**) of grants
+  IDs that are related to this research. Each grant ID should be the name of an `.md`
+  file in the `grants` folder
 
 
 ## Adding a new member
@@ -166,8 +173,9 @@ Optional:
     doi: 10.6084/m9.figshare.923450
     related_papers: paper-polynomial-eqlayer-2013,paper-radial3d-gradients-2013
     related_thesis: oliveira-jr-phd
+    related_grants: cnpq-fund-2012-barbosa
 
-* `related_papers` and `related_thesis` are the same as for a paper.
+* `related_papers`, `related_thesis` and `related_grants` are the same as for a paper.
 
 
 ## Adding a new grant/project
@@ -201,13 +209,14 @@ Optional:
     amount: R$ 20,000.00
     related_thesis: daiana-msc
     related_papers: paper-mag-dir-2015
+    related_grants: faperj-inst-2014-oliveira-jr,cnpq-universal-2014-oliveira-jr
 
 * `title2` is a second title for the grant/project. It could be, for example, the
   `title` in a different language.
 * `grantname` should be the name of the specific fund provided by the `agency`.
 * `grantid` should be the identification code of the specific fund provided by the `agency`.
 * `amount` should be the amount of financial resources provided by the `agency`.
-* `related_papers` and `related_thesis` are the same as for a paper.
+* `related_papers`, `related_thesis` and `related_grants` are the same as for a paper.
 
 
 ## Automatic deploy with TravisCI
