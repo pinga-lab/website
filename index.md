@@ -14,16 +14,13 @@ Our interests range from
 [forward modeling][/papers/tesseroid-variable-density],
 and
 [open-source software development][/papers/verde].
-Read more about [our members](/people) and
-the [research we do](/papers).
+Read more about [our members](/people) and the [research we do](/papers).
 
-As a group, we strive to set the standard for **open-science** and **reproducibility**.
-We publish the source code and data used in our research.
-Most new papers will have links to a
-[GitHub repository](http://github.com/pinga-lab)
-for code and a [DOI](http://en.wikipedia.org/wiki/Digital_object_identifier)
-(from [figshare](http://figshare.com/) or [Zenodo](https://zenodo.org/))
-for data and other supplementary material.
+As a group, we strive to practice **open-science** and make our research freely
+available in order to allow **reproducibility**.
+We make efforts to publish our papers, codes, supplementary materials and data
+at online repositories such as [GitHub](http://github.com/pinga-lab),
+[figshare](http://figshare.com/) and [Zenodo](https://zenodo.org/).
 
 # Contact
 
