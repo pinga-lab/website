@@ -1,6 +1,6 @@
 ---
-title: Funding
-layout: funding
+title: Grants & Projects
+layout: grants
 order: date
 reverse: true
 ---
@@ -10,13 +10,13 @@ scholarships from several funding agencies:
 
 <div class="row" style="margin-top: 20px; margin-bottom: 30px;">
 <div class="col-md-2 col-xs-4">
-<a href="http://www.cnpq.br/"><img src="../images/funding/cnpq.svg"></a>
+<a href="http://www.cnpq.br/"><img src="../images/grants/cnpq.svg"></a>
 </div>
 <div class="col-md-2 col-xs-4">
-<a href="https://www.capes.gov.br/"><img src="../images/funding/capes.svg"></a>
+<a href="https://www.capes.gov.br/"><img src="../images/grants/capes.svg"></a>
 </div>
 <div class="col-md-2 col-xs-4">
-<a href="http://www.faperj.br/"><img src="../images/funding/faperj.svg"></a>
+<a href="http://www.faperj.br/"><img src="../images/grants/faperj.svg"></a>
 </div>
 </div>
 
