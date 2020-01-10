@@ -30,7 +30,7 @@ repository.
    [http://127.0.0.1:8000](http://127.0.0.1:8000) to view the site.
    Use `Ctrl+C` to kill the server.
 
-## Adding an image to the Research Highlights section
+## Adding an image to the carousel of Latest papers
 
 The carousel on the front page is generated from information in the `_site.yml` file. To
 add a new item, place the image in `images/carousel` and add an entry in to `carousel:`
@@ -168,6 +168,47 @@ Optional:
     related_thesis: oliveira-jr-phd
 
 * `related_papers` and `related_thesis` are the same as for a paper.
+
+
+## Adding a new grant/project
+
+We have a page with grants/projects developed by group members.
+To add a new one, create a new `.md` file in the `grants` folder. The file name
+should be the composed of the funding agency name, the name of the specific fund,
+the starting year and the PI page name, all in lowercase, e.g. `cnpq-universal-2014-oliveira-jr.md`.
+
+### Metadata for grants/projects
+
+Required:
+
+    title: "Estimativa da direção da magnetização total de corpos 3D aproximadamente esféricos"
+    author: oliveira-jr
+    date: 2014-11-01
+    period: 2014-2017
+    agency: Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)
+    institution: Observatório Nacional
+    layout: publication
+
+* `author` should be the PI (principal investigator) id. The id is the name of
+  the authors file in the `people` folder.
+* `agency` should be funding agency or company.
+
+Optional:
+
+    title2: "Estimation of the total magnetization direction of approximately 3D spherical bodies"
+    grantname: MCTI/CNPQ/Universal 14/2014  - Faixa A - até R$ 30.000,00
+    grantid: 445752/2014-9
+    amount: R$ 20,000.00
+    related_thesis: daiana-msc
+    related_papers: paper-mag-dir-2015
+
+* `title2` is a second title for the grant/project. It could be, for example, the
+  `title` in a different language.
+* `grantname` should be the name of the specific fund provided by the `agency`.
+* `grantid` should be the identification code of the specific fund provided by the `agency`.
+* `amount` should be the amount of financial resources provided by the `agency`.
+* `related_papers` and `related_thesis` are the same as for a paper.
+
 
 ## Automatic deploy with TravisCI
 
