@@ -160,29 +160,6 @@
         </ul>
     {% endif %}
 
-    {% set grants = [] %}
-    {% for grant in site.reflinks["/grants"].content %}
-        {% if this.components[-1] in grant.author.split(", ") %}
-            {% if grants.append(grant) %}{% endif %}
-        {% endif %}
-    {% endfor %}
-    {% if grants %}
-        <h2>Latest grants and projects</h2>
-        <ul class="fa-ul">
-            {% for grant in grants[:5] %}
-                <li><i class="fa-li fa fa-flask fa-fw"></i>
-                    <a href="{{ grant.url }}">
-                        {{ grant.title }}
-                        {% if grant.title2 is defined %}
-                            (<i>{{ grant.title2 }}</i>)
-                        {% endif %}
-                    </a>
-                    [{{ grant.period }}]
-                </li>
-            {% endfor %}
-        </ul>
-    {% endif %}
-
     {% set students = site.reflinks["/people"].content|selectattr("advisor", "defined")|reverse|list %}
     {% set mine_ad = students|selectattr("advisor", "equalto", this.components[-1])|list %}
     {% set mine_co = students|selectattr("coadvisor", "defined")|selectattr("coadvisor", "equalto", this.components[-1])|list %}
