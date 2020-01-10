@@ -14,6 +14,9 @@
                 <a href="{{grant.url}}">
                     <h3>
                         {{ grant.title }}
+                        {% if grant.title2 is defined %}
+                            (<i>{{ grant.title2 }}</i>)
+                        {% endif %}
                     </h3>
                 </a>
                 <p>
@@ -21,9 +24,9 @@
                     |
                     PI: {{ author_list(grant.author.split(', ')[0], site, link=True) }}
                     |
-                    {{ grant.institution }}
+                    Institution: {{ grant.institution }}
                     |
-                    {{ grant.agency }}
+                    Funding: {{ grant.agency }}
                 </p>
             </div>
         </div>

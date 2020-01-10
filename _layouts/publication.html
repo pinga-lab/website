@@ -17,6 +17,11 @@
         {% endif %}
         {{ this.title }}
     </h1>
+    {% if this.title2 is defined %}
+        <h1>
+            <i>{{ this.title2 }}</i>
+        </h1>
+    {% endif %}
     {% if this.author is defined %}
         <p class="pub-date-author">
             {% if this.date is defined %}
@@ -85,6 +90,12 @@
                     <li>
                         {{ fali("barcode", "fa-fw", "Grant ID") }}
                         {{this.grantid}}
+                    </li>
+                {% endif %}
+                {% if this.amount is defined %}
+                    <li>
+                        {{ fali("money", "fa-fw", "Amount") }}
+                        {{this.amount}}
                     </li>
                 {% endif %}
                 {% if this.location is defined %}
