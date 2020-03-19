@@ -1,11 +1,10 @@
 ---
-title: "Correct structural index in Euler deconvolution via base-level estimates"
+title: "Reliable Euler deconvolution estimates throughout the vertical derivatives of the total-field anomaly"
 author: melo, barbosa
-date: 2020-13-02
+date: 2020-02-13
 layout: publication
 journal: Computers & Geosciences
 doi: 10.1016/j.cageo.2020.104436
-pdf: reliable-euler-estimates.pdf
 citation: "Melo, F. F. and V. C. F. Barbosa (2020) Reliable Euler deconvolution estimates throughout the vertical derivatives of the total-field anomaly, Computers & Geosciences, 138, 104436, doi:10.1016/j.cageo.2020.104436."
 related_thesis: melo-msc,melo-phd
 related_papers: paper-euler-plateau-2013,paper-tle-euler-tutorial-2014,struct-index-euler

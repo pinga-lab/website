@@ -1,17 +1,19 @@
 ---
 title: Felipe Ferreira Melo
-date: 2012-03-29
+date: 2020-01-24
+former: true
 lattes: http://lattes.cnpq.br/6001771792254742
 picture: melo.jpg
-position: PhD Student
-advisor: barbosa
-period: 2016-present
-institution: Observatório Nacional
+position: Postdoctoral researcher
+period: 2016-2020
+institution: PUC-RIO
 location: Rio de Janeiro, Brazil
 layout: person
 ---
 
 # About
 
-Possui graduação em Geofísica pela Universidade Federal Fluminense (2009) e
-mestrado em Geofísica pelo Observatório Nacional (2012). Atualmente é estudante de doutorado em geofísica no Observatório Nacional.
+Possui graduação em Geofísica pela Universidade Federal Fluminense (2009),
+mestrado (2012) e doutorado (2020) em Geofísica pelo Observatório Nacional.
+Trabalha em um projeto de inversão sísmica na PUC-RJ. Tem interesse em
+processamento, análise de AVO e inversão de dados sísmicos.

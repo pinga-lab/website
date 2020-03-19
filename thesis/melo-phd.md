@@ -8,7 +8,7 @@ institution: Observatório Nacional
 pdf: melo-phd.pdf
 level: PhD
 sucupira: 8680643
-related_papers: paper-euler-plateau-2013,paper-tle-euler-tutorial-2014,struct-index-euler
+related_papers: paper-euler-plateau-2013,paper-tle-euler-tutorial-2014,struct-index-euler,reliable-euler-estimates
 layout: publication
 ---
 
@@ -114,4 +114,4 @@ in defining the correct structural index in scenarios with strongly
 interfering anomalies. We applied the methodology on magnetic data from part
 of Goiás Alkaline Province, central Brazil, and the results suggest that three
 plug intrusions give rise to the Diorama anomaly and dipole-like sources yield
-Arenopolis and Montes Claros de Goiás anomalies. 
+Arenopolis and Montes Claros de Goiás anomalies.

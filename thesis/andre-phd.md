@@ -49,6 +49,7 @@ Goiás, região central do Brasil, sugerem que estas intrusões possuem intensa
 magnetização remanente, o que está em acordo com um estudo independente
 conduzido previamente na mesma área.
 
+
 # Abstract
 
 In this thesis, I present two theoretical results and the applications of the
@@ -82,4 +83,4 @@ powerful tool for estimating the uniform magnetization direction of a set of
 geological sources. Applications to airborne data over the Montes Claros de
 Goiás complex, located in the Goiás Alkaline Province, central region of
 Brazil, suggest that those intrusions have a strong remanent magnetization, in
-agreement with a previous independent study in the same area. 
+agreement with a previous independent study in the same area.
