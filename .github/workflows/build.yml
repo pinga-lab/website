@@ -10,6 +10,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE
     - name: Checkout
@@ -27,7 +28,7 @@ jobs:
       run: make
 
     - name: Push to pinga-lab.github.io
-      if: success() && github.event_name == 'push'
+      #if: success() && github.event_name == 'push'
       # Don't use tags: https://julienrenaux.fr/2019/12/20/github-actions-security-risk/
       uses: peaceiris/actions-gh-pages@8a36f3edfc5d1cbae6b09e6f5a7d7b19e5b7a73b
       with:
