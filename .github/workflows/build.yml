@@ -4,21 +4,28 @@ name: build-html
 on:
   pull_request:
   push:
-    branches: master
+    branches:
+      - master
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE
     - name: Checkout
       uses: actions/checkout@v2
-    
+
     - name: Setup Python
-      run: make
-    
+      uses: actions/setup-python@v2
+      with:
+          python-version: '3.7'
+
+    - name: Install requirements
+      run: pip install -r requirements.txt
+
+    - name: Build the website
+        run: make
+
     - name: Push to pinga-lab.github.io
         if: success() && github.event_name == 'push'
         # Don't use tags: https://julienrenaux.fr/2019/12/20/github-actions-security-risk/
