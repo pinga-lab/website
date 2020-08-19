@@ -160,24 +160,24 @@
         </ul>
     {% endif %}
 
-    {% set grants = [] %}
-    {% for grant in site.reflinks["/grants"].content %}
-        {% if this.components[-1] in grant.author.split(", ") %}
-            {% if grants.append(grant) %}{% endif %}
+    {% set projects = [] %}
+    {% for project in site.reflinks["/projects"].content %}
+        {% if this.components[-1] in project.author.split(", ") %}
+            {% if projects.append(project) %}{% endif %}
         {% endif %}
     {% endfor %}
-    {% if grants %}
+    {% if projects %}
         <h2>Latest grants and projects</h2>
         <ul class="fa-ul">
-            {% for grant in grants[:5] %}
+            {% for project in projects[:5] %}
                 <li><i class="fa-li fa fa-flask fa-fw"></i>
-                    <a href="{{ grant.url }}">
-                        {{ grant.title }}
-                        {% if grant.title2 is defined %}
-                            (<i>{{ grant.title2 }}</i>)
+                    <a href="{{ project.url }}">
+                        {{ project.title }}
+                        {% if project.title2 is defined %}
+                            (<i>{{ project.title2 }}</i>)
                         {% endif %}
                     </a>
-                    [{{ grant.period }}]
+                    [{{ project.period }}]
                 </li>
             {% endfor %}
         </ul>

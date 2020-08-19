@@ -8,7 +8,7 @@ description: "A research group for inverse problems in Geophysics"
 
 banner: "/images/pinga-banner.svg"
 
-author: Leonardo Uieda
+authors: Leonardo Uieda and Vaderlei C. Oliveira Jr.
 
 keep_files: [".nojekyll"]
 
@@ -19,7 +19,6 @@ ignore_patterns: [
     "environment.yml",
     "requirements.txt",
     ".images",
-    "news/test*.md",
     ]
 
 strict_undefined: true
@@ -61,7 +60,7 @@ menulinks: [
     ['/', 'Home'],
     ['/people', 'People'],
     ['/papers', 'Papers'],
-    ['/grants', 'Grants & Projects'],
+    ['/projects', 'Projects & Grants'],
     ['/thesis', 'Theses'],
     ['https://github.com/pinga-lab',
      '<i class="fa fa-github fa-lg" title="Github"></i>'],

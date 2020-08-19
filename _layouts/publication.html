@@ -179,7 +179,7 @@
         {% endif %}
 
 
-        {% if this.related_papers is defined or this.related_thesis is defined or this.related_grants is defined %}
+        {% if this.related_papers is defined or this.related_thesis is defined or this.related_projects is defined %}
             <h2>Related research</h2>
             {% if this.related_papers is defined %}
 
@@ -225,19 +225,19 @@
 
             {% endif %}
 
-            {% if this.related_grants is defined %}
+            {% if this.related_projects is defined %}
 
-                {% set grants = [] %}
-                {% for grant in site.reflinks["/grants"].content %}
-                    {% if grant.components[-1] in this.related_grants.split(',') %}
-                        {% if grants.append(grant) %}{% endif %}
+                {% set projects = [] %}
+                {% for project in site.reflinks["/projects"].content %}
+                    {% if project.components[-1] in this.related_projects.split(',') %}
+                        {% if projects.append(project) %}{% endif %}
                     {% endif %}
                 {% endfor %}
 
                 <h3>Grants & Projects</h3>
 
                 <ul class="fa-ul">
-                {% for article in grants %}
+                {% for article in projects %}
                     <li>
                         <i class="fa-li fa fa-flask fa-fw"></i>
                         <a href="{{ article.url }}">
