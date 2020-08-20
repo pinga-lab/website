@@ -1,12 +1,13 @@
 ---
 title: "Desenvolvimento de métodos para processamento e interpretação de dados de microscopia magnética "
 title2: "Developments of methods for processing and interpreting magnetic microscopy data"
-author: oliveira-jr
+author: oliveira-jr, barbosa
 date: 2014-03-01
 period: 2014-present
 institution: Observatório Nacional
 related_thesis: andre-msc
 related_papers: paper-magnetization-rock-sample-2016,magnetic-sensor-hall,sensor-hall-materials
+members: andre
 layout: publication
 ---
 

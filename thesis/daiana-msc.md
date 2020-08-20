@@ -10,7 +10,7 @@ pdf: daiana-msc.pdf
 level: MSc
 sucupira: 1334863
 related_papers: paper-mag-dir-2015
-related_grants: faperj-inst-2014-oliveira-jr,cnpq-universal-2014-oliveira-jr
+related_projects: computational-infraestructure-2014, magdir-spherical-bodies-2014
 layout: publication
 ---
 

@@ -8,23 +8,23 @@
 
 {% for row in this.content|batch(2) %}
     <div class="row">
-    {% for grant in row %}
+    {% for project in row %}
         <div class="col-md-6">
             <div class="well article-box">
-                <a href="{{grant.url}}">
+                <a href="{{project.url}}">
                     <h3>
-                        {{ grant.title }}
-                        {% if grant.title2 is defined %}
-                            (<i>{{ grant.title2 }}</i>)
+                        {{ project.title }}
+                        {% if project.title2 is defined %}
+                            (<i>{{ project.title2 }}</i>)
                         {% endif %}
                     </h3>
                 </a>
                 <p>
-                    {{grant.period}}
+                    {{project.period}}
                     |
-                    PI: {{ author_list(grant.author.split(', ')[0], site, link=True) }}
+                    {{ author_list(project.author, site, link=True) }}
                     |
-                    Institution: {{ grant.institution }}
+                    Institution: {{ project.institution }}
                 </p>
             </div>
         </div>
