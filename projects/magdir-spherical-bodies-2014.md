@@ -1,7 +1,7 @@
 ---
 title: "Estimativa da direção da magnetização total de corpos 3D aproximadamente esféricos"
 title2: "Estimation of the total magnetization direction of approximately 3D spherical bodies"
-author: oliveira-jr
+author: oliveira-jr, barbosa
 date: 2014-11-01
 period: 2014-2017
 agency: Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)
@@ -9,6 +9,7 @@ grantname: MCTI/CNPQ/Universal 14/2014  - Faixa A - até R$ 30.000,00
 grantid: 445752/2014-9
 amount: R$ 20,000.00
 institution: Observatório Nacional
+members: daiana
 related_thesis: daiana-msc
 related_papers: paper-mag-dir-2015
 layout: publication

@@ -4,6 +4,7 @@ date: 2014-02-01
 position: PhD Student
 picture: marlon.jpg
 advisor: barbosa
+coadvisor: oliveira-jr
 institution: Observatório Nacional
 location: Rio de Janeiro, Brazil
 period: 2014-Present

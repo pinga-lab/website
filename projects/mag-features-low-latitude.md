@@ -1,9 +1,9 @@
 ---
 title: "Caracterização magnética de feições estruturais em regiões de crosta oceânica próximas ao equador"
 title2: "Characterization of structural features on ocean crust at regions close to equator"
-author: oliveira-jr
-date: 2018-11-01
-period: 2018-2021
+author: oliveira-jr, barbosa
+date: 2017-11-01
+period: 2017-present
 agency: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ (FAPERJ)
 grantname: Jovem Cientista do Nosso Estado – JCNE/2018
 grantid: E-26/202.729/2018

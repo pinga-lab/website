@@ -1,29 +1,39 @@
 ---
-title: "Desenvolvimento de métodos para processamento e interpretação de dados de microscopia magnética "
-title2: "Developments of methods for processing and interpreting magnetic microscopy data"
-author: oliveira-jr
-date: 2014-03-01
-period: 2014-present
+title: "Inversão de dados de campos potenciais para estimar a geometria de multiplas superfı́cies"
+title2: "Potential-field inversion for estimating the geometry of multiple surfaces"
+author: oliveira-jr, barbosa
+date: 2016-03-01
+period: 2016-present
 institution: Observatório Nacional
-related_thesis: andre-msc
-related_papers: paper-magnetization-rock-sample-2016,magnetic-sensor-hall,sensor-hall-materials
+related_thesis: marcela-msc, victor-msc
+related_papers: grav-isostatic-2D
+members: marcela, victor
 layout: publication
 ---
 
 # Descrição
 
-O presente projeto visa desenvolver métodos de processamento e interpretação de
-dados de microscopia magnética de varredura. Dados de microscopia magnética tem
-sido utilizados com sucesso na caracterização de amostras de rocha para estudos
-paleomagnéticos e de magnetismo de rochas. Este projeto é uma colaboração entre
-o *Grupo de Inversão e Modelagem Numérica em Geofísica do Observatório Nacional*
-e pesquisadores do [Laboratório de Instrumentação e Medidas Magnéticas da PUC-RIO](https://www.fis.puc-rio.br/instrumentacao-e-medidas-magneticas/).
+Dados gravimétricos e magnetométricos são utilizados há muito tempo para investigar a
+estrutura crustal em estudos locais. A estratégia mais comum é aproximar a crosta por um
+conjunto de camadas justapostas com propriedade fı́sica constante ou dependente da profundidade.
+Os limites destas camadas são definidos por superfı́cies que geralmente representam camadas
+sedimentares, a batimetria, o relevo do embasamento e a Moho. Problemas inversos que visam
+estimar a geometria destas superfı́cies sofrem, geralmente, de uma severa falta de unicidade,
+sobretudo nas situações em que a geometria de duas ou mais superfı́cies devem ser estimadas
+simultaneamente. Este projeto propõe o desenvolvimento de métodos para estimar a geometria
+de múltiplas superfı́cies simultaneamente. Para contornar a ambiguidade inerente a este pro-
+blema, novos vı́nculos serão desenvolvidos para introduzir informações geofı́sicas/geológicas de
+forma a reduzir o conjunto de possı́veis soluções.
 
 # Description
 
-This project aims at developing methods for processing and interpreting scanning
-magnetic microscopy data. Scanning magnetic microscopy data have been successfully
-used to characterize rock samples in studies about paleomagnetism and rock magnetism.
-This project is a collaboration between the *Grupo de Inversão e
-Modelagem Numérica em Geofísica do Observatório Nacional* and researchers of the
-[Laboratory of Magnetic Nondestructive Testing of PUC-RIO](https://www.fis.puc-rio.br/en/instrumentacao-e-medidas-magneticas/).
+Gravity and magnetic data have long been used for investigating the local crustal structure.
+The most common approach is approximating the crust by a set of juxtaposed layers with
+constant or depth-dependent physical property. The boundaries of these layers are defined by
+surfaces that generally represent sedimentary layers, bathymetry, basement relief and Moho.
+Inverse problems aiming at estimating the geometry of these surfaces usually suffer from
+a severe lack of uniqueness, especially in the cases that more than one surface must be
+estimated at the same time. This project proposes developing methods for simultaneously
+estimating the geometry of multiple surfaces. To overcome the inherent ambiguity of this
+problem, new constraints will be developed for introducing geophysical/geological information
+and reducing the set of possible solutions.

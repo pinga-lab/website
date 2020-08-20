@@ -22,7 +22,7 @@
                 <p>
                     {{project.period}}
                     |
-                    PI: {{ author_list(project.author.split(', ')[0], site, link=True) }}
+                    {{ author_list(project.author, site, link=True) }}
                     |
                     Institution: {{ project.institution }}
                 </p>
