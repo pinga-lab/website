@@ -11,6 +11,7 @@ scholar: http://scholar.google.com/citations?user=TQbQ4TcAAAAJ
 researcherid: E-1871-2013
 researchgate: https://www.researchgate.net/researcher/2021325258_Vanderlei_C_Oliveira_Jr/
 orcid: 0000-0002-6338-4086
+impactstory: 0000-0002-6338-4086
 institution: Observatório Nacional
 location: Rio de Janeiro, Brazil
 position: Researcher

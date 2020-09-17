@@ -3,7 +3,7 @@ title: "Inversão de dados de campos potenciais para estimar a geometria de mult
 title2: "Potential-field inversion for estimating the geometry of multiple surfaces"
 author: oliveira-jr, barbosa
 date: 2016-03-01
-period: 2016-present
+period: 2016-2019
 institution: Observatório Nacional
 related_thesis: marcela-msc, victor-msc
 related_papers: grav-isostatic-2D

@@ -6,7 +6,7 @@ layout: publication
 journal: Geophysics
 repository: pinga-lab/eqlayer-magnetization-direction
 doi: 10.1190/geo2019-0706.1
-citation: "André L. A. Reis, Vanderlei C. Oliveira Jr., and Valéria C. F. Barbosa, (2020). Generalized positivity constraint on magnetic equivalent layers. Geophysics, ja, 1-45. doi:10.1190/geo2019-0706.1."
+citation: "André L. A. Reis, Vanderlei C. Oliveira Jr., and Valéria C. F. Barbosa, (2020). Generalized positivity constraint on magnetic equivalent layers. Geophysics, 85(6), 1-45. doi:10.1190/geo2019-0706.1."
 related_thesis: andre-phd
 inreview: false
 oa: false
