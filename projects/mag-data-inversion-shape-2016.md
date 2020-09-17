@@ -2,8 +2,8 @@
 title: "Inversão de dados magnéticos para estimar a forma de corpos 3D"
 title2: "Magnetic data inversion for estimating the shape of 3D bodies"
 author: oliveira-jr, barbosa
-date: 2017-03-01
-period: 2017-present
+date: 2016-03-01
+period: 2016-present
 institution: Observatório Nacional
 members: marlon, vital
 layout: publication
