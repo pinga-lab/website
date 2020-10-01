@@ -1,4 +1,4 @@
-# Souce code for pinga-lab.org
+# Souce code for pinga-lab.org- An Amazing Project
 
 [![Build Status](https://img.shields.io/travis/pinga-lab/website/master.svg?style=flat-square)](https://travis-ci.org/pinga-lab/website)
 [![Powered by Urubu](https://img.shields.io/badge/powered_by-urubu-blue.svg?style=flat-square)](http://urubu.jandecaluwe.com/)
