@@ -2,6 +2,7 @@
 title: "Isostatic constraint for 2D non-linear gravity inversion on rifted margins"
 author: marcela, oliveira-jr
 date: 2020-01-01
+repository: pinga-lab/paper-isostatic-grav2D
 layout: publication
 journal: Geophysics
 doi: 10.1190/geo2018-0772.1
