@@ -9,7 +9,7 @@ picture: andre.jpg
 email: reisandreluis@gmail.com
 github: andrelreis
 position: Researcher
-period: 2020-Present
+period: 2014-Present
 institution: Universidade do Estado do Rio de Janeiro (UERJ)
 location: Rio de Janeiro, Brazil
 layout: person

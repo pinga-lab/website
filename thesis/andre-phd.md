@@ -4,6 +4,7 @@ date: 2020-02-03
 period: 2016-2020
 author: andre
 advisor: oliveira-jr
+coadvisor: barbosa
 institution: Observatório Nacional
 pdf: andre-phd.pdf
 level: PhD
