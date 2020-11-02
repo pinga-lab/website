@@ -1,13 +1,14 @@
 ---
 title: Marlon C. Hidalgo-Gato
-date: 2014-02-01
+date: 2019-12-17
 position: PhD Student
 picture: marlon.jpg
 advisor: barbosa
 coadvisor: oliveira-jr
 institution: Observatório Nacional
 location: Rio de Janeiro, Brazil
-period: 2014-Present
+period: 2014-2019
+former: true
 lattes: http://lattes.cnpq.br/4057248251995225
 layout: person
 ---
