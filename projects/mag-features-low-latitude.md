@@ -8,6 +8,7 @@ agency: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ (FA
 grantname: Jovem Cientista do Nosso Estado – JCNE/2018
 grantid: E-26/202.729/2018
 amount: R$ 75,600.00
+members: oscar
 institution: Observatório Nacional
 layout: publication
 ---
