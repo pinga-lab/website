@@ -3,6 +3,7 @@ title: Edson Alonso Falla Luza
 date: 2020-03-09
 lattes: http://lattes.cnpq.br/4225133150519568
 email: edsonluza@on.br
+picture: edson.jpeg
 github: EdsonAlonso
 position: MSc Student
 advisor: oliveira-jr
