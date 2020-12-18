@@ -1,13 +1,10 @@
 ---
 title: Felipe Ferreira Melo
 date: 2020-01-24
-former: true
+former: PhD Student
 lattes: http://lattes.cnpq.br/6001771792254742
 picture: melo.jpg
-position: Technical consultant
 period: 2016-2020
-institution: PUC-RIO
-location: Rio de Janeiro, Brazil
 layout: person
 ---
 

@@ -8,6 +8,7 @@ picture: andre.jpg
 email: reisandreluis@gmail.com
 github: andrelreis
 position: Postdoc Researcher
+former: PhD Student
 advisor: barbosa
 period: 2020-Present
 institution: Observatório Nacional

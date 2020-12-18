@@ -2,12 +2,8 @@
 title: Bárbara Marcela dos Santos Bastos
 date: 2016-03-01
 lattes: http://lattes.cnpq.br/8080347874698745
-position: Master Student
-advisor: oliveira-jr
-institution: Observatório Nacional
-location: Rio de Janeiro, Brazil
+former: Master Student
 period: 2016-2018
-former: true
 layout: person
 ---
 

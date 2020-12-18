@@ -13,10 +13,9 @@
         <div class="col-xs-8 col-sm-9 col-md-10">
             <h1>{{ this.title }}</h1>
             <h2>
-                <em>{{ this.position }}</em>
-                {% if this.former is defined and this.former %}
-                    | <em>Former student/postdoc</em>
-                {% endif %}
+              {% if this.position is defined %}
+                  <em>{{ this.position }}</em>
+              {% endif %}
             </h2>
         </div>
     </div>
@@ -24,6 +23,12 @@
 {% endblock %}
 
 {% block left %}
+    {% if this.former is defined %}
+        <li>
+            <i class="fa-li fa fa-users fa-fw"></i>
+        </li>
+        <em>Former {{this.former}}</em>
+    {% endif %}
     {% if this.period is defined %}
         <li>
             {{ fali("calendar", "fa-fw", "Duration") }}
@@ -208,7 +213,7 @@
     {% set mine_co = students|selectattr("coadvisor", "defined")|selectattr("coadvisor", "equalto", this.components[-1])|list %}
     {% set mine = mine_ad + mine_co %}
     {% if mine %}
-        {% set current = mine|rejectattr("former", "defined")|list %}
+        {% set current = mine|rejectattr("formerposition", "defined")|list %}
         {% if current %}
             <h2>Current students and postdocs</h2>
             <ul class="fa-ul">

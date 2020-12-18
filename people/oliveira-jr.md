@@ -1,7 +1,8 @@
 ---
 title: Vanderlei C. Oliveira Jr.
-date: 2010-01-02
+date: 2016-04-19
 head: true
+former: PhD student
 lattes: http://lattes.cnpq.br/4332841435949533
 picture: oliveira-jr.jpg
 email2: vandscoelho@gmail.com
