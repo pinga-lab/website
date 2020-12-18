@@ -1,6 +1,6 @@
 ---
 title: André L. A. Reis
-date: 2020-02-03
+date: 2014-03-01
 lattes: http://lattes.cnpq.br/1075610796165589
 researchgate: https://www.researchgate.net/profile/Andre_Luis_Reis
 orcid: 0000-0002-2225-5106
@@ -8,6 +8,7 @@ picture: andre.jpg
 email: reisandreluis@gmail.com
 github: andrelreis
 position: Postdoc Researcher
+advisor: barbosa
 period: 2020-Present
 institution: Observatório Nacional
 location: Rio de Janeiro, Brazil

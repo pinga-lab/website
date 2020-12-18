@@ -147,9 +147,14 @@
         {% if this.components[-1] in thesis.advisor.split(", ") %}
             {% if theses.append(thesis) %}{% endif %}
         {% endif %}
+        {% if thesis.coadvisor is defined %}
+            {% if this.components[-1] in thesis.coadvisor.split(", ") %}
+                {% if theses.append(thesis) %}{% endif %}
+            {% endif %}
+        {% endif %}
     {% endfor %}
     {% if theses %}
-        <h2>Latest theses advised</h2>
+        <h2>Latest theses (co)advised</h2>
         <ul class="fa-ul">
             {% for thesis in theses[:5] %}
                 <li><i class="fa-li fa fa-book fa-fw"></i>
@@ -183,7 +188,7 @@
         </ul>
     {% endif %}
 
-    {% set students = site.reflinks["/people"].content|selectattr("advisor", "defined")|reverse|list %}
+    <!-- {% set students = site.reflinks["/people"].content|selectattr("advisor", "defined")|reverse|list %}
     {% set mine_ad = students|selectattr("advisor", "equalto", this.components[-1])|list %}
     {% set mine_co = students|selectattr("coadvisor", "defined")|selectattr("coadvisor", "equalto", this.components[-1])|list %}
     {% set mine = mine_ad + mine_co %}
@@ -192,10 +197,27 @@
         {% if current %}
             {{ list_students(current, "Current students") }}
         {% endif %}
-
         {% set past = mine|selectattr("former", "defined")|list %}
         {% if past %}
             {{ list_students(past, "Former students") }}
+        {% endif %}
+    {% endif %} -->
+
+    {% set students = site.reflinks["/people"].content|selectattr("advisor", "defined")|reverse|list %}
+    {% set mine_ad = students|selectattr("advisor", "equalto", this.components[-1])|list %}
+    {% set mine_co = students|selectattr("coadvisor", "defined")|selectattr("coadvisor", "equalto", this.components[-1])|list %}
+    {% set mine = mine_ad + mine_co %}
+    {% if mine %}
+        {% set current = mine|rejectattr("former", "defined")|list %}
+        {% if current %}
+            <h2>Current students and postdocs</h2>
+            <ul class="fa-ul">
+                {% for student in current %}
+                    <li><i class="fa-li fa fa-user fa-fw"></i>
+                        <a href="{{ student.url }}">{{ student.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
         {% endif %}
     {% endif %}
 
@@ -220,7 +242,7 @@
 {% endblock %}
 
 
-{% macro list_students(students, title) %}
+<!-- {% macro list_students(students, title) %}
     <h2>{{ title }}</h2>
     <ul class="fa-ul">
         {% for student in students %}
@@ -229,4 +251,4 @@
         </li>
         {% endfor %}
     </ul>
-{% endmacro %}
+{% endmacro %} -->
