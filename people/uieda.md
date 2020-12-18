@@ -2,6 +2,7 @@
 title: Leonardo Uieda
 date: 2019-09-09
 former: true
+collaborator: true
 institution: University of Liverpool
 location: Liverpool, United Kingdom
 position: Lecturer
@@ -21,9 +22,6 @@ layout: person
 
 
 # About
-
-**Leo has left the lab in 2019 to start a new position at the University of Liverpool.
-He remains in close collaboration with PINGA.**
 
 I am Lecturer in Geophysics at the Department of Earth, Ocean and Ecological Sciences of
 the University of Liverpool, UK.

@@ -33,9 +33,9 @@
 
     <hr>
 
-    <h2>Current members</h2>
+    <h2>Current research collaborators</h2>
 
-    {% for row in this.content|rejectattr("former", "defined")|rejectattr("head", "defined")|sort(attribute='date')|batch(3) %}
+    {% for row in this.content|selectattr("collaborator", "defined")|rejectattr("head", "defined")|sort(attribute='date')|batch(3) %}
         <div class="row">
         {% for person in row %}
             <div class="col-sm-4 col-md-4">
@@ -46,7 +46,22 @@
     {% endfor %}
 
     <hr>
-    <h2>Former members</h2>
+
+    <h2>Current students and postdocs</h2>
+
+    {% for row in this.content|rejectattr("collaborator", "defined")|rejectattr("former", "defined")|rejectattr("head", "defined")|sort(attribute='date')|batch(3) %}
+        <div class="row">
+        {% for person in row %}
+            <div class="col-sm-4 col-md-4">
+                {{ render_person(person) }}
+            </div>
+        {% endfor %}
+        </div>
+    {% endfor %}
+
+    <hr>
+
+    <h2>Former students and postdocs</h2>
 
     {% for row in this.content|selectattr("former", "defined")|sort(attribute='date', reverse=true)|batch(3) %}
         <div class="row">
