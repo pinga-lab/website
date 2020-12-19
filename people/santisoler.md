@@ -1,7 +1,7 @@
 ---
 title: Santiago Soler
 date: 2017-05-26
-former: true
+collaborator: true
 position: PhD Student
 institution: Instituto Geofísico Sismológico Volponi
 location: San Juan, Argentina

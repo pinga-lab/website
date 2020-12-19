@@ -1,14 +1,9 @@
 ---
 title: Daiana P. Sales
-date: 2014-03-01
+date: 2016-04-24
 lattes: http://lattes.cnpq.br/7941053288321760
 picture: daiana.jpg
-position: MSc Student
-advisor: oliveira-jr
-coadvisor: barbosa
 period: 2012-2014
-institution: Observatório Nacional
-location: Rio de Janeiro, Brazil
 former: true
 layout: person
 ---

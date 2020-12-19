@@ -3,11 +3,8 @@ title: Victor Almeida
 date: 2014-12-01
 lattes: http://lattes.cnpq.br/1873679068917169
 github: victortxa
-institution: Universidade do Estado do Rio de Janeiro
-location: Rio de Janeiro, Brasil
-position: Technician
-period: 2014-2018
 former: true
+period: 2014-2018
 layout: person
 ---
 

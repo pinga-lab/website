@@ -107,7 +107,7 @@
                 {% if this.advisor is defined %}
                     <li>
                         {{ fali("graduation-cap", "fa-fw", "Advisor") }}
-                        Advisor(s): {{ author_list(this.advisor, site, link=True) }}
+                        Advisor: {{ author_list(this.advisor, site, link=True) }}
                     </li>
                 {% endif %}
                 {% if this.coadvisor is defined %}

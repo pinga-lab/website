@@ -1,15 +1,10 @@
 ---
 title: Fillipe Claudio Lopes Siqueira
-date: 2012-03-29
+date: 2016-04-21
 lattes: http://lattes.cnpq.br/0467623470950142
 picture: siqueira.jpg
-position: PhD Student
-advisor: barbosa
-coadvisor: oliveira-jr
-institution: Observatório Nacional
-location: Rio de Janeiro, Brazil
-period: 2013-Present
 former: true
+period: 2013-Present
 layout: person
 ---
 

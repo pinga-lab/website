@@ -1,13 +1,9 @@
 ---
 title: Dionísio Uendro Carlos
-date: 2010-03-01
+date: 2016-04-20
 lattes: http://lattes.cnpq.br/2302002033171923
 picture: carlos.jpg
-position: PhD student
-advisor: barbosa
 period: 2010-2013
-institution: Observatório Nacional
-location: Rio de Janeiro, Brazil
 former: true
 layout: person
 ---
