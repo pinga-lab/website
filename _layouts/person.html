@@ -23,12 +23,6 @@
 {% endblock %}
 
 {% block left %}
-    {% if this.former is defined %}
-        <li>
-            <i class="fa-li fa fa-users fa-fw"></i>
-        </li>
-        <em>Former {{this.former}}</em>
-    {% endif %}
     {% if this.period is defined %}
         <li>
             {{ fali("calendar", "fa-fw", "Duration") }}
@@ -163,6 +157,7 @@
         <ul class="fa-ul">
             {% for thesis in theses[:5] %}
                 <li><i class="fa-li fa fa-book fa-fw"></i>
+                    {{ thesis.level }}:
                     <a href="{{ thesis.url }}">{{ thesis.title }}</a>
                     ({{ thesis.date.year }})
                 </li>
@@ -208,22 +203,49 @@
         {% endif %}
     {% endif %} -->
 
+    {% set postdocs = site.reflinks["/people"].content|selectattr("postdoc", "defined")|reverse|list %}
+    {% set mine = postdocs|selectattr("advisor", "equalto", this.components[-1])|list %}
+    {% if mine %}
+        <h2>Current postdocs</h2>
+        <ul class="fa-ul">
+            {% for postdoc in mine %}
+                <li><i class="fa-li fa fa-user fa-fw"></i>
+                    <a href="{{ postdoc.url }}">{{ postdoc.title }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
     {% set students = site.reflinks["/people"].content|selectattr("advisor", "defined")|reverse|list %}
     {% set mine_ad = students|selectattr("advisor", "equalto", this.components[-1])|list %}
     {% set mine_co = students|selectattr("coadvisor", "defined")|selectattr("coadvisor", "equalto", this.components[-1])|list %}
     {% set mine = mine_ad + mine_co %}
     {% if mine %}
-        {% set current = mine|rejectattr("formerposition", "defined")|list %}
+        {% set current = mine|rejectattr("former", "defined")|list %}
         {% if current %}
-            <h2>Current students and postdocs</h2>
+            <h2>Current students</h2>
             <ul class="fa-ul">
                 {% for student in current %}
                     <li><i class="fa-li fa fa-user fa-fw"></i>
                         <a href="{{ student.url }}">{{ student.title }}</a>
+                        ({{ student.position }})
                     </li>
                 {% endfor %}
             </ul>
         {% endif %}
+    {% endif %}
+
+    <!-- "theses" is defined above -->
+    {% if theses %}
+        <h2>Former students</h2>
+        <ul class="fa-ul">
+            {% for thesis in theses %}
+                <li><i class="fa-li fa fa-user fa-fw"></i>
+                    {{ author_list(thesis.author, site, link=True) }}
+                    ({{ thesis.level }})
+                </li>
+            {% endfor %}
+        </ul>
     {% endif %}
 
     {% set theses = [] %}

@@ -3,7 +3,7 @@ title: Victor Almeida
 date: 2014-12-01
 lattes: http://lattes.cnpq.br/1873679068917169
 github: victortxa
-former: Technician
+former: true
 period: 2014-2018
 layout: person
 ---

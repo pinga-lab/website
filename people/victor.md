@@ -1,7 +1,7 @@
 ---
 title: Victor do Couto Pereira
 date: 2016-04-22
-former: MSc Student
+former: true
 picture: victor.jpg
 period: 2014-2017
 lattes: http://lattes.cnpq.br/5615324764745474

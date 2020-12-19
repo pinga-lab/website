@@ -4,7 +4,7 @@ date: 2016-04-24
 lattes: http://lattes.cnpq.br/7941053288321760
 picture: daiana.jpg
 period: 2012-2014
-former: MSc Student
+former: true
 layout: person
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Leonardo Uieda
 date: 2016-04-18
-former: PhD student
+former: true
 collaborator: true
 institution: University of Liverpool
 location: Liverpool, United Kingdom

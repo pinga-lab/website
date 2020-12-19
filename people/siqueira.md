@@ -3,7 +3,7 @@ title: Fillipe Claudio Lopes Siqueira
 date: 2016-04-21
 lattes: http://lattes.cnpq.br/0467623470950142
 picture: siqueira.jpg
-former: PhD Student
+former: true
 period: 2013-Present
 layout: person
 ---

@@ -3,7 +3,7 @@ title: Marlon C. Hidalgo-Gato
 date: 2019-12-17
 picture: marlon.jpg
 period: 2014-2019
-former: PhD Student
+former: true
 lattes: http://lattes.cnpq.br/4057248251995225
 layout: person
 ---

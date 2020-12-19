@@ -2,7 +2,7 @@
 title: Bárbara Marcela dos Santos Bastos
 date: 2016-03-01
 lattes: http://lattes.cnpq.br/8080347874698745
-former: Master Student
+former: true
 period: 2016-2018
 layout: person
 ---

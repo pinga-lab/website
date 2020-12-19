@@ -1,7 +1,7 @@
 ---
 title: Felipe Ferreira Melo
 date: 2020-01-24
-former: PhD Student
+former: true
 lattes: http://lattes.cnpq.br/6001771792254742
 picture: melo.jpg
 period: 2016-2020

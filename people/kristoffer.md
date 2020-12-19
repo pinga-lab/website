@@ -5,7 +5,7 @@ lattes: http://lattes.cnpq.br/1185423367238423
 picture: kristoffer.jpg
 email: kristoffer.hallam@gmail.com
 github: Kristoffer-Hallam
-former: Postdoctoral researcher
+former: true
 period: 2015-2019
 layout: person
 ---

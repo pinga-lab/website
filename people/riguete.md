@@ -3,7 +3,7 @@ title: Vinicius Vianna Riguête
 date: 2015-07-01
 lattes: http://lattes.cnpq.br/5860438547039334
 picture: riguete.jpg
-position: Undergraduate student
+position: true
 advisor: uieda
 period: 2015-2017
 institution: Universidade do Estado do Rio de Janeiro

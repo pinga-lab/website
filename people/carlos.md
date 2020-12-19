@@ -4,7 +4,7 @@ date: 2016-04-20
 lattes: http://lattes.cnpq.br/2302002033171923
 picture: carlos.jpg
 period: 2010-2013
-former: PhD student
+former: true
 layout: person
 ---
 
