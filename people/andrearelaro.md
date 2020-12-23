@@ -3,6 +3,7 @@ title: André Defendi Arelaro
 date: 2018-03-07
 lattes: http://lattes.cnpq.br/9144077841390825
 position: MSc Student
+picture: andrearelaro.jpeg
 advisor: barbosa
 coadvisor: oliveira-jr
 period: 2018-present
