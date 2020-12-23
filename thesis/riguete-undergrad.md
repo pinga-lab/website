@@ -6,6 +6,6 @@ advisor: uieda
 period: 2016
 institution: Universidade do Estado do Rio de Janeiro
 location: Rio de Janeiro, Brazil
-level: Undergraduation
+level: Undergraduate
 layout: publication
 ---

@@ -6,7 +6,7 @@ advisor: uieda
 period: 2014-2018
 institution: Universidade do Estado do Rio de Janeiro
 location: Rio de Janeiro, Brazil
-level: Undergraduation
+level: Undergraduate
 layout: publication
 ---
 
