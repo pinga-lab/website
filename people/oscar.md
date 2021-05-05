@@ -2,7 +2,7 @@
 title: Raimundo Oscar de Sousa Júnior
 date: 2020-09-14
 lattes: http://lattes.cnpq.br/5355013713549584
-picture: oscar.jpeg
+picture: oscar.jpg
 email: raimundojunior@on.br
 position: MSc Student
 advisor: oliveira-jr
