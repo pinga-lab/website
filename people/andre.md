@@ -7,19 +7,19 @@ orcid: 0000-0002-2225-5106
 picture: andre.jpg
 email: reisandreluis@gmail.com
 github: andrelreis
-position: Postdoc Researcher
+collaborator: true
+position: Researcher
 former: true
-postdoc: true
 advisor: barbosa
 period: 2020-Present
-institution: Observatório Nacional
+institution: Universidade do Estado do Rio de Janeiro (UERJ)
 location: Rio de Janeiro, Brazil
 layout: person
 ---
 
 # About
 
-Postdoc researcher at National Observatory (ON)
+Researcher at the Applied Geology Department of the Geology College (DGAP/FGEL) of the University of the Rio de Janeiro State (UERJ), Rio de Janeiro, Brazil.
 
 # Education
 
