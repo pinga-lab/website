@@ -10,7 +10,8 @@ github: leobvital
 position: PhD Student
 advisor: oliveira-jr
 coadvisor: barbosa
-period: 2016-Present
+period: 2016-2020
+former: true
 institution: Observatório Nacional
 location: Rio de Janeiro, Brasil
 layout: person
@@ -18,8 +19,8 @@ layout: person
 
 # About
 
-PhD Student in Geophysics at Observatório Nacional, Brazil
+Former PhD Student in Geophysics at Observatório Nacional, Brazil
 
 # Education
 
-I obtained my undergraduate degreee in Physics at the Universidade do Estado do Rio de Janeiro (UERJ) and a master's degree in Geophysics at Observatório Nacional, where I do now my PhD's degree.
+I obtained my undergraduate degreee in Physics at the Universidade do Estado do Rio de Janeiro (UERJ) and a master's degree in Geophysics at Observatório Nacional, where I also obtained a PhD's degree in Geophysics, in 2020.
