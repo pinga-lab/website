@@ -6,6 +6,8 @@ date: 2016-03-01
 period: 2016-present
 institution: Observatório Nacional
 members: marlon, vital
+related_thesis: marlon-phd, vital-phd
+related_papers: mag-amp-basement2021, radial-mag-L2-2021
 layout: publication
 ---
 
