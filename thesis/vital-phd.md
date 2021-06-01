@@ -9,7 +9,7 @@ institution: Observatório Nacional
 pdf: vital-phd.pdf
 level: PhD
 sucupira: 10045938
-related_papers: radial-mag-L2-2020
+related_papers: radial-mag-L2-2021
 layout: publication
 ---
 
