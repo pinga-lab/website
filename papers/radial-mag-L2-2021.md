@@ -6,6 +6,7 @@ journal: Geophysical Journal International
 repository: pinga-lab/magnetic-radial-inversion
 doi: 10.1093/gji/ggab195
 citation: "Vital, L. B., V. C. Oliveira Jr. and V. C. F. Barbosa (2021), Magnetic radial inversion for 3-D source geometry estimation, Geophysical Journal International, just accepted, doi:10.1093/gji/ggab195"
+related_thesis: vital-phd
 layout: publication
 ---
 
