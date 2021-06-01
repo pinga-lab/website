@@ -23,4 +23,6 @@ Former PhD Student in Geophysics at Observatório Nacional, Brazil
 
 # Education
 
-I obtained my undergraduate degreee in Physics at the Universidade do Estado do Rio de Janeiro (UERJ) and a master's degree in Geophysics at Observatório Nacional, where I also obtained a PhD's degree in Geophysics, in 2020.
+I obtained my undergraduate degreee in Physics at the Universidade do Estado do
+Rio de Janeiro (UERJ) and a master's degree in Geophysics at Observatório
+Nacional, where I also obtained a PhD's degree in Geophysics, in 2020.

@@ -8,7 +8,7 @@ institution: Observatório Nacional
 pdf: melo-phd.pdf
 level: PhD
 sucupira: 8680643
-related_papers: paper-euler-plateau-2013,paper-tle-euler-tutorial-2014,struct-index-euler,reliable-euler-estimates
+related_papers: struct-index-euler, reliable-euler-estimates, amplitude-B-interpretation-2021
 layout: publication
 ---
 

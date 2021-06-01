@@ -9,7 +9,7 @@ institution: Observatório Nacional
 pdf: marlon-phd.pdf
 level: PhD
 sucupira: 9297949
-related_papers: fast-mag-inv-relief,mag-amp-basement2020
+related_papers: fast-mag-inv-relief, mag-amp-basement2021
 layout: publication
 ---
 
