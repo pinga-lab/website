@@ -8,7 +8,7 @@ institution: Observatório Nacional
 pdf: carlos-phd.pdf
 level: PhD
 sucupira: 154585
-related_papers: paper-quadrilatero-2014,paper-quadrilatero2-2016
+related_papers: paper-quadrilatero-2014, paper-quadrilatero2-2016
 layout: publication
 ---
 

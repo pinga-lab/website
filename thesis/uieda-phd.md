@@ -9,7 +9,7 @@ institution: Observatório Nacional
 pdf: uieda-phd.pdf
 level: PhD
 sucupira: 3627205
-related_papers: paper-tesseroids-2016,paper-moho-inversion-tesseroids-2016
+related_papers: paper-tesseroids-2016, paper-moho-inversion-tesseroids-2016
 layout: publication
 ---
 

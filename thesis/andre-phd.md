@@ -9,7 +9,7 @@ institution: Observatório Nacional
 pdf: andre-phd.pdf
 level: PhD
 sucupira: 8337149
-related_papers: paper-magnetization-rock-sample-2016,magnetic-sensor-hall,sensor-hall-materials
+related_papers: paper-magnetization-rock-sample-2016, magnetic-sensor-hall, sensor-hall-materials
 layout: publication
 ---
 
