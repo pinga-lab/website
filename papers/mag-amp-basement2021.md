@@ -1,10 +1,10 @@
 ---
 title: "Magnetic amplitude inversion for depth-to-basement and apparent magnetization-intensity estimates"
-date: 2020-10-08
+date: 2021-01-05
 author: marlon, barbosa, oliveira-jr
 journal: Geophysics
 doi: 10.1190/geo2019-0726.1
-citation: "Hidalgo-Gato, M., V. C. F. Barbosa, and V. C. Oliveira Jr. (2020), Magnetic amplitude inversion for depth-to-basement and apparent magnetization-intensity estimates, Geophysics, 86(1), 1-49, doi:10.1190/geo2019-0726.1"
+citation: "Hidalgo-Gato, M., V. C. F. Barbosa, and V. C. Oliveira Jr. (2021), Magnetic amplitude inversion for depth-to-basement and apparent magnetization-intensity estimates, Geophysics, 86(1),  J1-J11, doi:10.1190/geo2019-0726.1"
 layout: publication
 ---
 
