@@ -10,7 +10,6 @@ github: andrelreis
 collaborator: true
 position: Researcher
 former: true
-advisor: barbosa
 period: 2020-Present
 institution: Universidade do Estado do Rio de Janeiro (UERJ)
 location: Rio de Janeiro, Brazil
