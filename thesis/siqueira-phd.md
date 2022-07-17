@@ -10,7 +10,8 @@ pdf: siqueira-phd.pdf
 level: PhD
 sucupira: 4216876
 layout: publication
-related_papers: paper-fast-iterative-eqlayer-grav-2017
+related_papers: paper-polynomial-eqlayer-2013, paper-fast-iterative-eqlayer-grav-2017
+related_thesis: oliveira-jr-phd
 ---
 
 
