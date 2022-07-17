@@ -9,7 +9,8 @@ institution: Observatório Nacional
 pdf: vital-phd.pdf
 level: PhD
 sucupira: 10045938
-related_papers: radial-mag-L2-2021
+related_papers: paper-radial3d-2011, paper-radial3d-gradients-2013, radial-mag-L2-2021
+related_thesis: oliveira-jr-msc, oliveira-jr-phd
 layout: publication
 ---
 
