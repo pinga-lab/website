@@ -7,7 +7,8 @@ journal: Geophysics
 repository: pinga-lab/Eq_Layer-Toeplitz
 doi: 10.1190/geo2019-0826.1
 citation: "Diego Takahashi, Vanderlei C. Oliveira Jr., and Valéria C. F. Barbosa, (2020). Convolutional equivalent layer for gravity data processing. Geophysics, 85(6), 1-54. doi: 10.1190/geo2019-0826.1"
-related_thesis: siqueira-phd
+related_thesis: oliveira-jr-phd, siqueira-phd
+related_papers: paper-polynomial-eqlayer-2013, paper-fast-iterative-eqlayer-grav-2017
 oa: false
 ---
 

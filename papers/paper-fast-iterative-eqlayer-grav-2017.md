@@ -8,12 +8,13 @@ journal: Geophysics
 pdf: paper-fast-iterative-eqlayer-grav-2017.pdf
 doi: 10.1190/geo2016-0332.1
 citation: "Siqueira, F. C. L., Oliveira Jr., V. C., and V. C. F. Barbosa (2017). Fast iterative equivalent-layer technique for gravity data processing: A method grounded on excess mass constraint. GEOPHYSICS, 82(4), G57-G69. https://doi.org/10.1190/geo2016-0332.1"
-related_thesis: siqueira-phd
+related_thesis: oliveira-jr-phd, siqueira-phd
+related_papers: paper-polynomial-eqlayer-2013
 ---
 
 # About
 
-This paper describes a fast iterative equivalent layer 
+This paper describes a fast iterative equivalent layer
 technique designed to gravity data processing. Our approach
 consists in estimating the density distribution by using
 the excess of mass and the positive correlation between the observed

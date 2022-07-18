@@ -6,9 +6,10 @@ researchgate: https://www.researchgate.net/profile/Diego_Tomazella
 picture: diego.jpg
 email: diego.takahashi@gmail.com
 github: DiegoTaka
-position: PhD Student
+postdoc: true
+position: Researcher
+former: true
 advisor: oliveira-jr
-coadvisor: barbosa
 period: 2017-Present
 institution: Observatório Nacional
 location: Rio de Janeiro, Brazil

@@ -7,9 +7,9 @@ picture: vital.jpg
 email: leobvital@gmail.com
 email2: leonardovital@on.br
 github: leobvital
-position: PhD Student
-advisor: oliveira-jr
-coadvisor: barbosa
+collaborator: true
+position: Reseacher
+former: true
 period: 2016-2020
 former: true
 institution: Observatório Nacional
