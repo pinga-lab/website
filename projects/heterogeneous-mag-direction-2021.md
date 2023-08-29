@@ -9,7 +9,7 @@ grantname: CNPq N<sup>o</sup> 09/2020 - Bolsas de Produtividade em Pesquisa - PQ
 grantid: 315768/2020-7
 amount: R$ 79,200.00
 institution: Observatório Nacional
-members: shayane, edson, asmminey, oscar
+members: shayane, edson, oscar
 layout: publication
 ---
 
@@ -34,4 +34,4 @@ pole for the case in which the sources have variable magnetization direction.
 From this theoretical development, the succeeding steps aim at developing
 computationally efficient methods for interpreting magnetic data obtained by
 scanning magnetic microscopy, airborne surveys, magnetic surveys on oceanic
-crust and also by satellite. 
+crust and also by satellite.
